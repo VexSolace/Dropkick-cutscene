@@ -1,4339 +1,2175 @@
--- Exceeded decompiler timeout.
-[003] :001:NEWTABLE       v0 = {} --[[1084 preallocated indexes]]
-[004] :001:DUPTABLE       v1 = {} -- {"fov"}
-[005] :001:LOADK          v2 = 45.5263158
-[007] :001:SETTABLEKS     v1.fov = v2
-[008] :001:DUPTABLE       v2 = {} -- {"fov"}
-[009] :001:LOADK          v3 = 46.0526316
-[011] :001:SETTABLEKS     v2.fov = v3
-[012] :001:DUPTABLE       v3 = {} -- {"fov"}
-[013] :001:LOADK          v4 = 46.5789474
-[015] :001:SETTABLEKS     v3.fov = v4
-[016] :001:DUPTABLE       v4 = {} -- {"fov"}
-[017] :001:LOADK          v5 = 47.1052632
-[019] :001:SETTABLEKS     v4.fov = v5
-[020] :001:DUPTABLE       v5 = {} -- {"fov"}
-[021] :001:LOADK          v6 = 47.6315789
-[023] :001:SETTABLEKS     v5.fov = v6
-[024] :001:DUPTABLE       v6 = {} -- {"fov"}
-[025] :001:LOADK          v7 = 48.1578947
-[027] :001:SETTABLEKS     v6.fov = v7
-[028] :001:DUPTABLE       v7 = {} -- {"fov"}
-[029] :001:LOADK          v8 = 48.6842105
-[031] :001:SETTABLEKS     v7.fov = v8
-[032] :001:DUPTABLE       v8 = {} -- {"fov"}
-[033] :001:LOADK          v9 = 49.2105263
-[035] :001:SETTABLEKS     v8.fov = v9
-[036] :001:DUPTABLE       v9 = {} -- {"fov"}
-[037] :001:LOADK          v10 = 49.7368421
-[039] :001:SETTABLEKS     v9.fov = v10
-[040] :001:DUPTABLE       v10 = {} -- {"fov"}
-[041] :001:LOADK          v11 = 50.2631579
-[043] :001:SETTABLEKS     v10.fov = v11
-[044] :001:DUPTABLE       v11 = {} -- {"fov"}
-[045] :001:LOADK          v12 = 50.7894737
-[047] :001:SETTABLEKS     v11.fov = v12
-[048] :001:DUPTABLE       v12 = {} -- {"fov"}
-[049] :001:LOADK          v13 = 51.3157895
-[051] :001:SETTABLEKS     v12.fov = v13
-[052] :001:DUPTABLE       v13 = {} -- {"fov"}
-[053] :001:LOADK          v14 = 51.8421053
-[055] :001:SETTABLEKS     v13.fov = v14
-[056] :001:DUPTABLE       v14 = {} -- {"fov"}
-[057] :001:LOADK          v15 = 52.3684211
-[059] :001:SETTABLEKS     v14.fov = v15
-[060] :001:DUPTABLE       v15 = {} -- {"fov"}
-[061] :001:LOADK          v16 = 52.8947368
-[063] :001:SETTABLEKS     v15.fov = v16
-[064] :001:DUPTABLE       v16 = {} -- {"fov"}
-[065] :001:LOADK          v17 = 53.4210526
-[067] :001:SETTABLEKS     v16.fov = v17
-[069] :001:SETLIST        v0[1] = v1
-v1[2] = v2
-v1[3] = v3
-v2[4] = v4
-v3[5] = v5
-v4[6] = v6
-v5[7] = v7
-v6[8] = v8
-v7[9] = v9
-v8[10] = v10
-v9[11] = v11
-v10[12] = v12
-v11[13] = v13
-v12[14] = v14
-v13[15] = v15
-v14[16] = v16
-[070] :001:DUPTABLE       v1 = {} -- {"fov"}
-[071] :001:LOADK          v2 = 53.9473684
-[073] :001:SETTABLEKS     v1.fov = v2
-[074] :001:DUPTABLE       v2 = {} -- {"fov"}
-[075] :001:LOADK          v3 = 54.4736842
-[077] :001:SETTABLEKS     v2.fov = v3
-[078] :001:DUPTABLE       v3 = {} -- {"fov"}
-[079] :001:LOADN          v4 = 55
-[081] :001:SETTABLEKS     v3.fov = v4
-[082] :001:DUPTABLE       v4 = {} -- {"fov"}
-[083] :001:LOADN          v5 = 50
-[085] :001:SETTABLEKS     v4.fov = v5
-[086] :001:DUPTABLE       v5 = {} -- {"fov"}
-[087] :001:LOADN          v6 = 40
-[089] :001:SETTABLEKS     v5.fov = v6
-[090] :001:DUPTABLE       v6 = {} -- {"fov"}
-[091] :001:LOADN          v7 = 35
-[093] :001:SETTABLEKS     v6.fov = v7
-[094] :001:DUPTABLE       v7 = {} -- {"fov"}
-[095] :001:LOADK          v8 = 39.8083944
-[097] :001:SETTABLEKS     v7.fov = v8
-[098] :001:DUPTABLE       v8 = {} -- {"fov"}
-[099] :001:LOADK          v9 = 51.4168854
-[101] :001:SETTABLEKS     v8.fov = v9
-[102] :001:DUPTABLE       v9 = {} -- {"fov"}
-[103] :001:LOADK          v10 = 63.0253764
-[105] :001:SETTABLEKS     v9.fov = v10
-[106] :001:DUPTABLE       v10 = {} -- {"fov"}
-[107] :001:LOADK          v11 = 67.8337708
-[109] :001:SETTABLEKS     v10.fov = v11
-[110] :001:DUPTABLE       v11 = {} -- {"fov"}
-[111] :001:LOADK          v12 = 68.2114187
-[113] :001:SETTABLEKS     v11.fov = v12
-[114] :001:DUPTABLE       v12 = {} -- {"fov"}
-[115] :001:LOADK          v13 = 69.3186266
-[117] :001:SETTABLEKS     v12.fov = v13
-[118] :001:DUPTABLE       v13 = {} -- {"fov"}
-[119] :001:LOADK          v14 = 71.0799399
-[121] :001:SETTABLEKS     v13.fov = v14
-[122] :001:DUPTABLE       v14 = {} -- {"fov"}
-[123] :001:LOADK          v15 = 73.3753281
-[125] :001:SETTABLEKS     v14.fov = v15
-[126] :001:DUPTABLE       v15 = {} -- {"fov"}
-[127] :001:LOADK          v16 = 76.0483642
-[129] :001:SETTABLEKS     v15.fov = v16
-[130] :001:DUPTABLE       v16 = {} -- {"fov"}
-[131] :001:LOADK          v17 = 78.9168854
-[133] :001:SETTABLEKS     v16.fov = v17
-[135] :001:SETLIST        v0[17] = v1
-v1[18] = v2
-v1[19] = v3
-v2[20] = v4
-v3[21] = v5
-v4[22] = v6
-v5[23] = v7
-v6[24] = v8
-v7[25] = v9
-v8[26] = v10
-v9[27] = v11
-v10[28] = v12
-v11[29] = v13
-v12[30] = v14
-v13[31] = v15
-v14[32] = v16
-[136] :001:DUPTABLE       v1 = {} -- {"fov"}
-[137] :001:LOADK          v2 = 81.7854065
-[139] :001:SETTABLEKS     v1.fov = v2
-[140] :001:DUPTABLE       v2 = {} -- {"fov"}
-[141] :001:LOADK          v3 = 84.4584427
-[143] :001:SETTABLEKS     v2.fov = v3
-[144] :001:DUPTABLE       v3 = {} -- {"fov"}
-[145] :001:LOADK          v4 = 86.7538309
-[147] :001:SETTABLEKS     v3.fov = v4
-[148] :001:DUPTABLE       v4 = {} -- {"fov"}
-[149] :001:LOADK          v5 = 88.5151442
-[151] :001:SETTABLEKS     v4.fov = v5
-[152] :001:DUPTABLE       v5 = {} -- {"fov"}
-[153] :001:LOADK          v6 = 89.622352
-[155] :001:SETTABLEKS     v5.fov = v6
-[156] :001:DUPTABLE       v6 = {} -- {"fov"}
-[157] :001:LOADN          v7 = 90
-[159] :001:SETTABLEKS     v6.fov = v7
-[160] :001:DUPTABLE       v7 = {} -- {"fov"}
-[161] :001:LOADK          v8 = 89.9743466
-[163] :001:SETTABLEKS     v7.fov = v8
-[164] :001:DUPTABLE       v8 = {} -- {"fov"}
-[165] :001:LOADK          v9 = 89.8976497
-[167] :001:SETTABLEKS     v8.fov = v9
-[168] :001:DUPTABLE       v9 = {} -- {"fov"}
-[169] :001:LOADK          v10 = 89.7706963
-[171] :001:SETTABLEKS     v9.fov = v10
-[172] :001:DUPTABLE       v10 = {} -- {"fov"}
-[173] :001:LOADK          v11 = 89.5947891
-[175] :001:SETTABLEKS     v10.fov = v11
-[176] :001:DUPTABLE       v11 = {} -- {"fov"}
-[177] :001:LOADK          v12 = 89.3717331
-[179] :001:SETTABLEKS     v11.fov = v12
-[180] :001:DUPTABLE       v12 = {} -- {"fov"}
-[181] :001:LOADK          v13 = 89.1038172
-[183] :001:SETTABLEKS     v12.fov = v13
-[184] :001:DUPTABLE       v13 = {} -- {"fov"}
-[185] :001:LOADK          v14 = 88.7937906
-[187] :001:SETTABLEKS     v13.fov = v14
-[188] :001:DUPTABLE       v14 = {} -- {"fov"}
-[189] :001:LOADK          v15 = 88.4448346
-[191] :001:SETTABLEKS     v14.fov = v15
-[192] :001:DUPTABLE       v15 = {} -- {"fov"}
-[193] :001:LOADK          v16 = 88.0605299
-[195] :001:SETTABLEKS     v15.fov = v16
-[196] :001:DUPTABLE       v16 = {} -- {"fov"}
-[197] :001:LOADK          v17 = 87.6448201
-[199] :001:SETTABLEKS     v16.fov = v17
-[201] :001:SETLIST        v0[33] = v1
-v1[34] = v2
-v1[35] = v3
-v2[36] = v4
-v3[37] = v5
-v4[38] = v6
-v5[39] = v7
-v6[40] = v8
-v7[41] = v9
-v8[42] = v10
-v9[43] = v11
-v10[44] = v12
-v11[45] = v13
-v12[46] = v14
-v13[47] = v15
-v14[48] = v16
-[202] :001:DUPTABLE       v1 = {} -- {"fov"}
-[203] :001:LOADK          v2 = 87.2019708
-[205] :001:SETTABLEKS     v1.fov = v2
-[206] :001:DUPTABLE       v2 = {} -- {"fov"}
-[207] :001:LOADK          v3 = 86.7365263
-[209] :001:SETTABLEKS     v2.fov = v3
-[210] :001:DUPTABLE       v3 = {} -- {"fov"}
-[211] :001:LOADK          v4 = 86.2532627
-[213] :001:SETTABLEKS     v3.fov = v4
-[214] :001:DUPTABLE       v4 = {} -- {"fov"}
-[215] :001:LOADK          v5 = 85.7571389
-[217] :001:SETTABLEKS     v4.fov = v5
-[218] :001:DUPTABLE       v5 = {} -- {"fov"}
-[219] :001:LOADK          v6 = 85.2532458
-[221] :001:SETTABLEKS     v5.fov = v6
-[222] :001:DUPTABLE       v6 = {} -- {"fov"}
-[223] :001:LOADK          v7 = 84.7467542
-[225] :001:SETTABLEKS     v6.fov = v7
-[226] :001:DUPTABLE       v7 = {} -- {"fov"}
-[227] :001:LOADK          v8 = 84.2428611
-[229] :001:SETTABLEKS     v7.fov = v8
-[230] :001:DUPTABLE       v8 = {} -- {"fov"}
-[231] :001:LOADK          v9 = 83.7467373
-[233] :001:SETTABLEKS     v8.fov = v9
-[234] :001:DUPTABLE       v9 = {} -- {"fov"}
-[235] :001:LOADK          v10 = 83.2634737
-[237] :001:SETTABLEKS     v9.fov = v10
-[238] :001:DUPTABLE       v10 = {} -- {"fov"}
-[239] :001:LOADK          v11 = 82.7980292
-[241] :001:SETTABLEKS     v10.fov = v11
-[242] :001:DUPTABLE       v11 = {} -- {"fov"}
-[243] :001:LOADK          v12 = 82.3551799
-[245] :001:SETTABLEKS     v11.fov = v12
-[246] :001:DUPTABLE       v12 = {} -- {"fov"}
-[247] :001:LOADK          v13 = 81.9394701
-[249] :001:SETTABLEKS     v12.fov = v13
-[250] :001:DUPTABLE       v13 = {} -- {"fov"}
-[251] :001:LOADK          v14 = 81.5551654
-[253] :001:SETTABLEKS     v13.fov = v14
-[254] :001:DUPTABLE       v14 = {} -- {"fov"}
-[255] :001:LOADK          v15 = 81.2062094
-[257] :001:SETTABLEKS     v14.fov = v15
-[258] :001:DUPTABLE       v15 = {} -- {"fov"}
-[259] :001:LOADK          v16 = 80.8961828
-[261] :001:SETTABLEKS     v15.fov = v16
-[262] :001:DUPTABLE       v16 = {} -- {"fov"}
-[263] :001:LOADK          v17 = 80.6282669
-[265] :001:SETTABLEKS     v16.fov = v17
-[267] :001:SETLIST        v0[49] = v1
-v1[50] = v2
-v1[51] = v3
-v2[52] = v4
-v3[53] = v5
-v4[54] = v6
-v5[55] = v7
-v6[56] = v8
-v7[57] = v9
-v8[58] = v10
-v9[59] = v11
-v10[60] = v12
-v11[61] = v13
-v12[62] = v14
-v13[63] = v15
-v14[64] = v16
-[268] :001:DUPTABLE       v1 = {} -- {"fov"}
-[269] :001:LOADK          v2 = 80.4052109
-[271] :001:SETTABLEKS     v1.fov = v2
-[272] :001:DUPTABLE       v2 = {} -- {"fov"}
-[273] :001:LOADK          v3 = 80.2293037
-[275] :001:SETTABLEKS     v2.fov = v3
-[276] :001:DUPTABLE       v3 = {} -- {"fov"}
-[277] :001:LOADK          v4 = 80.1023503
-[279] :001:SETTABLEKS     v3.fov = v4
-[280] :001:DUPTABLE       v4 = {} -- {"fov"}
-[281] :001:LOADK          v5 = 80.0256534
-[283] :001:SETTABLEKS     v4.fov = v5
-[284] :001:DUPTABLE       v5 = {} -- {"fov"}
-[285] :001:LOADN          v6 = 80
-[287] :001:SETTABLEKS     v5.fov = v6
-[288] :001:DUPTABLE       v6 = {} -- {"fov"}
-[289] :001:LOADK          v7 = 79.5614035
-[291] :001:SETTABLEKS     v6.fov = v7
-[292] :001:DUPTABLE       v7 = {} -- {"fov"}
-[293] :001:LOADK          v8 = 79.122807
-[295] :001:SETTABLEKS     v7.fov = v8
-[296] :001:DUPTABLE       v8 = {} -- {"fov"}
-[297] :001:LOADK          v9 = 78.6842105
-[299] :001:SETTABLEKS     v8.fov = v9
-[300] :001:DUPTABLE       v9 = {} -- {"fov"}
-[301] :001:LOADK          v10 = 78.245614
-[303] :001:SETTABLEKS     v9.fov = v10
-[304] :001:DUPTABLE       v10 = {} -- {"fov"}
-[305] :001:LOADK          v11 = 77.8070175
-[307] :001:SETTABLEKS     v10.fov = v11
-[308] :001:DUPTABLE       v11 = {} -- {"fov"}
-[309] :001:LOADK          v12 = 77.3684211
-[311] :001:SETTABLEKS     v11.fov = v12
-[312] :001:DUPTABLE       v12 = {} -- {"fov"}
-[313] :001:LOADK          v13 = 76.9298246
-[315] :001:SETTABLEKS     v12.fov = v13
-[316] :001:DUPTABLE       v13 = {} -- {"fov"}
-[317] :001:LOADK          v14 = 76.4912281
-[319] :001:SETTABLEKS     v13.fov = v14
-[320] :001:DUPTABLE       v14 = {} -- {"fov"}
-[321] :001:LOADK          v15 = 76.0526316
-[323] :001:SETTABLEKS     v14.fov = v15
-[324] :001:DUPTABLE       v15 = {} -- {"fov"}
-[325] :001:LOADK          v16 = 75.6140351
-[327] :001:SETTABLEKS     v15.fov = v16
-[328] :001:DUPTABLE       v16 = {} -- {"fov"}
-[329] :001:LOADK          v17 = 75.1754386
-[331] :001:SETTABLEKS     v16.fov = v17
-[333] :001:SETLIST        v0[65] = v1
-v1[66] = v2
-v1[67] = v3
-v2[68] = v4
-v3[69] = v5
-v4[70] = v6
-v5[71] = v7
-v6[72] = v8
-v7[73] = v9
-v8[74] = v10
-v9[75] = v11
-v10[76] = v12
-v11[77] = v13
-v12[78] = v14
-v13[79] = v15
-v14[80] = v16
-[334] :001:DUPTABLE       v1 = {} -- {"fov"}
-[335] :001:LOADK          v2 = 74.7368421
-[337] :001:SETTABLEKS     v1.fov = v2
-[338] :001:DUPTABLE       v2 = {} -- {"fov"}
-[339] :001:LOADK          v3 = 74.2982456
-[341] :001:SETTABLEKS     v2.fov = v3
-[342] :001:DUPTABLE       v3 = {} -- {"fov"}
-[343] :001:LOADK          v4 = 73.8596491
-[345] :001:SETTABLEKS     v3.fov = v4
-[346] :001:DUPTABLE       v4 = {} -- {"fov"}
-[347] :001:LOADK          v5 = 73.4210526
-[349] :001:SETTABLEKS     v4.fov = v5
-[350] :001:DUPTABLE       v5 = {} -- {"fov"}
-[351] :001:LOADK          v6 = 72.9824561
-[353] :001:SETTABLEKS     v5.fov = v6
-[354] :001:DUPTABLE       v6 = {} -- {"fov"}
-[355] :001:LOADK          v7 = 72.5438596
-[357] :001:SETTABLEKS     v6.fov = v7
-[358] :001:DUPTABLE       v7 = {} -- {"fov"}
-[359] :001:LOADK          v8 = 72.1052632
-[361] :001:SETTABLEKS     v7.fov = v8
-[362] :001:DUPTABLE       v8 = {} -- {"fov"}
-[363] :001:LOADK          v9 = 71.6666667
-[365] :001:SETTABLEKS     v8.fov = v9
-[366] :001:DUPTABLE       v9 = {} -- {"fov"}
-[367] :001:LOADK          v10 = 71.2280702
-[369] :001:SETTABLEKS     v9.fov = v10
-[370] :001:DUPTABLE       v10 = {} -- {"fov"}
-[371] :001:LOADK          v11 = 70.7894737
-[373] :001:SETTABLEKS     v10.fov = v11
-[374] :001:DUPTABLE       v11 = {} -- {"fov"}
-[375] :001:LOADK          v12 = 70.3508772
-[377] :001:SETTABLEKS     v11.fov = v12
-[378] :001:DUPTABLE       v12 = {} -- {"fov"}
-[379] :001:LOADK          v13 = 69.9122807
-[381] :001:SETTABLEKS     v12.fov = v13
-[382] :001:DUPTABLE       v13 = {} -- {"fov"}
-[383] :001:LOADK          v14 = 69.4736842
-[385] :001:SETTABLEKS     v13.fov = v14
-[386] :001:DUPTABLE       v14 = {} -- {"fov"}
-[387] :001:LOADK          v15 = 69.0350877
-[389] :001:SETTABLEKS     v14.fov = v15
-[390] :001:DUPTABLE       v15 = {} -- {"fov"}
-[391] :001:LOADK          v16 = 68.5964912
-[393] :001:SETTABLEKS     v15.fov = v16
-[394] :001:DUPTABLE       v16 = {} -- {"fov"}
-[395] :001:LOADK          v17 = 68.1578947
-[397] :001:SETTABLEKS     v16.fov = v17
-[399] :001:SETLIST        v0[81] = v1
-v1[82] = v2
-v1[83] = v3
-v2[84] = v4
-v3[85] = v5
-v4[86] = v6
-v5[87] = v7
-v6[88] = v8
-v7[89] = v9
-v8[90] = v10
-v9[91] = v11
-v10[92] = v12
-v11[93] = v13
-v12[94] = v14
-v13[95] = v15
-v14[96] = v16
-[400] :001:DUPTABLE       v1 = {} -- {"fov"}
-[401] :001:LOADK          v2 = 67.7192982
-[403] :001:SETTABLEKS     v1.fov = v2
-[404] :001:DUPTABLE       v2 = {} -- {"fov"}
-[405] :001:LOADK          v3 = 67.2807018
-[407] :001:SETTABLEKS     v2.fov = v3
-[408] :001:DUPTABLE       v3 = {} -- {"fov"}
-[409] :001:LOADK          v4 = 66.8421053
-[411] :001:SETTABLEKS     v3.fov = v4
-[412] :001:DUPTABLE       v4 = {} -- {"fov"}
-[413] :001:LOADK          v5 = 66.4035088
-[415] :001:SETTABLEKS     v4.fov = v5
-[416] :001:DUPTABLE       v5 = {} -- {"fov"}
-[417] :001:LOADK          v6 = 65.9649123
-[419] :001:SETTABLEKS     v5.fov = v6
-[420] :001:DUPTABLE       v6 = {} -- {"fov"}
-[421] :001:LOADK          v7 = 65.5263158
-[423] :001:SETTABLEKS     v6.fov = v7
-[424] :001:DUPTABLE       v7 = {} -- {"fov"}
-[425] :001:LOADK          v8 = 65.0877193
-[427] :001:SETTABLEKS     v7.fov = v8
-[428] :001:DUPTABLE       v8 = {} -- {"fov"}
-[429] :001:LOADK          v9 = 64.6491228
-[431] :001:SETTABLEKS     v8.fov = v9
-[432] :001:DUPTABLE       v9 = {} -- {"fov"}
-[433] :001:LOADK          v10 = 64.2105263
-[435] :001:SETTABLEKS     v9.fov = v10
-[436] :001:DUPTABLE       v10 = {} -- {"fov"}
-[437] :001:LOADK          v11 = 63.7719298
-[439] :001:SETTABLEKS     v10.fov = v11
-[440] :001:DUPTABLE       v11 = {} -- {"fov"}
-[441] :001:LOADK          v12 = 63.3333333
-[443] :001:SETTABLEKS     v11.fov = v12
-[444] :001:DUPTABLE       v12 = {} -- {"fov"}
-[445] :001:LOADK          v13 = 62.8947368
-[447] :001:SETTABLEKS     v12.fov = v13
-[448] :001:DUPTABLE       v13 = {} -- {"fov"}
-[449] :001:LOADK          v14 = 62.4561404
-[451] :001:SETTABLEKS     v13.fov = v14
-[452] :001:DUPTABLE       v14 = {} -- {"fov"}
-[453] :001:LOADK          v15 = 62.0175439
-[455] :001:SETTABLEKS     v14.fov = v15
-[456] :001:DUPTABLE       v15 = {} -- {"fov"}
-[457] :001:LOADK          v16 = 61.5789474
-[459] :001:SETTABLEKS     v15.fov = v16
-[460] :001:DUPTABLE       v16 = {} -- {"fov"}
-[461] :001:LOADK          v17 = 61.1403509
-[463] :001:SETTABLEKS     v16.fov = v17
-[465] :001:SETLIST        v0[97] = v1
-v1[98] = v2
-v1[99] = v3
-v2[100] = v4
-v3[101] = v5
-v4[102] = v6
-v5[103] = v7
-v6[104] = v8
-v7[105] = v9
-v8[106] = v10
-v9[107] = v11
-v10[108] = v12
-v11[109] = v13
-v12[110] = v14
-v13[111] = v15
-v14[112] = v16
-[466] :001:DUPTABLE       v1 = {} -- {"fov"}
-[467] :001:LOADK          v2 = 60.7017544
-[469] :001:SETTABLEKS     v1.fov = v2
-[470] :001:DUPTABLE       v2 = {} -- {"fov"}
-[471] :001:LOADK          v3 = 60.2631579
-[473] :001:SETTABLEKS     v2.fov = v3
-[474] :001:DUPTABLE       v3 = {} -- {"fov"}
-[475] :001:LOADK          v4 = 59.8245614
-[477] :001:SETTABLEKS     v3.fov = v4
-[478] :001:DUPTABLE       v4 = {} -- {"fov"}
-[479] :001:LOADK          v5 = 59.3859649
-[481] :001:SETTABLEKS     v4.fov = v5
-[482] :001:DUPTABLE       v5 = {} -- {"fov"}
-[483] :001:LOADK          v6 = 58.9473684
-[485] :001:SETTABLEKS     v5.fov = v6
-[486] :001:DUPTABLE       v6 = {} -- {"fov"}
-[487] :001:LOADK          v7 = 58.5087719
-[489] :001:SETTABLEKS     v6.fov = v7
-[490] :001:DUPTABLE       v7 = {} -- {"fov"}
-[491] :001:LOADK          v8 = 58.0701754
-[493] :001:SETTABLEKS     v7.fov = v8
-[494] :001:DUPTABLE       v8 = {} -- {"fov"}
-[495] :001:LOADK          v9 = 57.6315789
-[497] :001:SETTABLEKS     v8.fov = v9
-[498] :001:DUPTABLE       v9 = {} -- {"fov"}
-[499] :001:LOADK          v10 = 57.1929825
-[501] :001:SETTABLEKS     v9.fov = v10
-[502] :001:DUPTABLE       v10 = {} -- {"fov"}
-[503] :001:LOADK          v11 = 56.754386
-[505] :001:SETTABLEKS     v10.fov = v11
-[506] :001:DUPTABLE       v11 = {} -- {"fov"}
-[507] :001:LOADK          v12 = 56.3157895
-[509] :001:SETTABLEKS     v11.fov = v12
-[510] :001:DUPTABLE       v12 = {} -- {"fov"}
-[511] :001:LOADK          v13 = 55.877193
-[513] :001:SETTABLEKS     v12.fov = v13
-[514] :001:DUPTABLE       v13 = {} -- {"fov"}
-[515] :001:LOADK          v14 = 55.4385965
-[517] :001:SETTABLEKS     v13.fov = v14
-[518] :001:DUPTABLE       v14 = {} -- {"fov"}
-[519] :001:LOADN          v15 = 55
-[521] :001:SETTABLEKS     v14.fov = v15
-[522] :001:DUPTABLE       v15 = {} -- {"fov"}
-[523] :001:LOADK          v16 = 54.8979592
-[525] :001:SETTABLEKS     v15.fov = v16
-[526] :001:DUPTABLE       v16 = {} -- {"fov"}
-[527] :001:LOADK          v17 = 54.7959184
-[529] :001:SETTABLEKS     v16.fov = v17
-[531] :001:SETLIST        v0[113] = v1
-v1[114] = v2
-v1[115] = v3
-v2[116] = v4
-v3[117] = v5
-v4[118] = v6
-v5[119] = v7
-v6[120] = v8
-v7[121] = v9
-v8[122] = v10
-v9[123] = v11
-v10[124] = v12
-v11[125] = v13
-v12[126] = v14
-v13[127] = v15
-v14[128] = v16
-[532] :001:DUPTABLE       v1 = {} -- {"fov"}
-[533] :001:LOADK          v2 = 54.6938776
-[535] :001:SETTABLEKS     v1.fov = v2
-[536] :001:DUPTABLE       v2 = {} -- {"fov"}
-[537] :001:LOADK          v3 = 54.5918367
-[539] :001:SETTABLEKS     v2.fov = v3
-[540] :001:DUPTABLE       v3 = {} -- {"fov"}
-[541] :001:LOADK          v4 = 54.4897959
-[543] :001:SETTABLEKS     v3.fov = v4
-[544] :001:DUPTABLE       v4 = {} -- {"fov"}
-[545] :001:LOADK          v5 = 54.3877551
-[547] :001:SETTABLEKS     v4.fov = v5
-[548] :001:DUPTABLE       v5 = {} -- {"fov"}
-[549] :001:LOADK          v6 = 54.2857143
-[551] :001:SETTABLEKS     v5.fov = v6
-[552] :001:DUPTABLE       v6 = {} -- {"fov"}
-[553] :001:LOADK          v7 = 54.1836735
-[555] :001:SETTABLEKS     v6.fov = v7
-[556] :001:DUPTABLE       v7 = {} -- {"fov"}
-[557] :001:LOADK          v8 = 54.0816327
-[559] :001:SETTABLEKS     v7.fov = v8
-[560] :001:DUPTABLE       v8 = {} -- {"fov"}
-[561] :001:LOADK          v9 = 53.9795918
-[563] :001:SETTABLEKS     v8.fov = v9
-[564] :001:DUPTABLE       v9 = {} -- {"fov"}
-[565] :001:LOADK          v10 = 53.877551
-[567] :001:SETTABLEKS     v9.fov = v10
-[568] :001:DUPTABLE       v10 = {} -- {"fov"}
-[569] :001:LOADK          v11 = 53.7755102
-[571] :001:SETTABLEKS     v10.fov = v11
-[572] :001:DUPTABLE       v11 = {} -- {"fov"}
-[573] :001:LOADK          v12 = 53.6734694
-[575] :001:SETTABLEKS     v11.fov = v12
-[576] :001:DUPTABLE       v12 = {} -- {"fov"}
-[577] :001:LOADK          v13 = 53.5714286
-[579] :001:SETTABLEKS     v12.fov = v13
-[580] :001:DUPTABLE       v13 = {} -- {"fov"}
-[581] :001:LOADK          v14 = 53.4693878
-[583] :001:SETTABLEKS     v13.fov = v14
-[584] :001:DUPTABLE       v14 = {} -- {"fov"}
-[585] :001:LOADK          v15 = 53.3673469
-[587] :001:SETTABLEKS     v14.fov = v15
-[588] :001:DUPTABLE       v15 = {} -- {"fov"}
-[589] :001:LOADK          v16 = 53.2653061
-[591] :001:SETTABLEKS     v15.fov = v16
-[592] :001:DUPTABLE       v16 = {} -- {"fov"}
-[593] :001:LOADK          v17 = 53.1632653
-[595] :001:SETTABLEKS     v16.fov = v17
-[597] :001:SETLIST        v0[129] = v1
-v1[130] = v2
-v1[131] = v3
-v2[132] = v4
-v3[133] = v5
-v4[134] = v6
-v5[135] = v7
-v6[136] = v8
-v7[137] = v9
-v8[138] = v10
-v9[139] = v11
-v10[140] = v12
-v11[141] = v13
-v12[142] = v14
-v13[143] = v15
-v14[144] = v16
-[598] :001:DUPTABLE       v1 = {} -- {"fov"}
-[599] :001:LOADK          v2 = 53.0612245
-[601] :001:SETTABLEKS     v1.fov = v2
-[602] :001:DUPTABLE       v2 = {} -- {"fov"}
-[603] :001:LOADK          v3 = 52.9591837
-[605] :001:SETTABLEKS     v2.fov = v3
-[606] :001:DUPTABLE       v3 = {} -- {"fov"}
-[607] :001:LOADK          v4 = 52.8571429
-[609] :001:SETTABLEKS     v3.fov = v4
-[610] :001:DUPTABLE       v4 = {} -- {"fov"}
-[611] :001:LOADK          v5 = 52.755102
-[613] :001:SETTABLEKS     v4.fov = v5
-[614] :001:DUPTABLE       v5 = {} -- {"fov"}
-[615] :001:LOADK          v6 = 52.6530612
-[617] :001:SETTABLEKS     v5.fov = v6
-[618] :001:DUPTABLE       v6 = {} -- {"fov"}
-[619] :001:LOADK          v7 = 52.5510204
-[621] :001:SETTABLEKS     v6.fov = v7
-[622] :001:DUPTABLE       v7 = {} -- {"fov"}
-[623] :001:LOADK          v8 = 52.4489796
-[625] :001:SETTABLEKS     v7.fov = v8
-[626] :001:DUPTABLE       v8 = {} -- {"fov"}
-[627] :001:LOADK          v9 = 52.3469388
-[629] :001:SETTABLEKS     v8.fov = v9
-[630] :001:DUPTABLE       v9 = {} -- {"fov"}
-[631] :001:LOADK          v10 = 52.244898
-[633] :001:SETTABLEKS     v9.fov = v10
-[634] :001:DUPTABLE       v10 = {} -- {"fov"}
-[635] :001:LOADK          v11 = 52.1428571
-[637] :001:SETTABLEKS     v10.fov = v11
-[638] :001:DUPTABLE       v11 = {} -- {"fov"}
-[639] :001:LOADK          v12 = 52.0408163
-[641] :001:SETTABLEKS     v11.fov = v12
-[642] :001:DUPTABLE       v12 = {} -- {"fov"}
-[643] :001:LOADK          v13 = 51.9387755
-[645] :001:SETTABLEKS     v12.fov = v13
-[646] :001:DUPTABLE       v13 = {} -- {"fov"}
-[647] :001:LOADK          v14 = 51.8367347
-[649] :001:SETTABLEKS     v13.fov = v14
-[650] :001:DUPTABLE       v14 = {} -- {"fov"}
-[651] :001:LOADK          v15 = 51.7346939
-[653] :001:SETTABLEKS     v14.fov = v15
-[654] :001:DUPTABLE       v15 = {} -- {"fov"}
-[655] :001:LOADK          v16 = 51.6326531
-[657] :001:SETTABLEKS     v15.fov = v16
-[658] :001:DUPTABLE       v16 = {} -- {"fov"}
-[659] :001:LOADK          v17 = 51.5306122
-[661] :001:SETTABLEKS     v16.fov = v17
-[663] :001:SETLIST        v0[145] = v1
-v1[146] = v2
-v1[147] = v3
-v2[148] = v4
-v3[149] = v5
-v4[150] = v6
-v5[151] = v7
-v6[152] = v8
-v7[153] = v9
-v8[154] = v10
-v9[155] = v11
-v10[156] = v12
-v11[157] = v13
-v12[158] = v14
-v13[159] = v15
-v14[160] = v16
-[664] :001:DUPTABLE       v1 = {} -- {"fov"}
-[665] :001:LOADK          v2 = 51.4285714
-[667] :001:SETTABLEKS     v1.fov = v2
-[668] :001:DUPTABLE       v2 = {} -- {"fov"}
-[669] :001:LOADK          v3 = 51.3265306
-[671] :001:SETTABLEKS     v2.fov = v3
-[672] :001:DUPTABLE       v3 = {} -- {"fov"}
-[673] :001:LOADK          v4 = 51.2244898
-[675] :001:SETTABLEKS     v3.fov = v4
-[676] :001:DUPTABLE       v4 = {} -- {"fov"}
-[677] :001:LOADK          v5 = 51.122449
-[679] :001:SETTABLEKS     v4.fov = v5
-[680] :001:DUPTABLE       v5 = {} -- {"fov"}
-[681] :001:LOADK          v6 = 51.0204082
-[683] :001:SETTABLEKS     v5.fov = v6
-[684] :001:DUPTABLE       v6 = {} -- {"fov"}
-[685] :001:LOADK          v7 = 50.9183673
-[687] :001:SETTABLEKS     v6.fov = v7
-[688] :001:DUPTABLE       v7 = {} -- {"fov"}
-[689] :001:LOADK          v8 = 50.8163265
-[691] :001:SETTABLEKS     v7.fov = v8
-[692] :001:DUPTABLE       v8 = {} -- {"fov"}
-[693] :001:LOADK          v9 = 50.7142857
-[695] :001:SETTABLEKS     v8.fov = v9
-[696] :001:DUPTABLE       v9 = {} -- {"fov"}
-[697] :001:LOADK          v10 = 50.6122449
-[699] :001:SETTABLEKS     v9.fov = v10
-[700] :001:DUPTABLE       v10 = {} -- {"fov"}
-[701] :001:LOADK          v11 = 50.5102041
-[703] :001:SETTABLEKS     v10.fov = v11
-[704] :001:DUPTABLE       v11 = {} -- {"fov"}
-[705] :001:LOADK          v12 = 50.4081633
-[707] :001:SETTABLEKS     v11.fov = v12
-[708] :001:DUPTABLE       v12 = {} -- {"fov"}
-[709] :001:LOADK          v13 = 50.3061224
-[711] :001:SETTABLEKS     v12.fov = v13
-[712] :001:DUPTABLE       v13 = {} -- {"fov"}
-[713] :001:LOADK          v14 = 50.2040816
-[715] :001:SETTABLEKS     v13.fov = v14
-[716] :001:DUPTABLE       v14 = {} -- {"fov"}
-[717] :001:LOADK          v15 = 50.1020408
-[719] :001:SETTABLEKS     v14.fov = v15
-[720] :001:DUPTABLE       v15 = {} -- {"fov"}
-[721] :001:LOADN          v16 = 50
-[723] :001:SETTABLEKS     v15.fov = v16
-[724] :001:DUPTABLE       v16 = {} -- {"fov"}
-[725] :001:LOADK          v17 = 49.8979592
-[727] :001:SETTABLEKS     v16.fov = v17
-[729] :001:SETLIST        v0[161] = v1
-v1[162] = v2
-v1[163] = v3
-v2[164] = v4
-v3[165] = v5
-v4[166] = v6
-v5[167] = v7
-v6[168] = v8
-v7[169] = v9
-v8[170] = v10
-v9[171] = v11
-v10[172] = v12
-v11[173] = v13
-v12[174] = v14
-v13[175] = v15
-v14[176] = v16
-[730] :001:DUPTABLE       v1 = {} -- {"fov"}
-[731] :001:LOADK          v2 = 49.7959184
-[733] :001:SETTABLEKS     v1.fov = v2
-[734] :001:DUPTABLE       v2 = {} -- {"fov"}
-[735] :001:LOADK          v3 = 49.6938776
-[737] :001:SETTABLEKS     v2.fov = v3
-[738] :001:DUPTABLE       v3 = {} -- {"fov"}
-[739] :001:LOADK          v4 = 49.5918367
-[741] :001:SETTABLEKS     v3.fov = v4
-[742] :001:DUPTABLE       v4 = {} -- {"fov"}
-[743] :001:LOADK          v5 = 49.4897959
-[745] :001:SETTABLEKS     v4.fov = v5
-[746] :001:DUPTABLE       v5 = {} -- {"fov"}
-[747] :001:LOADK          v6 = 49.3877551
-[749] :001:SETTABLEKS     v5.fov = v6
-[750] :001:DUPTABLE       v6 = {} -- {"fov"}
-[751] :001:LOADK          v7 = 49.2857143
-[753] :001:SETTABLEKS     v6.fov = v7
-[754] :001:DUPTABLE       v7 = {} -- {"fov"}
-[755] :001:LOADK          v8 = 49.1836735
-[757] :001:SETTABLEKS     v7.fov = v8
-[758] :001:DUPTABLE       v8 = {} -- {"fov"}
-[759] :001:LOADK          v9 = 49.0816327
-[761] :001:SETTABLEKS     v8.fov = v9
-[762] :001:DUPTABLE       v9 = {} -- {"fov"}
-[763] :001:LOADK          v10 = 48.9795918
-[765] :001:SETTABLEKS     v9.fov = v10
-[766] :001:DUPTABLE       v10 = {} -- {"fov"}
-[767] :001:LOADK          v11 = 48.877551
-[769] :001:SETTABLEKS     v10.fov = v11
-[770] :001:DUPTABLE       v11 = {} -- {"fov"}
-[771] :001:LOADK          v12 = 48.7755102
-[773] :001:SETTABLEKS     v11.fov = v12
-[774] :001:DUPTABLE       v12 = {} -- {"fov"}
-[775] :001:LOADK          v13 = 48.6734694
-[777] :001:SETTABLEKS     v12.fov = v13
-[778] :001:DUPTABLE       v13 = {} -- {"fov"}
-[779] :001:LOADK          v14 = 48.5714286
-[781] :001:SETTABLEKS     v13.fov = v14
-[782] :001:DUPTABLE       v14 = {} -- {"fov"}
-[783] :001:LOADK          v15 = 48.4693878
-[785] :001:SETTABLEKS     v14.fov = v15
-[786] :001:DUPTABLE       v15 = {} -- {"fov"}
-[787] :001:LOADK          v16 = 48.3673469
-[789] :001:SETTABLEKS     v15.fov = v16
-[790] :001:DUPTABLE       v16 = {} -- {"fov"}
-[791] :001:LOADK          v17 = 48.2653061
-[793] :001:SETTABLEKS     v16.fov = v17
-[795] :001:SETLIST        v0[177] = v1
-v1[178] = v2
-v1[179] = v3
-v2[180] = v4
-v3[181] = v5
-v4[182] = v6
-v5[183] = v7
-v6[184] = v8
-v7[185] = v9
-v8[186] = v10
-v9[187] = v11
-v10[188] = v12
-v11[189] = v13
-v12[190] = v14
-v13[191] = v15
-v14[192] = v16
-[796] :001:DUPTABLE       v1 = {} -- {"fov"}
-[797] :001:LOADK          v2 = 48.1632653
-[799] :001:SETTABLEKS     v1.fov = v2
-[800] :001:DUPTABLE       v2 = {} -- {"fov"}
-[801] :001:LOADK          v3 = 48.0612245
-[803] :001:SETTABLEKS     v2.fov = v3
-[804] :001:DUPTABLE       v3 = {} -- {"fov"}
-[805] :001:LOADK          v4 = 47.9591837
-[807] :001:SETTABLEKS     v3.fov = v4
-[808] :001:DUPTABLE       v4 = {} -- {"fov"}
-[809] :001:LOADK          v5 = 47.8571429
-[811] :001:SETTABLEKS     v4.fov = v5
-[812] :001:DUPTABLE       v5 = {} -- {"fov"}
-[813] :001:LOADK          v6 = 47.755102
-[815] :001:SETTABLEKS     v5.fov = v6
-[816] :001:DUPTABLE       v6 = {} -- {"fov"}
-[817] :001:LOADK          v7 = 47.6530612
-[819] :001:SETTABLEKS     v6.fov = v7
-[820] :001:DUPTABLE       v7 = {} -- {"fov"}
-[821] :001:LOADK          v8 = 47.5510204
-[823] :001:SETTABLEKS     v7.fov = v8
-[824] :001:DUPTABLE       v8 = {} -- {"fov"}
-[825] :001:LOADK          v9 = 47.4489796
-[827] :001:SETTABLEKS     v8.fov = v9
-[828] :001:DUPTABLE       v9 = {} -- {"fov"}
-[829] :001:LOADK          v10 = 47.3469388
-[831] :001:SETTABLEKS     v9.fov = v10
-[832] :001:DUPTABLE       v10 = {} -- {"fov"}
-[833] :001:LOADK          v11 = 47.244898
-[835] :001:SETTABLEKS     v10.fov = v11
-[836] :001:DUPTABLE       v11 = {} -- {"fov"}
-[837] :001:LOADK          v12 = 47.1428571
-[839] :001:SETTABLEKS     v11.fov = v12
-[840] :001:DUPTABLE       v12 = {} -- {"fov"}
-[841] :001:LOADK          v13 = 47.0408163
-[843] :001:SETTABLEKS     v12.fov = v13
-[844] :001:DUPTABLE       v13 = {} -- {"fov"}
-[845] :001:LOADK          v14 = 46.9387755
-[847] :001:SETTABLEKS     v13.fov = v14
-[848] :001:DUPTABLE       v14 = {} -- {"fov"}
-[849] :001:LOADK          v15 = 46.8367347
-[851] :001:SETTABLEKS     v14.fov = v15
-[852] :001:DUPTABLE       v15 = {} -- {"fov"}
-[853] :001:LOADK          v16 = 46.7346939
-[855] :001:SETTABLEKS     v15.fov = v16
-[856] :001:DUPTABLE       v16 = {} -- {"fov"}
-[857] :001:LOADK          v17 = 46.6326531
-[859] :001:SETTABLEKS     v16.fov = v17
-[861] :001:SETLIST        v0[193] = v1
-v1[194] = v2
-v1[195] = v3
-v2[196] = v4
-v3[197] = v5
-v4[198] = v6
-v5[199] = v7
-v6[200] = v8
-v7[201] = v9
-v8[202] = v10
-v9[203] = v11
-v10[204] = v12
-v11[205] = v13
-v12[206] = v14
-v13[207] = v15
-v14[208] = v16
-[862] :001:DUPTABLE       v1 = {} -- {"fov"}
-[863] :001:LOADK          v2 = 46.5306122
-[865] :001:SETTABLEKS     v1.fov = v2
-[866] :001:DUPTABLE       v2 = {} -- {"fov"}
-[867] :001:LOADK          v3 = 46.4285714
-[869] :001:SETTABLEKS     v2.fov = v3
-[870] :001:DUPTABLE       v3 = {} -- {"fov"}
-[871] :001:LOADK          v4 = 46.3265306
-[873] :001:SETTABLEKS     v3.fov = v4
-[874] :001:DUPTABLE       v4 = {} -- {"fov"}
-[875] :001:LOADK          v5 = 46.2244898
-[877] :001:SETTABLEKS     v4.fov = v5
-[878] :001:DUPTABLE       v5 = {} -- {"fov"}
-[879] :001:LOADK          v6 = 46.122449
-[881] :001:SETTABLEKS     v5.fov = v6
-[882] :001:DUPTABLE       v6 = {} -- {"fov"}
-[883] :001:LOADK          v7 = 46.0204082
-[885] :001:SETTABLEKS     v6.fov = v7
-[886] :001:DUPTABLE       v7 = {} -- {"fov"}
-[887] :001:LOADK          v8 = 45.9183673
-[889] :001:SETTABLEKS     v7.fov = v8
-[890] :001:DUPTABLE       v8 = {} -- {"fov"}
-[891] :001:LOADK          v9 = 45.8163265
-[893] :001:SETTABLEKS     v8.fov = v9
-[894] :001:DUPTABLE       v9 = {} -- {"fov"}
-[895] :001:LOADK          v10 = 45.7142857
-[897] :001:SETTABLEKS     v9.fov = v10
-[898] :001:DUPTABLE       v10 = {} -- {"fov"}
-[899] :001:LOADK          v11 = 45.6122449
-[901] :001:SETTABLEKS     v10.fov = v11
-[902] :001:DUPTABLE       v11 = {} -- {"fov"}
-[903] :001:LOADK          v12 = 45.5102041
-[905] :001:SETTABLEKS     v11.fov = v12
-[906] :001:DUPTABLE       v12 = {} -- {"fov"}
-[907] :001:LOADK          v13 = 45.4081633
-[909] :001:SETTABLEKS     v12.fov = v13
-[910] :001:DUPTABLE       v13 = {} -- {"fov"}
-[911] :001:LOADK          v14 = 45.3061224
-[913] :001:SETTABLEKS     v13.fov = v14
-[914] :001:DUPTABLE       v14 = {} -- {"fov"}
-[915] :001:LOADK          v15 = 45.2040816
-[917] :001:SETTABLEKS     v14.fov = v15
-[918] :001:DUPTABLE       v15 = {} -- {"fov"}
-[919] :001:LOADK          v16 = 45.1020408
-[921] :001:SETTABLEKS     v15.fov = v16
-[922] :001:DUPTABLE       v16 = {} -- {"fov"}
-[923] :001:LOADN          v17 = 45
-[925] :001:SETTABLEKS     v16.fov = v17
-[927] :001:SETLIST        v0[209] = v1
-v1[210] = v2
-v1[211] = v3
-v2[212] = v4
-v3[213] = v5
-v4[214] = v6
-v5[215] = v7
-v6[216] = v8
-v7[217] = v9
-v8[218] = v10
-v9[219] = v11
-v10[220] = v12
-v11[221] = v13
-v12[222] = v14
-v13[223] = v15
-v14[224] = v16
-[928] :001:DUPTABLE       v1 = {} -- {"fov"}
-[929] :001:LOADN          v2 = 45
-[931] :001:SETTABLEKS     v1.fov = v2
-[932] :001:DUPTABLE       v2 = {} -- {"fov"}
-[933] :001:LOADN          v3 = 45
-[935] :001:SETTABLEKS     v2.fov = v3
-[936] :001:DUPTABLE       v3 = {} -- {"fov"}
-[937] :001:LOADN          v4 = 45
-[939] :001:SETTABLEKS     v3.fov = v4
-[940] :001:DUPTABLE       v4 = {} -- {"fov"}
-[941] :001:LOADN          v5 = 45
-[943] :001:SETTABLEKS     v4.fov = v5
-[944] :001:DUPTABLE       v5 = {} -- {"fov"}
-[945] :001:LOADN          v6 = 45
-[947] :001:SETTABLEKS     v5.fov = v6
-[948] :001:DUPTABLE       v6 = {} -- {"fov"}
-[949] :001:LOADN          v7 = 45
-[951] :001:SETTABLEKS     v6.fov = v7
-[952] :001:DUPTABLE       v7 = {} -- {"fov"}
-[953] :001:LOADN          v8 = 45
-[955] :001:SETTABLEKS     v7.fov = v8
-[956] :001:DUPTABLE       v8 = {} -- {"fov"}
-[957] :001:LOADN          v9 = 45
-[959] :001:SETTABLEKS     v8.fov = v9
-[960] :001:DUPTABLE       v9 = {} -- {"fov"}
-[961] :001:LOADN          v10 = 45
-[963] :001:SETTABLEKS     v9.fov = v10
-[964] :001:DUPTABLE       v10 = {} -- {"fov"}
-[965] :001:LOADN          v11 = 45
-[967] :001:SETTABLEKS     v10.fov = v11
-[968] :001:DUPTABLE       v11 = {} -- {"fov"}
-[969] :001:LOADN          v12 = 45
-[971] :001:SETTABLEKS     v11.fov = v12
-[972] :001:DUPTABLE       v12 = {} -- {"fov"}
-[973] :001:LOADN          v13 = 45
-[975] :001:SETTABLEKS     v12.fov = v13
-[976] :001:DUPTABLE       v13 = {} -- {"fov"}
-[977] :001:LOADN          v14 = 45
-[979] :001:SETTABLEKS     v13.fov = v14
-[980] :001:DUPTABLE       v14 = {} -- {"fov"}
-[981] :001:LOADN          v15 = 45
-[983] :001:SETTABLEKS     v14.fov = v15
-[984] :001:DUPTABLE       v15 = {} -- {"fov"}
-[985] :001:LOADN          v16 = 45
-[987] :001:SETTABLEKS     v15.fov = v16
-[988] :001:DUPTABLE       v16 = {} -- {"fov"}
-[989] :001:LOADN          v17 = 45
-[991] :001:SETTABLEKS     v16.fov = v17
-[993] :001:SETLIST        v0[225] = v1
-v1[226] = v2
-v1[227] = v3
-v2[228] = v4
-v3[229] = v5
-v4[230] = v6
-v5[231] = v7
-v6[232] = v8
-v7[233] = v9
-v8[234] = v10
-v9[235] = v11
-v10[236] = v12
-v11[237] = v13
-v12[238] = v14
-v13[239] = v15
-v14[240] = v16
-[994] :001:DUPTABLE       v1 = {} -- {"fov"}
-[995] :001:LOADN          v2 = 45
-[997] :001:SETTABLEKS     v1.fov = v2
-[998] :001:DUPTABLE       v2 = {} -- {"fov"}
-[999] :001:LOADN          v3 = 45
-[1001] :001:SETTABLEKS     v2.fov = v3
-[1002] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1003] :001:LOADN          v4 = 45
-[1005] :001:SETTABLEKS     v3.fov = v4
-[1006] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1007] :001:LOADN          v5 = 45
-[1009] :001:SETTABLEKS     v4.fov = v5
-[1010] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1011] :001:LOADN          v6 = 45
-[1013] :001:SETTABLEKS     v5.fov = v6
-[1014] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1015] :001:LOADN          v7 = 45
-[1017] :001:SETTABLEKS     v6.fov = v7
-[1018] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1019] :001:LOADN          v8 = 45
-[1021] :001:SETTABLEKS     v7.fov = v8
-[1022] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1023] :001:LOADN          v9 = 45
-[1025] :001:SETTABLEKS     v8.fov = v9
-[1026] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1027] :001:LOADN          v10 = 45
-[1029] :001:SETTABLEKS     v9.fov = v10
-[1030] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1031] :001:LOADN          v11 = 45
-[1033] :001:SETTABLEKS     v10.fov = v11
-[1034] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1035] :001:LOADN          v12 = 45
-[1037] :001:SETTABLEKS     v11.fov = v12
-[1038] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1039] :001:LOADN          v13 = 45
-[1041] :001:SETTABLEKS     v12.fov = v13
-[1042] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1043] :001:LOADN          v14 = 45
-[1045] :001:SETTABLEKS     v13.fov = v14
-[1046] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1047] :001:LOADN          v15 = 45
-[1049] :001:SETTABLEKS     v14.fov = v15
-[1050] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1051] :001:LOADN          v16 = 45
-[1053] :001:SETTABLEKS     v15.fov = v16
-[1054] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1055] :001:LOADN          v17 = 45
-[1057] :001:SETTABLEKS     v16.fov = v17
-[1059] :001:SETLIST        v0[241] = v1
-v1[242] = v2
-v1[243] = v3
-v2[244] = v4
-v3[245] = v5
-v4[246] = v6
-v5[247] = v7
-v6[248] = v8
-v7[249] = v9
-v8[250] = v10
-v9[251] = v11
-v10[252] = v12
-v11[253] = v13
-v12[254] = v14
-v13[255] = v15
-v14[256] = v16
-[1060] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1061] :001:LOADN          v2 = 45
-[1063] :001:SETTABLEKS     v1.fov = v2
-[1064] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1065] :001:LOADN          v3 = 45
-[1067] :001:SETTABLEKS     v2.fov = v3
-[1068] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1069] :001:LOADN          v4 = 45
-[1071] :001:SETTABLEKS     v3.fov = v4
-[1072] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1073] :001:LOADN          v5 = 45
-[1075] :001:SETTABLEKS     v4.fov = v5
-[1076] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1077] :001:LOADN          v6 = 45
-[1079] :001:SETTABLEKS     v5.fov = v6
-[1080] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1081] :001:LOADN          v7 = 45
-[1083] :001:SETTABLEKS     v6.fov = v7
-[1084] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1085] :001:LOADN          v8 = 45
-[1087] :001:SETTABLEKS     v7.fov = v8
-[1088] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1089] :001:LOADN          v9 = 45
-[1091] :001:SETTABLEKS     v8.fov = v9
-[1092] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1093] :001:LOADN          v10 = 45
-[1095] :001:SETTABLEKS     v9.fov = v10
-[1096] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1097] :001:LOADN          v11 = 45
-[1099] :001:SETTABLEKS     v10.fov = v11
-[1100] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1101] :001:LOADN          v12 = 45
-[1103] :001:SETTABLEKS     v11.fov = v12
-[1104] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1105] :001:LOADN          v13 = 45
-[1107] :001:SETTABLEKS     v12.fov = v13
-[1108] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1109] :001:LOADN          v14 = 45
-[1111] :001:SETTABLEKS     v13.fov = v14
-[1112] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1113] :001:LOADN          v15 = 45
-[1115] :001:SETTABLEKS     v14.fov = v15
-[1116] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1117] :001:LOADN          v16 = 45
-[1119] :001:SETTABLEKS     v15.fov = v16
-[1120] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1121] :001:LOADN          v17 = 45
-[1123] :001:SETTABLEKS     v16.fov = v17
-[1125] :001:SETLIST        v0[257] = v1
-v1[258] = v2
-v1[259] = v3
-v2[260] = v4
-v3[261] = v5
-v4[262] = v6
-v5[263] = v7
-v6[264] = v8
-v7[265] = v9
-v8[266] = v10
-v9[267] = v11
-v10[268] = v12
-v11[269] = v13
-v12[270] = v14
-v13[271] = v15
-v14[272] = v16
-[1126] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1127] :001:LOADN          v2 = 45
-[1129] :001:SETTABLEKS     v1.fov = v2
-[1130] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1131] :001:LOADN          v3 = 45
-[1133] :001:SETTABLEKS     v2.fov = v3
-[1134] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1135] :001:LOADN          v4 = 45
-[1137] :001:SETTABLEKS     v3.fov = v4
-[1138] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1139] :001:LOADN          v5 = 45
-[1141] :001:SETTABLEKS     v4.fov = v5
-[1142] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1143] :001:LOADN          v6 = 45
-[1145] :001:SETTABLEKS     v5.fov = v6
-[1146] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1147] :001:LOADN          v7 = 45
-[1149] :001:SETTABLEKS     v6.fov = v7
-[1150] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1151] :001:LOADN          v8 = 45
-[1153] :001:SETTABLEKS     v7.fov = v8
-[1154] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1155] :001:LOADN          v9 = 45
-[1157] :001:SETTABLEKS     v8.fov = v9
-[1158] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1159] :001:LOADN          v10 = 45
-[1161] :001:SETTABLEKS     v9.fov = v10
-[1162] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1163] :001:LOADN          v11 = 45
-[1165] :001:SETTABLEKS     v10.fov = v11
-[1166] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1167] :001:LOADN          v12 = 45
-[1169] :001:SETTABLEKS     v11.fov = v12
-[1170] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1171] :001:LOADK          v13 = 45.2907241
-[1173] :001:SETTABLEKS     v12.fov = v13
-[1174] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1175] :001:LOADK          v14 = 45.5804646
-[1177] :001:SETTABLEKS     v13.fov = v14
-[1178] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1179] :001:LOADK          v15 = 45.8682409
-[1181] :001:SETTABLEKS     v14.fov = v15
-[1182] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1183] :001:LOADK          v16 = 46.1530794
-[1185] :001:SETTABLEKS     v15.fov = v16
-[1186] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1187] :001:LOADK          v17 = 46.4340162
-[1189] :001:SETTABLEKS     v16.fov = v17
-[1191] :001:SETLIST        v0[273] = v1
-v1[274] = v2
-v1[275] = v3
-v2[276] = v4
-v3[277] = v5
-v4[278] = v6
-v5[279] = v7
-v6[280] = v8
-v7[281] = v9
-v8[282] = v10
-v9[283] = v11
-v10[284] = v12
-v11[285] = v13
-v12[286] = v14
-v13[287] = v15
-v14[288] = v16
-[1192] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1193] :001:LOADK          v2 = 46.7101007
-[1195] :001:SETTABLEKS     v1.fov = v2
-[1196] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1197] :001:LOADK          v3 = 46.9803988
-[1199] :001:SETTABLEKS     v2.fov = v3
-[1200] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1201] :001:LOADK          v4 = 47.2439959
-[1203] :001:SETTABLEKS     v3.fov = v4
-[1204] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1205] :001:LOADK          v5 = 47.5
-[1207] :001:SETTABLEKS     v4.fov = v5
-[1208] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1209] :001:LOADK          v6 = 47.7475449
-[1211] :001:SETTABLEKS     v5.fov = v6
-[1212] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1213] :001:LOADK          v7 = 47.985793
-[1215] :001:SETTABLEKS     v6.fov = v7
-[1216] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1217] :001:LOADK          v8 = 48.213938
-[1219] :001:SETTABLEKS     v7.fov = v8
-[1220] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1221] :001:LOADK          v9 = 48.4312082
-[1223] :001:SETTABLEKS     v8.fov = v9
-[1224] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1225] :001:LOADK          v10 = 48.6368682
-[1227] :001:SETTABLEKS     v9.fov = v10
-[1228] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1229] :001:LOADK          v11 = 48.8302222
-[1231] :001:SETTABLEKS     v10.fov = v11
-[1232] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1233] :001:LOADK          v12 = 49.010616
-[1235] :001:SETTABLEKS     v11.fov = v12
-[1236] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1237] :001:LOADK          v13 = 49.1774391
-[1239] :001:SETTABLEKS     v12.fov = v13
-[1240] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1241] :001:LOADK          v14 = 49.330127
-[1243] :001:SETTABLEKS     v13.fov = v14
-[1244] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1245] :001:LOADK          v15 = 49.4681632
-[1247] :001:SETTABLEKS     v14.fov = v15
-[1248] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1249] :001:LOADK          v16 = 49.5910805
-[1251] :001:SETTABLEKS     v15.fov = v16
-[1252] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1253] :001:LOADK          v17 = 49.6984631
-[1255] :001:SETTABLEKS     v16.fov = v17
-[1257] :001:SETLIST        v0[289] = v1
-v1[290] = v2
-v1[291] = v3
-v2[292] = v4
-v3[293] = v5
-v4[294] = v6
-v5[295] = v7
-v6[296] = v8
-v7[297] = v9
-v8[298] = v10
-v9[299] = v11
-v10[300] = v12
-v11[301] = v13
-v12[302] = v14
-v13[303] = v15
-v14[304] = v16
-[1258] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1259] :001:LOADK          v2 = 49.7899476
-[1261] :001:SETTABLEKS     v1.fov = v2
-[1262] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1263] :001:LOADK          v3 = 49.8652244
-[1265] :001:SETTABLEKS     v2.fov = v3
-[1266] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1267] :001:LOADK          v4 = 49.9240388
-[1269] :001:SETTABLEKS     v3.fov = v4
-[1270] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1271] :001:LOADK          v5 = 49.9661918
-[1273] :001:SETTABLEKS     v4.fov = v5
-[1274] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1275] :001:LOADK          v6 = 49.9915408
-[1277] :001:SETTABLEKS     v5.fov = v6
-[1278] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1279] :001:LOADN          v7 = 50
-[1281] :001:SETTABLEKS     v6.fov = v7
-[1282] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1283] :001:LOADN          v8 = 50
-[1285] :001:SETTABLEKS     v7.fov = v8
-[1286] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1287] :001:LOADN          v9 = 50
-[1289] :001:SETTABLEKS     v8.fov = v9
-[1290] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1291] :001:LOADN          v10 = 50
-[1293] :001:SETTABLEKS     v9.fov = v10
-[1294] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1295] :001:LOADN          v11 = 50
-[1297] :001:SETTABLEKS     v10.fov = v11
-[1298] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1299] :001:LOADN          v12 = 50
-[1301] :001:SETTABLEKS     v11.fov = v12
-[1302] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1303] :001:LOADN          v13 = 50
-[1305] :001:SETTABLEKS     v12.fov = v13
-[1306] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1307] :001:LOADN          v14 = 50
-[1309] :001:SETTABLEKS     v13.fov = v14
-[1310] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1311] :001:LOADN          v15 = 50
-[1313] :001:SETTABLEKS     v14.fov = v15
-[1314] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1315] :001:LOADN          v16 = 50
-[1317] :001:SETTABLEKS     v15.fov = v16
-[1318] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1319] :001:LOADN          v17 = 50
-[1321] :001:SETTABLEKS     v16.fov = v17
-[1323] :001:SETLIST        v0[305] = v1
-v1[306] = v2
-v1[307] = v3
-v2[308] = v4
-v3[309] = v5
-v4[310] = v6
-v5[311] = v7
-v6[312] = v8
-v7[313] = v9
-v8[314] = v10
-v9[315] = v11
-v10[316] = v12
-v11[317] = v13
-v12[318] = v14
-v13[319] = v15
-v14[320] = v16
-[1324] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1325] :001:LOADN          v2 = 50
-[1327] :001:SETTABLEKS     v1.fov = v2
-[1328] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1329] :001:LOADN          v3 = 50
-[1331] :001:SETTABLEKS     v2.fov = v3
-[1332] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1333] :001:LOADN          v4 = 50
-[1335] :001:SETTABLEKS     v3.fov = v4
-[1336] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1337] :001:LOADN          v5 = 50
-[1339] :001:SETTABLEKS     v4.fov = v5
-[1340] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1341] :001:LOADN          v6 = 50
-[1343] :001:SETTABLEKS     v5.fov = v6
-[1344] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1345] :001:LOADN          v7 = 50
-[1347] :001:SETTABLEKS     v6.fov = v7
-[1348] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1349] :001:LOADN          v8 = 50
-[1351] :001:SETTABLEKS     v7.fov = v8
-[1352] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1353] :001:LOADN          v9 = 50
-[1355] :001:SETTABLEKS     v8.fov = v9
-[1356] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1357] :001:LOADN          v10 = 50
-[1359] :001:SETTABLEKS     v9.fov = v10
-[1360] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1361] :001:LOADN          v11 = 50
-[1363] :001:SETTABLEKS     v10.fov = v11
-[1364] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1365] :001:LOADN          v12 = 50
-[1367] :001:SETTABLEKS     v11.fov = v12
-[1368] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1369] :001:LOADN          v13 = 50
-[1371] :001:SETTABLEKS     v12.fov = v13
-[1372] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1373] :001:LOADN          v14 = 50
-[1375] :001:SETTABLEKS     v13.fov = v14
-[1376] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1377] :001:LOADN          v15 = 50
-[1379] :001:SETTABLEKS     v14.fov = v15
-[1380] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1381] :001:LOADN          v16 = 50
-[1383] :001:SETTABLEKS     v15.fov = v16
-[1384] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1385] :001:LOADN          v17 = 50
-[1387] :001:SETTABLEKS     v16.fov = v17
-[1389] :001:SETLIST        v0[321] = v1
-v1[322] = v2
-v1[323] = v3
-v2[324] = v4
-v3[325] = v5
-v4[326] = v6
-v5[327] = v7
-v6[328] = v8
-v7[329] = v9
-v8[330] = v10
-v9[331] = v11
-v10[332] = v12
-v11[333] = v13
-v12[334] = v14
-v13[335] = v15
-v14[336] = v16
-[1390] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1391] :001:LOADN          v2 = 50
-[1393] :001:SETTABLEKS     v1.fov = v2
-[1394] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1395] :001:LOADN          v3 = 50
-[1397] :001:SETTABLEKS     v2.fov = v3
-[1398] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1399] :001:LOADN          v4 = 50
-[1401] :001:SETTABLEKS     v3.fov = v4
-[1402] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1403] :001:LOADN          v5 = 50
-[1405] :001:SETTABLEKS     v4.fov = v5
-[1406] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1407] :001:LOADN          v6 = 50
-[1409] :001:SETTABLEKS     v5.fov = v6
-[1410] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1411] :001:LOADN          v7 = 50
-[1413] :001:SETTABLEKS     v6.fov = v7
-[1414] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1415] :001:LOADN          v8 = 50
-[1417] :001:SETTABLEKS     v7.fov = v8
-[1418] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1419] :001:LOADN          v9 = 50
-[1421] :001:SETTABLEKS     v8.fov = v9
-[1422] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1423] :001:LOADN          v10 = 50
-[1425] :001:SETTABLEKS     v9.fov = v10
-[1426] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1427] :001:LOADN          v11 = 50
-[1429] :001:SETTABLEKS     v10.fov = v11
-[1430] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1431] :001:LOADN          v12 = 50
-[1433] :001:SETTABLEKS     v11.fov = v12
-[1434] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1435] :001:LOADN          v13 = 50
-[1437] :001:SETTABLEKS     v12.fov = v13
-[1438] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1439] :001:LOADN          v14 = 50
-[1441] :001:SETTABLEKS     v13.fov = v14
-[1442] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1443] :001:LOADN          v15 = 50
-[1445] :001:SETTABLEKS     v14.fov = v15
-[1446] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1447] :001:LOADN          v16 = 50
-[1449] :001:SETTABLEKS     v15.fov = v16
-[1450] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1451] :001:LOADN          v17 = 50
-[1453] :001:SETTABLEKS     v16.fov = v17
-[1455] :001:SETLIST        v0[337] = v1
-v1[338] = v2
-v1[339] = v3
-v2[340] = v4
-v3[341] = v5
-v4[342] = v6
-v5[343] = v7
-v6[344] = v8
-v7[345] = v9
-v8[346] = v10
-v9[347] = v11
-v10[348] = v12
-v11[349] = v13
-v12[350] = v14
-v13[351] = v15
-v14[352] = v16
-[1456] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1457] :001:LOADN          v2 = 50
-[1459] :001:SETTABLEKS     v1.fov = v2
-[1460] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1461] :001:LOADN          v3 = 50
-[1463] :001:SETTABLEKS     v2.fov = v3
-[1464] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1465] :001:LOADN          v4 = 50
-[1467] :001:SETTABLEKS     v3.fov = v4
-[1468] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1469] :001:LOADN          v5 = 50
-[1471] :001:SETTABLEKS     v4.fov = v5
-[1472] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1473] :001:LOADN          v6 = 50
-[1475] :001:SETTABLEKS     v5.fov = v6
-[1476] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1477] :001:LOADN          v7 = 50
-[1479] :001:SETTABLEKS     v6.fov = v7
-[1480] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1481] :001:LOADN          v8 = 50
-[1483] :001:SETTABLEKS     v7.fov = v8
-[1484] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1485] :001:LOADN          v9 = 50
-[1487] :001:SETTABLEKS     v8.fov = v9
-[1488] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1489] :001:LOADN          v10 = 50
-[1491] :001:SETTABLEKS     v9.fov = v10
-[1492] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1493] :001:LOADN          v11 = 55
-[1495] :001:SETTABLEKS     v10.fov = v11
-[1496] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1497] :001:LOADK          v12 = 55.1550293
-[1499] :001:SETTABLEKS     v11.fov = v12
-[1500] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1501] :001:LOADK          v13 = 55.3076172
-[1503] :001:SETTABLEKS     v12.fov = v13
-[1504] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1505] :001:LOADK          v14 = 55.4577637
-[1507] :001:SETTABLEKS     v13.fov = v14
-[1508] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1509] :001:LOADK          v15 = 55.6054688
-[1511] :001:SETTABLEKS     v14.fov = v15
-[1512] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1513] :001:LOADK          v16 = 55.7507324
-[1515] :001:SETTABLEKS     v15.fov = v16
-[1516] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1517] :001:LOADK          v17 = 55.8935547
-[1519] :001:SETTABLEKS     v16.fov = v17
-[1521] :001:SETLIST        v0[353] = v1
-v1[354] = v2
-v1[355] = v3
-v2[356] = v4
-v3[357] = v5
-v4[358] = v6
-v5[359] = v7
-v6[360] = v8
-v7[361] = v9
-v8[362] = v10
-v9[363] = v11
-v10[364] = v12
-v11[365] = v13
-v12[366] = v14
-v13[367] = v15
-v14[368] = v16
-[1522] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1523] :001:LOADK          v2 = 56.0339355
-[1525] :001:SETTABLEKS     v1.fov = v2
-[1526] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1527] :001:LOADK          v3 = 56.171875
-[1529] :001:SETTABLEKS     v2.fov = v3
-[1530] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1531] :001:LOADK          v4 = 56.307373
-[1533] :001:SETTABLEKS     v3.fov = v4
-[1534] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1535] :001:LOADK          v5 = 56.4404297
-[1537] :001:SETTABLEKS     v4.fov = v5
-[1538] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1539] :001:LOADK          v6 = 56.5710449
-[1541] :001:SETTABLEKS     v5.fov = v6
-[1542] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1543] :001:LOADK          v7 = 56.6992188
-[1545] :001:SETTABLEKS     v6.fov = v7
-[1546] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1547] :001:LOADK          v8 = 56.8249512
-[1549] :001:SETTABLEKS     v7.fov = v8
-[1550] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1551] :001:LOADK          v9 = 56.9482422
-[1553] :001:SETTABLEKS     v8.fov = v9
-[1554] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1555] :001:LOADK          v10 = 57.0690918
-[1557] :001:SETTABLEKS     v9.fov = v10
-[1558] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1559] :001:LOADK          v11 = 57.1875
-[1561] :001:SETTABLEKS     v10.fov = v11
-[1562] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1563] :001:LOADK          v12 = 57.3034668
-[1565] :001:SETTABLEKS     v11.fov = v12
-[1566] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1567] :001:LOADK          v13 = 57.4169922
-[1569] :001:SETTABLEKS     v12.fov = v13
-[1570] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1571] :001:LOADK          v14 = 57.5280762
-[1573] :001:SETTABLEKS     v13.fov = v14
-[1574] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1575] :001:LOADK          v15 = 57.6367188
-[1577] :001:SETTABLEKS     v14.fov = v15
-[1578] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1579] :001:LOADK          v16 = 57.7429199
-[1581] :001:SETTABLEKS     v15.fov = v16
-[1582] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1583] :001:LOADK          v17 = 57.8466797
-[1585] :001:SETTABLEKS     v16.fov = v17
-[1587] :001:SETLIST        v0[369] = v1
-v1[370] = v2
-v1[371] = v3
-v2[372] = v4
-v3[373] = v5
-v4[374] = v6
-v5[375] = v7
-v6[376] = v8
-v7[377] = v9
-v8[378] = v10
-v9[379] = v11
-v10[380] = v12
-v11[381] = v13
-v12[382] = v14
-v13[383] = v15
-v14[384] = v16
-[1588] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1589] :001:LOADK          v2 = 57.947998
-[1591] :001:SETTABLEKS     v1.fov = v2
-[1592] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1593] :001:LOADK          v3 = 58.046875
-[1595] :001:SETTABLEKS     v2.fov = v3
-[1596] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1597] :001:LOADK          v4 = 58.1433105
-[1599] :001:SETTABLEKS     v3.fov = v4
-[1600] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1601] :001:LOADK          v5 = 58.2373047
-[1603] :001:SETTABLEKS     v4.fov = v5
-[1604] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1605] :001:LOADK          v6 = 58.3288574
-[1607] :001:SETTABLEKS     v5.fov = v6
-[1608] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1609] :001:LOADK          v7 = 58.4179688
-[1611] :001:SETTABLEKS     v6.fov = v7
-[1612] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1613] :001:LOADK          v8 = 58.5046387
-[1615] :001:SETTABLEKS     v7.fov = v8
-[1616] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1617] :001:LOADK          v9 = 58.5888672
-[1619] :001:SETTABLEKS     v8.fov = v9
-[1620] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1621] :001:LOADK          v10 = 58.6706543
-[1623] :001:SETTABLEKS     v9.fov = v10
-[1624] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1625] :001:LOADK          v11 = 58.75
-[1627] :001:SETTABLEKS     v10.fov = v11
-[1628] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1629] :001:LOADK          v12 = 58.8269043
-[1631] :001:SETTABLEKS     v11.fov = v12
-[1632] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1633] :001:LOADK          v13 = 58.9013672
-[1635] :001:SETTABLEKS     v12.fov = v13
-[1636] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1637] :001:LOADK          v14 = 58.9733887
-[1639] :001:SETTABLEKS     v13.fov = v14
-[1640] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1641] :001:LOADK          v15 = 59.0429688
-[1643] :001:SETTABLEKS     v14.fov = v15
-[1644] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1645] :001:LOADK          v16 = 59.1101074
-[1647] :001:SETTABLEKS     v15.fov = v16
-[1648] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1649] :001:LOADK          v17 = 59.1748047
-[1651] :001:SETTABLEKS     v16.fov = v17
-[1653] :001:SETLIST        v0[385] = v1
-v1[386] = v2
-v1[387] = v3
-v2[388] = v4
-v3[389] = v5
-v4[390] = v6
-v5[391] = v7
-v6[392] = v8
-v7[393] = v9
-v8[394] = v10
-v9[395] = v11
-v10[396] = v12
-v11[397] = v13
-v12[398] = v14
-v13[399] = v15
-v14[400] = v16
-[1654] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1655] :001:LOADK          v2 = 59.2370605
-[1657] :001:SETTABLEKS     v1.fov = v2
-[1658] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1659] :001:LOADK          v3 = 59.296875
-[1661] :001:SETTABLEKS     v2.fov = v3
-[1662] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1663] :001:LOADK          v4 = 59.354248
-[1665] :001:SETTABLEKS     v3.fov = v4
-[1666] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1667] :001:LOADK          v5 = 59.4091797
-[1669] :001:SETTABLEKS     v4.fov = v5
-[1670] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1671] :001:LOADK          v6 = 59.4616699
-[1673] :001:SETTABLEKS     v5.fov = v6
-[1674] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1675] :001:LOADK          v7 = 59.5117188
-[1677] :001:SETTABLEKS     v6.fov = v7
-[1678] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1679] :001:LOADK          v8 = 59.5593262
-[1681] :001:SETTABLEKS     v7.fov = v8
-[1682] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1683] :001:LOADK          v9 = 59.6044922
-[1685] :001:SETTABLEKS     v8.fov = v9
-[1686] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1687] :001:LOADK          v10 = 59.6472168
-[1689] :001:SETTABLEKS     v9.fov = v10
-[1690] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1691] :001:LOADK          v11 = 59.6875
-[1693] :001:SETTABLEKS     v10.fov = v11
-[1694] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1695] :001:LOADK          v12 = 59.7253418
-[1697] :001:SETTABLEKS     v11.fov = v12
-[1698] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1699] :001:LOADK          v13 = 59.7607422
-[1701] :001:SETTABLEKS     v12.fov = v13
-[1702] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1703] :001:LOADK          v14 = 59.7937012
-[1705] :001:SETTABLEKS     v13.fov = v14
-[1706] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1707] :001:LOADK          v15 = 59.8242188
-[1709] :001:SETTABLEKS     v14.fov = v15
-[1710] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1711] :001:LOADK          v16 = 59.8522949
-[1713] :001:SETTABLEKS     v15.fov = v16
-[1714] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1715] :001:LOADK          v17 = 59.8779297
-[1717] :001:SETTABLEKS     v16.fov = v17
-[1719] :001:SETLIST        v0[401] = v1
-v1[402] = v2
-v1[403] = v3
-v2[404] = v4
-v3[405] = v5
-v4[406] = v6
-v5[407] = v7
-v6[408] = v8
-v7[409] = v9
-v8[410] = v10
-v9[411] = v11
-v10[412] = v12
-v11[413] = v13
-v12[414] = v14
-v13[415] = v15
-v14[416] = v16
-[1720] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1721] :001:LOADK          v2 = 59.901123
-[1723] :001:SETTABLEKS     v1.fov = v2
-[1724] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1725] :001:LOADK          v3 = 59.921875
-[1727] :001:SETTABLEKS     v2.fov = v3
-[1728] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1729] :001:LOADK          v4 = 59.9401855
-[1731] :001:SETTABLEKS     v3.fov = v4
-[1732] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1733] :001:LOADK          v5 = 59.9560547
-[1735] :001:SETTABLEKS     v4.fov = v5
-[1736] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1737] :001:LOADK          v6 = 59.9694824
-[1739] :001:SETTABLEKS     v5.fov = v6
-[1740] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1741] :001:LOADK          v7 = 59.9804688
-[1743] :001:SETTABLEKS     v6.fov = v7
-[1744] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1745] :001:LOADK          v8 = 59.9890137
-[1747] :001:SETTABLEKS     v7.fov = v8
-[1748] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1749] :001:LOADK          v9 = 59.9951172
-[1751] :001:SETTABLEKS     v8.fov = v9
-[1752] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1753] :001:LOADK          v10 = 59.9987793
-[1755] :001:SETTABLEKS     v9.fov = v10
-[1756] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1757] :001:LOADN          v11 = 60
-[1759] :001:SETTABLEKS     v10.fov = v11
-[1760] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1761] :001:LOADN          v12 = 65
-[1763] :001:SETTABLEKS     v11.fov = v12
-[1764] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1765] :001:LOADN          v13 = 65
-[1767] :001:SETTABLEKS     v12.fov = v13
-[1768] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1769] :001:LOADN          v14 = 65
-[1771] :001:SETTABLEKS     v13.fov = v14
-[1772] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1773] :001:LOADN          v15 = 65
-[1775] :001:SETTABLEKS     v14.fov = v15
-[1776] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1777] :001:LOADN          v16 = 65
-[1779] :001:SETTABLEKS     v15.fov = v16
-[1780] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1781] :001:LOADN          v17 = 65
-[1783] :001:SETTABLEKS     v16.fov = v17
-[1785] :001:SETLIST        v0[417] = v1
-v1[418] = v2
-v1[419] = v3
-v2[420] = v4
-v3[421] = v5
-v4[422] = v6
-v5[423] = v7
-v6[424] = v8
-v7[425] = v9
-v8[426] = v10
-v9[427] = v11
-v10[428] = v12
-v11[429] = v13
-v12[430] = v14
-v13[431] = v15
-v14[432] = v16
-[1786] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1787] :001:LOADN          v2 = 65
-[1789] :001:SETTABLEKS     v1.fov = v2
-[1790] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1791] :001:LOADN          v3 = 65
-[1793] :001:SETTABLEKS     v2.fov = v3
-[1794] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1795] :001:LOADN          v4 = 65
-[1797] :001:SETTABLEKS     v3.fov = v4
-[1798] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1799] :001:LOADN          v5 = 65
-[1801] :001:SETTABLEKS     v4.fov = v5
-[1802] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1803] :001:LOADN          v6 = 65
-[1805] :001:SETTABLEKS     v5.fov = v6
-[1806] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1807] :001:LOADN          v7 = 65
-[1809] :001:SETTABLEKS     v6.fov = v7
-[1810] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1811] :001:LOADN          v8 = 65
-[1813] :001:SETTABLEKS     v7.fov = v8
-[1814] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1815] :001:LOADN          v9 = 65
-[1817] :001:SETTABLEKS     v8.fov = v9
-[1818] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1819] :001:LOADN          v10 = 65
-[1821] :001:SETTABLEKS     v9.fov = v10
-[1822] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1823] :001:LOADN          v11 = 65
-[1825] :001:SETTABLEKS     v10.fov = v11
-[1826] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1827] :001:LOADN          v12 = 65
-[1829] :001:SETTABLEKS     v11.fov = v12
-[1830] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1831] :001:LOADN          v13 = 65
-[1833] :001:SETTABLEKS     v12.fov = v13
-[1834] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1835] :001:LOADN          v14 = 65
-[1837] :001:SETTABLEKS     v13.fov = v14
-[1838] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1839] :001:LOADN          v15 = 65
-[1841] :001:SETTABLEKS     v14.fov = v15
-[1842] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1843] :001:LOADN          v16 = 65
-[1845] :001:SETTABLEKS     v15.fov = v16
-[1846] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1847] :001:LOADN          v17 = 65
-[1849] :001:SETTABLEKS     v16.fov = v17
-[1851] :001:SETLIST        v0[433] = v1
-v1[434] = v2
-v1[435] = v3
-v2[436] = v4
-v3[437] = v5
-v4[438] = v6
-v5[439] = v7
-v6[440] = v8
-v7[441] = v9
-v8[442] = v10
-v9[443] = v11
-v10[444] = v12
-v11[445] = v13
-v12[446] = v14
-v13[447] = v15
-v14[448] = v16
-[1852] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1853] :001:LOADN          v2 = 65
-[1855] :001:SETTABLEKS     v1.fov = v2
-[1856] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1857] :001:LOADN          v3 = 65
-[1859] :001:SETTABLEKS     v2.fov = v3
-[1860] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1861] :001:LOADN          v4 = 65
-[1863] :001:SETTABLEKS     v3.fov = v4
-[1864] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1865] :001:LOADN          v5 = 65
-[1867] :001:SETTABLEKS     v4.fov = v5
-[1868] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1869] :001:LOADN          v6 = 65
-[1871] :001:SETTABLEKS     v5.fov = v6
-[1872] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1873] :001:LOADN          v7 = 65
-[1875] :001:SETTABLEKS     v6.fov = v7
-[1876] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1877] :001:LOADN          v8 = 65
-[1879] :001:SETTABLEKS     v7.fov = v8
-[1880] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1881] :001:LOADN          v9 = 65
-[1883] :001:SETTABLEKS     v8.fov = v9
-[1884] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1885] :001:LOADN          v10 = 65
-[1887] :001:SETTABLEKS     v9.fov = v10
-[1888] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1889] :001:LOADN          v11 = 65
-[1891] :001:SETTABLEKS     v10.fov = v11
-[1892] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1893] :001:LOADN          v12 = 65
-[1895] :001:SETTABLEKS     v11.fov = v12
-[1896] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1897] :001:LOADN          v13 = 65
-[1899] :001:SETTABLEKS     v12.fov = v13
-[1900] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1901] :001:LOADN          v14 = 65
-[1903] :001:SETTABLEKS     v13.fov = v14
-[1904] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1905] :001:LOADN          v15 = 65
-[1907] :001:SETTABLEKS     v14.fov = v15
-[1908] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1909] :001:LOADN          v16 = 65
-[1911] :001:SETTABLEKS     v15.fov = v16
-[1912] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1913] :001:LOADN          v17 = 65
-[1915] :001:SETTABLEKS     v16.fov = v17
-[1917] :001:SETLIST        v0[449] = v1
-v1[450] = v2
-v1[451] = v3
-v2[452] = v4
-v3[453] = v5
-v4[454] = v6
-v5[455] = v7
-v6[456] = v8
-v7[457] = v9
-v8[458] = v10
-v9[459] = v11
-v10[460] = v12
-v11[461] = v13
-v12[462] = v14
-v13[463] = v15
-v14[464] = v16
-[1918] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1919] :001:LOADN          v2 = 65
-[1921] :001:SETTABLEKS     v1.fov = v2
-[1922] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1923] :001:LOADN          v3 = 65
-[1925] :001:SETTABLEKS     v2.fov = v3
-[1926] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1927] :001:LOADN          v4 = 65
-[1929] :001:SETTABLEKS     v3.fov = v4
-[1930] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1931] :001:LOADN          v5 = 65
-[1933] :001:SETTABLEKS     v4.fov = v5
-[1934] :001:DUPTABLE       v5 = {} -- {"fov"}
-[1935] :001:LOADN          v6 = 65
-[1937] :001:SETTABLEKS     v5.fov = v6
-[1938] :001:DUPTABLE       v6 = {} -- {"fov"}
-[1939] :001:LOADN          v7 = 65
-[1941] :001:SETTABLEKS     v6.fov = v7
-[1942] :001:DUPTABLE       v7 = {} -- {"fov"}
-[1943] :001:LOADN          v8 = 65
-[1945] :001:SETTABLEKS     v7.fov = v8
-[1946] :001:DUPTABLE       v8 = {} -- {"fov"}
-[1947] :001:LOADN          v9 = 65
-[1949] :001:SETTABLEKS     v8.fov = v9
-[1950] :001:DUPTABLE       v9 = {} -- {"fov"}
-[1951] :001:LOADN          v10 = 65
-[1953] :001:SETTABLEKS     v9.fov = v10
-[1954] :001:DUPTABLE       v10 = {} -- {"fov"}
-[1955] :001:LOADN          v11 = 65
-[1957] :001:SETTABLEKS     v10.fov = v11
-[1958] :001:DUPTABLE       v11 = {} -- {"fov"}
-[1959] :001:LOADN          v12 = 65
-[1961] :001:SETTABLEKS     v11.fov = v12
-[1962] :001:DUPTABLE       v12 = {} -- {"fov"}
-[1963] :001:LOADN          v13 = 65
-[1965] :001:SETTABLEKS     v12.fov = v13
-[1966] :001:DUPTABLE       v13 = {} -- {"fov"}
-[1967] :001:LOADN          v14 = 65
-[1969] :001:SETTABLEKS     v13.fov = v14
-[1970] :001:DUPTABLE       v14 = {} -- {"fov"}
-[1971] :001:LOADN          v15 = 65
-[1973] :001:SETTABLEKS     v14.fov = v15
-[1974] :001:DUPTABLE       v15 = {} -- {"fov"}
-[1975] :001:LOADN          v16 = 65
-[1977] :001:SETTABLEKS     v15.fov = v16
-[1978] :001:DUPTABLE       v16 = {} -- {"fov"}
-[1979] :001:LOADN          v17 = 65
-[1981] :001:SETTABLEKS     v16.fov = v17
-[1983] :001:SETLIST        v0[465] = v1
-v1[466] = v2
-v1[467] = v3
-v2[468] = v4
-v3[469] = v5
-v4[470] = v6
-v5[471] = v7
-v6[472] = v8
-v7[473] = v9
-v8[474] = v10
-v9[475] = v11
-v10[476] = v12
-v11[477] = v13
-v12[478] = v14
-v13[479] = v15
-v14[480] = v16
-[1984] :001:DUPTABLE       v1 = {} -- {"fov"}
-[1985] :001:LOADN          v2 = 65
-[1987] :001:SETTABLEKS     v1.fov = v2
-[1988] :001:DUPTABLE       v2 = {} -- {"fov"}
-[1989] :001:LOADN          v3 = 65
-[1991] :001:SETTABLEKS     v2.fov = v3
-[1992] :001:DUPTABLE       v3 = {} -- {"fov"}
-[1993] :001:LOADN          v4 = 65
-[1995] :001:SETTABLEKS     v3.fov = v4
-[1996] :001:DUPTABLE       v4 = {} -- {"fov"}
-[1997] :001:LOADN          v5 = 65
-[1999] :001:SETTABLEKS     v4.fov = v5
-[2000] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2001] :001:LOADN          v6 = 65
-[2003] :001:SETTABLEKS     v5.fov = v6
-[2004] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2005] :001:LOADN          v7 = 65
-[2007] :001:SETTABLEKS     v6.fov = v7
-[2008] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2009] :001:LOADN          v8 = 65
-[2011] :001:SETTABLEKS     v7.fov = v8
-[2012] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2013] :001:LOADN          v9 = 65
-[2015] :001:SETTABLEKS     v8.fov = v9
-[2016] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2017] :001:LOADN          v10 = 65
-[2019] :001:SETTABLEKS     v9.fov = v10
-[2020] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2021] :001:LOADN          v11 = 65
-[2023] :001:SETTABLEKS     v10.fov = v11
-[2024] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2025] :001:LOADN          v12 = 65
-[2027] :001:SETTABLEKS     v11.fov = v12
-[2028] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2029] :001:LOADN          v13 = 65
-[2031] :001:SETTABLEKS     v12.fov = v13
-[2032] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2033] :001:LOADN          v14 = 65
-[2035] :001:SETTABLEKS     v13.fov = v14
-[2036] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2037] :001:LOADN          v15 = 65
-[2039] :001:SETTABLEKS     v14.fov = v15
-[2040] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2041] :001:LOADN          v16 = 65
-[2043] :001:SETTABLEKS     v15.fov = v16
-[2044] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2045] :001:LOADN          v17 = 65
-[2047] :001:SETTABLEKS     v16.fov = v17
-[2049] :001:SETLIST        v0[481] = v1
-v1[482] = v2
-v1[483] = v3
-v2[484] = v4
-v3[485] = v5
-v4[486] = v6
-v5[487] = v7
-v6[488] = v8
-v7[489] = v9
-v8[490] = v10
-v9[491] = v11
-v10[492] = v12
-v11[493] = v13
-v12[494] = v14
-v13[495] = v15
-v14[496] = v16
-[2050] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2051] :001:LOADN          v2 = 65
-[2053] :001:SETTABLEKS     v1.fov = v2
-[2054] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2055] :001:LOADN          v3 = 65
-[2057] :001:SETTABLEKS     v2.fov = v3
-[2058] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2059] :001:LOADN          v4 = 65
-[2061] :001:SETTABLEKS     v3.fov = v4
-[2062] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2063] :001:LOADN          v5 = 65
-[2065] :001:SETTABLEKS     v4.fov = v5
-[2066] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2067] :001:LOADN          v6 = 65
-[2069] :001:SETTABLEKS     v5.fov = v6
-[2070] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2071] :001:LOADN          v7 = 65
-[2073] :001:SETTABLEKS     v6.fov = v7
-[2074] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2075] :001:LOADN          v8 = 65
-[2077] :001:SETTABLEKS     v7.fov = v8
-[2078] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2079] :001:LOADN          v9 = 65
-[2081] :001:SETTABLEKS     v8.fov = v9
-[2082] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2083] :001:LOADN          v10 = 65
-[2085] :001:SETTABLEKS     v9.fov = v10
-[2086] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2087] :001:LOADN          v11 = 65
-[2089] :001:SETTABLEKS     v10.fov = v11
-[2090] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2091] :001:LOADN          v12 = 65
-[2093] :001:SETTABLEKS     v11.fov = v12
-[2094] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2095] :001:LOADN          v13 = 65
-[2097] :001:SETTABLEKS     v12.fov = v13
-[2098] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2099] :001:LOADN          v14 = 65
-[2101] :001:SETTABLEKS     v13.fov = v14
-[2102] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2103] :001:LOADN          v15 = 65
-[2105] :001:SETTABLEKS     v14.fov = v15
-[2106] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2107] :001:LOADN          v16 = 65
-[2109] :001:SETTABLEKS     v15.fov = v16
-[2110] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2111] :001:LOADN          v17 = 65
-[2113] :001:SETTABLEKS     v16.fov = v17
-[2115] :001:SETLIST        v0[497] = v1
-v1[498] = v2
-v1[499] = v3
-v2[500] = v4
-v3[501] = v5
-v4[502] = v6
-v5[503] = v7
-v6[504] = v8
-v7[505] = v9
-v8[506] = v10
-v9[507] = v11
-v10[508] = v12
-v11[509] = v13
-v12[510] = v14
-v13[511] = v15
-v14[512] = v16
-[2116] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2117] :001:LOADN          v2 = 65
-[2119] :001:SETTABLEKS     v1.fov = v2
-[2120] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2121] :001:LOADN          v3 = 65
-[2123] :001:SETTABLEKS     v2.fov = v3
-[2124] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2125] :001:LOADK          v4 = 64.9685363
-[2127] :001:SETTABLEKS     v3.fov = v4
-[2128] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2129] :001:LOADK          v5 = 64.8742442
-[2131] :001:SETTABLEKS     v4.fov = v5
-[2132] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2133] :001:LOADK          v6 = 64.7174204
-[2135] :001:SETTABLEKS     v5.fov = v6
-[2136] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2137] :001:LOADK          v7 = 64.4985582
-[2139] :001:SETTABLEKS     v6.fov = v7
-[2140] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2141] :001:LOADK          v8 = 64.2183464
-[2143] :001:SETTABLEKS     v7.fov = v8
-[2144] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2145] :001:LOADK          v9 = 63.8776666
-[2147] :001:SETTABLEKS     v8.fov = v9
-[2148] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2149] :001:LOADK          v10 = 63.4775907
-[2151] :001:SETTABLEKS     v9.fov = v10
-[2152] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2153] :001:LOADK          v11 = 63.0193774
-[2155] :001:SETTABLEKS     v10.fov = v11
-[2156] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2157] :001:LOADK          v12 = 62.5044684
-[2159] :001:SETTABLEKS     v11.fov = v12
-[2160] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2161] :001:LOADK          v13 = 61.934484
-[2163] :001:SETTABLEKS     v12.fov = v13
-[2164] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2165] :001:LOADK          v14 = 61.3112174
-[2167] :001:SETTABLEKS     v13.fov = v14
-[2168] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2169] :001:LOADK          v15 = 60.6366296
-[2171] :001:SETTABLEKS     v14.fov = v15
-[2172] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2173] :001:LOADK          v16 = 59.9128433
-[2175] :001:SETTABLEKS     v15.fov = v16
-[2176] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2177] :001:LOADK          v17 = 59.1421356
-[2179] :001:SETTABLEKS     v16.fov = v17
-[2181] :001:SETLIST        v0[513] = v1
-v1[514] = v2
-v1[515] = v3
-v2[516] = v4
-v3[517] = v5
-v4[518] = v6
-v5[519] = v7
-v6[520] = v8
-v7[521] = v9
-v8[522] = v10
-v9[523] = v11
-v10[524] = v12
-v11[525] = v13
-v12[526] = v14
-v13[527] = v15
-v14[528] = v16
-[2182] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2183] :001:LOADK          v2 = 58.3269316
-[2185] :001:SETTABLEKS     v1.fov = v2
-[2186] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2187] :001:LOADK          v3 = 57.469796
-[2189] :001:SETTABLEKS     v2.fov = v3
-[2190] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2191] :001:LOADK          v4 = 56.5734259
-[2193] :001:SETTABLEKS     v3.fov = v4
-[2194] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2195] :001:LOADK          v5 = 55.6406415
-[2197] :001:SETTABLEKS     v4.fov = v5
-[2198] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2199] :001:LOADK          v6 = 54.6743777
-[2201] :001:SETTABLEKS     v5.fov = v6
-[2202] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2203] :001:LOADK          v7 = 53.6776748
-[2205] :001:SETTABLEKS     v6.fov = v7
-[2206] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2207] :001:LOADK          v8 = 52.6536686
-[2209] :001:SETTABLEKS     v7.fov = v8
-[2210] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2211] :001:LOADK          v9 = 51.6055812
-[2213] :001:SETTABLEKS     v8.fov = v9
-[2214] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2215] :001:LOADK          v10 = 50.5367102
-[2217] :001:SETTABLEKS     v9.fov = v10
-[2218] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2219] :001:LOADK          v11 = 49.4504187
-[2221] :001:SETTABLEKS     v10.fov = v11
-[2222] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2223] :001:LOADK          v12 = 48.3501245
-[2225] :001:SETTABLEKS     v11.fov = v12
-[2226] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2227] :001:LOADK          v13 = 47.2392895
-[2229] :001:SETTABLEKS     v12.fov = v13
-[2230] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2231] :001:LOADK          v14 = 46.1214089
-[2233] :001:SETTABLEKS     v13.fov = v14
-[2234] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2235] :001:LOADN          v15 = 45
-[2237] :001:SETTABLEKS     v14.fov = v15
-[2238] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2239] :001:LOADN          v16 = 65
-[2241] :001:SETTABLEKS     v15.fov = v16
-[2242] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2243] :001:LOADK          v17 = 74.6531248
-[2245] :001:SETTABLEKS     v16.fov = v17
-[2247] :001:SETLIST        v0[529] = v1
-v1[530] = v2
-v1[531] = v3
-v2[532] = v4
-v3[533] = v5
-v4[534] = v6
-v5[535] = v7
-v6[536] = v8
-v7[537] = v9
-v8[538] = v10
-v9[539] = v11
-v10[540] = v12
-v11[541] = v13
-v12[542] = v14
-v13[543] = v15
-v14[544] = v16
-[2248] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2249] :001:LOADK          v2 = 82.0481873
-[2251] :001:SETTABLEKS     v1.fov = v2
-[2252] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2253] :001:LOADK          v3 = 87.6067591
-[2255] :001:SETTABLEKS     v2.fov = v3
-[2256] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2257] :001:LOADK          v4 = 91.6943359
-[2259] :001:SETTABLEKS     v3.fov = v4
-[2260] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2261] :001:LOADK          v5 = 94.6243429
-[2263] :001:SETTABLEKS     v4.fov = v5
-[2264] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2265] :001:LOADK          v6 = 96.6621399
-[2267] :001:SETTABLEKS     v5.fov = v6
-[2268] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2269] :001:LOADK          v7 = 98.029027
-[2271] :001:SETTABLEKS     v6.fov = v7
-[2272] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2273] :001:LOADK          v8 = 98.90625
-[2275] :001:SETTABLEKS     v7.fov = v8
-[2276] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2277] :001:LOADK          v9 = 99.4390059
-[2279] :001:SETTABLEKS     v8.fov = v9
-[2280] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2281] :001:LOADK          v10 = 99.740448
-[2283] :001:SETTABLEKS     v9.fov = v10
-[2284] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2285] :001:LOADK          v11 = 99.8956919
-[2287] :001:SETTABLEKS     v10.fov = v11
-[2288] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2289] :001:LOADK          v12 = 99.9658203
-[2291] :001:SETTABLEKS     v11.fov = v12
-[2292] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2293] :001:LOADK          v13 = 99.991889
-[2295] :001:SETTABLEKS     v12.fov = v13
-[2296] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2297] :001:LOADK          v14 = 99.9989319
-[2299] :001:SETTABLEKS     v13.fov = v14
-[2300] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2301] :001:LOADK          v15 = 99.9999666
-[2303] :001:SETTABLEKS     v14.fov = v15
-[2304] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2305] :001:LOADN          v16 = 100
-[2307] :001:SETTABLEKS     v15.fov = v16
-[2308] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2309] :001:LOADN          v17 = 100
-[2311] :001:SETTABLEKS     v16.fov = v17
-[2313] :001:SETLIST        v0[545] = v1
-v1[546] = v2
-v1[547] = v3
-v2[548] = v4
-v3[549] = v5
-v4[550] = v6
-v5[551] = v7
-v6[552] = v8
-v7[553] = v9
-v8[554] = v10
-v9[555] = v11
-v10[556] = v12
-v11[557] = v13
-v12[558] = v14
-v13[559] = v15
-v14[560] = v16
-[2314] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2315] :001:LOADN          v2 = 100
-[2317] :001:SETTABLEKS     v1.fov = v2
-[2318] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2319] :001:LOADN          v3 = 100
-[2321] :001:SETTABLEKS     v2.fov = v3
-[2322] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2323] :001:LOADN          v4 = 100
-[2325] :001:SETTABLEKS     v3.fov = v4
-[2326] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2327] :001:LOADN          v5 = 100
-[2329] :001:SETTABLEKS     v4.fov = v5
-[2330] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2331] :001:LOADN          v6 = 100
-[2333] :001:SETTABLEKS     v5.fov = v6
-[2334] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2335] :001:LOADN          v7 = 100
-[2337] :001:SETTABLEKS     v6.fov = v7
-[2338] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2339] :001:LOADN          v8 = 100
-[2341] :001:SETTABLEKS     v7.fov = v8
-[2342] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2343] :001:LOADN          v9 = 100
-[2345] :001:SETTABLEKS     v8.fov = v9
-[2346] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2347] :001:LOADN          v10 = 100
-[2349] :001:SETTABLEKS     v9.fov = v10
-[2350] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2351] :001:LOADN          v11 = 100
-[2353] :001:SETTABLEKS     v10.fov = v11
-[2354] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2355] :001:LOADN          v12 = 100
-[2357] :001:SETTABLEKS     v11.fov = v12
-[2358] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2359] :001:LOADN          v13 = 100
-[2361] :001:SETTABLEKS     v12.fov = v13
-[2362] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2363] :001:LOADN          v14 = 100
-[2365] :001:SETTABLEKS     v13.fov = v14
-[2366] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2367] :001:LOADN          v15 = 100
-[2369] :001:SETTABLEKS     v14.fov = v15
-[2370] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2371] :001:LOADN          v16 = 100
-[2373] :001:SETTABLEKS     v15.fov = v16
-[2374] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2375] :001:LOADN          v17 = 100
-[2377] :001:SETTABLEKS     v16.fov = v17
-[2379] :001:SETLIST        v0[561] = v1
-v1[562] = v2
-v1[563] = v3
-v2[564] = v4
-v3[565] = v5
-v4[566] = v6
-v5[567] = v7
-v6[568] = v8
-v7[569] = v9
-v8[570] = v10
-v9[571] = v11
-v10[572] = v12
-v11[573] = v13
-v12[574] = v14
-v13[575] = v15
-v14[576] = v16
-[2380] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2381] :001:LOADN          v2 = 100
-[2383] :001:SETTABLEKS     v1.fov = v2
-[2384] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2385] :001:LOADN          v3 = 100
-[2387] :001:SETTABLEKS     v2.fov = v3
-[2388] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2389] :001:LOADN          v4 = 100
-[2391] :001:SETTABLEKS     v3.fov = v4
-[2392] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2393] :001:LOADN          v5 = 100
-[2395] :001:SETTABLEKS     v4.fov = v5
-[2396] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2397] :001:LOADN          v6 = 100
-[2399] :001:SETTABLEKS     v5.fov = v6
-[2400] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2401] :001:LOADN          v7 = 100
-[2403] :001:SETTABLEKS     v6.fov = v7
-[2404] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2405] :001:LOADN          v8 = 100
-[2407] :001:SETTABLEKS     v7.fov = v8
-[2408] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2409] :001:LOADN          v9 = 100
-[2411] :001:SETTABLEKS     v8.fov = v9
-[2412] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2413] :001:LOADN          v10 = 100
-[2415] :001:SETTABLEKS     v9.fov = v10
-[2416] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2417] :001:LOADN          v11 = 100
-[2419] :001:SETTABLEKS     v10.fov = v11
-[2420] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2421] :001:LOADN          v12 = 100
-[2423] :001:SETTABLEKS     v11.fov = v12
-[2424] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2425] :001:LOADN          v13 = 100
-[2427] :001:SETTABLEKS     v12.fov = v13
-[2428] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2429] :001:LOADN          v14 = 100
-[2431] :001:SETTABLEKS     v13.fov = v14
-[2432] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2433] :001:LOADN          v15 = 100
-[2435] :001:SETTABLEKS     v14.fov = v15
-[2436] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2437] :001:LOADN          v16 = 100
-[2439] :001:SETTABLEKS     v15.fov = v16
-[2440] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2441] :001:LOADN          v17 = 100
-[2443] :001:SETTABLEKS     v16.fov = v17
-[2445] :001:SETLIST        v0[577] = v1
-v1[578] = v2
-v1[579] = v3
-v2[580] = v4
-v3[581] = v5
-v4[582] = v6
-v5[583] = v7
-v6[584] = v8
-v7[585] = v9
-v8[586] = v10
-v9[587] = v11
-v10[588] = v12
-v11[589] = v13
-v12[590] = v14
-v13[591] = v15
-v14[592] = v16
-[2446] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2447] :001:LOADN          v2 = 100
-[2449] :001:SETTABLEKS     v1.fov = v2
-[2450] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2451] :001:LOADN          v3 = 100
-[2453] :001:SETTABLEKS     v2.fov = v3
-[2454] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2455] :001:LOADN          v4 = 100
-[2457] :001:SETTABLEKS     v3.fov = v4
-[2458] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2459] :001:LOADN          v5 = 100
-[2461] :001:SETTABLEKS     v4.fov = v5
-[2462] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2463] :001:LOADN          v6 = 100
-[2465] :001:SETTABLEKS     v5.fov = v6
-[2466] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2467] :001:LOADN          v7 = 100
-[2469] :001:SETTABLEKS     v6.fov = v7
-[2470] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2471] :001:LOADN          v8 = 100
-[2473] :001:SETTABLEKS     v7.fov = v8
-[2474] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2475] :001:LOADN          v9 = 100
-[2477] :001:SETTABLEKS     v8.fov = v9
-[2478] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2479] :001:LOADN          v10 = 100
-[2481] :001:SETTABLEKS     v9.fov = v10
-[2482] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2483] :001:LOADN          v11 = 100
-[2485] :001:SETTABLEKS     v10.fov = v11
-[2486] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2487] :001:LOADN          v12 = 100
-[2489] :001:SETTABLEKS     v11.fov = v12
-[2490] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2491] :001:LOADN          v13 = 100
-[2493] :001:SETTABLEKS     v12.fov = v13
-[2494] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2495] :001:LOADN          v14 = 100
-[2497] :001:SETTABLEKS     v13.fov = v14
-[2498] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2499] :001:LOADN          v15 = 100
-[2501] :001:SETTABLEKS     v14.fov = v15
-[2502] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2503] :001:LOADN          v16 = 100
-[2505] :001:SETTABLEKS     v15.fov = v16
-[2506] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2507] :001:LOADN          v17 = 100
-[2509] :001:SETTABLEKS     v16.fov = v17
-[2511] :001:SETLIST        v0[593] = v1
-v1[594] = v2
-v1[595] = v3
-v2[596] = v4
-v3[597] = v5
-v4[598] = v6
-v5[599] = v7
-v6[600] = v8
-v7[601] = v9
-v8[602] = v10
-v9[603] = v11
-v10[604] = v12
-v11[605] = v13
-v12[606] = v14
-v13[607] = v15
-v14[608] = v16
-[2512] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2513] :001:LOADN          v2 = 100
-[2515] :001:SETTABLEKS     v1.fov = v2
-[2516] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2517] :001:LOADN          v3 = 100
-[2519] :001:SETTABLEKS     v2.fov = v3
-[2520] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2521] :001:LOADN          v4 = 100
-[2523] :001:SETTABLEKS     v3.fov = v4
-[2524] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2525] :001:LOADN          v5 = 100
-[2527] :001:SETTABLEKS     v4.fov = v5
-[2528] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2529] :001:LOADN          v6 = 100
-[2531] :001:SETTABLEKS     v5.fov = v6
-[2532] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2533] :001:LOADN          v7 = 100
-[2535] :001:SETTABLEKS     v6.fov = v7
-[2536] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2537] :001:LOADN          v8 = 100
-[2539] :001:SETTABLEKS     v7.fov = v8
-[2540] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2541] :001:LOADN          v9 = 100
-[2543] :001:SETTABLEKS     v8.fov = v9
-[2544] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2545] :001:LOADN          v10 = 100
-[2547] :001:SETTABLEKS     v9.fov = v10
-[2548] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2549] :001:LOADN          v11 = 100
-[2551] :001:SETTABLEKS     v10.fov = v11
-[2552] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2553] :001:LOADN          v12 = 100
-[2555] :001:SETTABLEKS     v11.fov = v12
-[2556] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2557] :001:LOADN          v13 = 100
-[2559] :001:SETTABLEKS     v12.fov = v13
-[2560] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2561] :001:LOADN          v14 = 100
-[2563] :001:SETTABLEKS     v13.fov = v14
-[2564] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2565] :001:LOADN          v15 = 100
-[2567] :001:SETTABLEKS     v14.fov = v15
-[2568] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2569] :001:LOADN          v16 = 100
-[2571] :001:SETTABLEKS     v15.fov = v16
-[2572] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2573] :001:LOADN          v17 = 100
-[2575] :001:SETTABLEKS     v16.fov = v17
-[2577] :001:SETLIST        v0[609] = v1
-v1[610] = v2
-v1[611] = v3
-v2[612] = v4
-v3[613] = v5
-v4[614] = v6
-v5[615] = v7
-v6[616] = v8
-v7[617] = v9
-v8[618] = v10
-v9[619] = v11
-v10[620] = v12
-v11[621] = v13
-v12[622] = v14
-v13[623] = v15
-v14[624] = v16
-[2578] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2579] :001:LOADN          v2 = 100
-[2581] :001:SETTABLEKS     v1.fov = v2
-[2582] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2583] :001:LOADN          v3 = 100
-[2585] :001:SETTABLEKS     v2.fov = v3
-[2586] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2587] :001:LOADN          v4 = 100
-[2589] :001:SETTABLEKS     v3.fov = v4
-[2590] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2591] :001:LOADN          v5 = 100
-[2593] :001:SETTABLEKS     v4.fov = v5
-[2594] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2595] :001:LOADN          v6 = 100
-[2597] :001:SETTABLEKS     v5.fov = v6
-[2598] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2599] :001:LOADN          v7 = 100
-[2601] :001:SETTABLEKS     v6.fov = v7
-[2602] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2603] :001:LOADN          v8 = 100
-[2605] :001:SETTABLEKS     v7.fov = v8
-[2606] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2607] :001:LOADN          v9 = 100
-[2609] :001:SETTABLEKS     v8.fov = v9
-[2610] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2611] :001:LOADN          v10 = 100
-[2613] :001:SETTABLEKS     v9.fov = v10
-[2614] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2615] :001:LOADN          v11 = 100
-[2617] :001:SETTABLEKS     v10.fov = v11
-[2618] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2619] :001:LOADN          v12 = 100
-[2621] :001:SETTABLEKS     v11.fov = v12
-[2622] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2623] :001:LOADN          v13 = 100
-[2625] :001:SETTABLEKS     v12.fov = v13
-[2626] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2627] :001:LOADN          v14 = 100
-[2629] :001:SETTABLEKS     v13.fov = v14
-[2630] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2631] :001:LOADN          v15 = 100
-[2633] :001:SETTABLEKS     v14.fov = v15
-[2634] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2635] :001:LOADN          v16 = 100
-[2637] :001:SETTABLEKS     v15.fov = v16
-[2638] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2639] :001:LOADN          v17 = 100
-[2641] :001:SETTABLEKS     v16.fov = v17
-[2643] :001:SETLIST        v0[625] = v1
-v1[626] = v2
-v1[627] = v3
-v2[628] = v4
-v3[629] = v5
-v4[630] = v6
-v5[631] = v7
-v6[632] = v8
-v7[633] = v9
-v8[634] = v10
-v9[635] = v11
-v10[636] = v12
-v11[637] = v13
-v12[638] = v14
-v13[639] = v15
-v14[640] = v16
-[2644] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2645] :001:LOADN          v2 = 100
-[2647] :001:SETTABLEKS     v1.fov = v2
-[2648] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2649] :001:LOADN          v3 = 100
-[2651] :001:SETTABLEKS     v2.fov = v3
-[2652] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2653] :001:LOADN          v4 = 100
-[2655] :001:SETTABLEKS     v3.fov = v4
-[2656] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2657] :001:LOADN          v5 = 100
-[2659] :001:SETTABLEKS     v4.fov = v5
-[2660] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2661] :001:LOADN          v6 = 100
-[2663] :001:SETTABLEKS     v5.fov = v6
-[2664] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2665] :001:LOADN          v7 = 100
-[2667] :001:SETTABLEKS     v6.fov = v7
-[2668] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2669] :001:LOADN          v8 = 100
-[2671] :001:SETTABLEKS     v7.fov = v8
-[2672] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2673] :001:LOADN          v9 = 100
-[2675] :001:SETTABLEKS     v8.fov = v9
-[2676] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2677] :001:LOADN          v10 = 100
-[2679] :001:SETTABLEKS     v9.fov = v10
-[2680] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2681] :001:LOADN          v11 = 100
-[2683] :001:SETTABLEKS     v10.fov = v11
-[2684] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2685] :001:LOADN          v12 = 100
-[2687] :001:SETTABLEKS     v11.fov = v12
-[2688] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2689] :001:LOADN          v13 = 100
-[2691] :001:SETTABLEKS     v12.fov = v13
-[2692] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2693] :001:LOADN          v14 = 100
-[2695] :001:SETTABLEKS     v13.fov = v14
-[2696] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2697] :001:LOADN          v15 = 100
-[2699] :001:SETTABLEKS     v14.fov = v15
-[2700] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2701] :001:LOADN          v16 = 100
-[2703] :001:SETTABLEKS     v15.fov = v16
-[2704] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2705] :001:LOADN          v17 = 100
-[2707] :001:SETTABLEKS     v16.fov = v17
-[2709] :001:SETLIST        v0[641] = v1
-v1[642] = v2
-v1[643] = v3
-v2[644] = v4
-v3[645] = v5
-v4[646] = v6
-v5[647] = v7
-v6[648] = v8
-v7[649] = v9
-v8[650] = v10
-v9[651] = v11
-v10[652] = v12
-v11[653] = v13
-v12[654] = v14
-v13[655] = v15
-v14[656] = v16
-[2710] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2711] :001:LOADN          v2 = 100
-[2713] :001:SETTABLEKS     v1.fov = v2
-[2714] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2715] :001:LOADN          v3 = 100
-[2717] :001:SETTABLEKS     v2.fov = v3
-[2718] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2719] :001:LOADN          v4 = 100
-[2721] :001:SETTABLEKS     v3.fov = v4
-[2722] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2723] :001:LOADN          v5 = 100
-[2725] :001:SETTABLEKS     v4.fov = v5
-[2726] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2727] :001:LOADN          v6 = 100
-[2729] :001:SETTABLEKS     v5.fov = v6
-[2730] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2731] :001:LOADN          v7 = 100
-[2733] :001:SETTABLEKS     v6.fov = v7
-[2734] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2735] :001:LOADN          v8 = 100
-[2737] :001:SETTABLEKS     v7.fov = v8
-[2738] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2739] :001:LOADN          v9 = 100
-[2741] :001:SETTABLEKS     v8.fov = v9
-[2742] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2743] :001:LOADN          v10 = 100
-[2745] :001:SETTABLEKS     v9.fov = v10
-[2746] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2747] :001:LOADN          v11 = 100
-[2749] :001:SETTABLEKS     v10.fov = v11
-[2750] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2751] :001:LOADN          v12 = 100
-[2753] :001:SETTABLEKS     v11.fov = v12
-[2754] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2755] :001:LOADN          v13 = 100
-[2757] :001:SETTABLEKS     v12.fov = v13
-[2758] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2759] :001:LOADN          v14 = 100
-[2761] :001:SETTABLEKS     v13.fov = v14
-[2762] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2763] :001:LOADN          v15 = 100
-[2765] :001:SETTABLEKS     v14.fov = v15
-[2766] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2767] :001:LOADN          v16 = 100
-[2769] :001:SETTABLEKS     v15.fov = v16
-[2770] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2771] :001:LOADN          v17 = 100
-[2773] :001:SETTABLEKS     v16.fov = v17
-[2775] :001:SETLIST        v0[657] = v1
-v1[658] = v2
-v1[659] = v3
-v2[660] = v4
-v3[661] = v5
-v4[662] = v6
-v5[663] = v7
-v6[664] = v8
-v7[665] = v9
-v8[666] = v10
-v9[667] = v11
-v10[668] = v12
-v11[669] = v13
-v12[670] = v14
-v13[671] = v15
-v14[672] = v16
-[2776] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2777] :001:LOADN          v2 = 100
-[2779] :001:SETTABLEKS     v1.fov = v2
-[2780] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2781] :001:LOADN          v3 = 100
-[2783] :001:SETTABLEKS     v2.fov = v3
-[2784] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2785] :001:LOADN          v4 = 100
-[2787] :001:SETTABLEKS     v3.fov = v4
-[2788] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2789] :001:LOADN          v5 = 100
-[2791] :001:SETTABLEKS     v4.fov = v5
-[2792] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2793] :001:LOADN          v6 = 100
-[2795] :001:SETTABLEKS     v5.fov = v6
-[2796] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2797] :001:LOADN          v7 = 100
-[2799] :001:SETTABLEKS     v6.fov = v7
-[2800] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2801] :001:LOADN          v8 = 100
-[2803] :001:SETTABLEKS     v7.fov = v8
-[2804] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2805] :001:LOADN          v9 = 100
-[2807] :001:SETTABLEKS     v8.fov = v9
-[2808] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2809] :001:LOADN          v10 = 100
-[2811] :001:SETTABLEKS     v9.fov = v10
-[2812] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2813] :001:LOADN          v11 = 100
-[2815] :001:SETTABLEKS     v10.fov = v11
-[2816] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2817] :001:LOADN          v12 = 100
-[2819] :001:SETTABLEKS     v11.fov = v12
-[2820] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2821] :001:LOADN          v13 = 100
-[2823] :001:SETTABLEKS     v12.fov = v13
-[2824] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2825] :001:LOADN          v14 = 100
-[2827] :001:SETTABLEKS     v13.fov = v14
-[2828] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2829] :001:LOADN          v15 = 100
-[2831] :001:SETTABLEKS     v14.fov = v15
-[2832] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2833] :001:LOADN          v16 = 100
-[2835] :001:SETTABLEKS     v15.fov = v16
-[2836] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2837] :001:LOADN          v17 = 100
-[2839] :001:SETTABLEKS     v16.fov = v17
-[2841] :001:SETLIST        v0[673] = v1
-v1[674] = v2
-v1[675] = v3
-v2[676] = v4
-v3[677] = v5
-v4[678] = v6
-v5[679] = v7
-v6[680] = v8
-v7[681] = v9
-v8[682] = v10
-v9[683] = v11
-v10[684] = v12
-v11[685] = v13
-v12[686] = v14
-v13[687] = v15
-v14[688] = v16
-[2842] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2843] :001:LOADN          v2 = 100
-[2845] :001:SETTABLEKS     v1.fov = v2
-[2846] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2847] :001:LOADN          v3 = 100
-[2849] :001:SETTABLEKS     v2.fov = v3
-[2850] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2851] :001:LOADN          v4 = 100
-[2853] :001:SETTABLEKS     v3.fov = v4
-[2854] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2855] :001:LOADN          v5 = 100
-[2857] :001:SETTABLEKS     v4.fov = v5
-[2858] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2859] :001:LOADN          v6 = 100
-[2861] :001:SETTABLEKS     v5.fov = v6
-[2862] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2863] :001:LOADN          v7 = 100
-[2865] :001:SETTABLEKS     v6.fov = v7
-[2866] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2867] :001:LOADN          v8 = 100
-[2869] :001:SETTABLEKS     v7.fov = v8
-[2870] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2871] :001:LOADN          v9 = 100
-[2873] :001:SETTABLEKS     v8.fov = v9
-[2874] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2875] :001:LOADN          v10 = 100
-[2877] :001:SETTABLEKS     v9.fov = v10
-[2878] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2879] :001:LOADN          v11 = 100
-[2881] :001:SETTABLEKS     v10.fov = v11
-[2882] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2883] :001:LOADN          v12 = 100
-[2885] :001:SETTABLEKS     v11.fov = v12
-[2886] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2887] :001:LOADN          v13 = 100
-[2889] :001:SETTABLEKS     v12.fov = v13
-[2890] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2891] :001:LOADN          v14 = 100
-[2893] :001:SETTABLEKS     v13.fov = v14
-[2894] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2895] :001:LOADN          v15 = 100
-[2897] :001:SETTABLEKS     v14.fov = v15
-[2898] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2899] :001:LOADN          v16 = 100
-[2901] :001:SETTABLEKS     v15.fov = v16
-[2902] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2903] :001:LOADN          v17 = 100
-[2905] :001:SETTABLEKS     v16.fov = v17
-[2907] :001:SETLIST        v0[689] = v1
-v1[690] = v2
-v1[691] = v3
-v2[692] = v4
-v3[693] = v5
-v4[694] = v6
-v5[695] = v7
-v6[696] = v8
-v7[697] = v9
-v8[698] = v10
-v9[699] = v11
-v10[700] = v12
-v11[701] = v13
-v12[702] = v14
-v13[703] = v15
-v14[704] = v16
-[2908] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2909] :001:LOADN          v2 = 100
-[2911] :001:SETTABLEKS     v1.fov = v2
-[2912] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2913] :001:LOADN          v3 = 100
-[2915] :001:SETTABLEKS     v2.fov = v3
-[2916] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2917] :001:LOADN          v4 = 100
-[2919] :001:SETTABLEKS     v3.fov = v4
-[2920] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2921] :001:LOADN          v5 = 100
-[2923] :001:SETTABLEKS     v4.fov = v5
-[2924] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2925] :001:LOADN          v6 = 100
-[2927] :001:SETTABLEKS     v5.fov = v6
-[2928] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2929] :001:LOADN          v7 = 100
-[2931] :001:SETTABLEKS     v6.fov = v7
-[2932] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2933] :001:LOADN          v8 = 100
-[2935] :001:SETTABLEKS     v7.fov = v8
-[2936] :001:DUPTABLE       v8 = {} -- {"fov"}
-[2937] :001:LOADN          v9 = 100
-[2939] :001:SETTABLEKS     v8.fov = v9
-[2940] :001:DUPTABLE       v9 = {} -- {"fov"}
-[2941] :001:LOADN          v10 = 100
-[2943] :001:SETTABLEKS     v9.fov = v10
-[2944] :001:DUPTABLE       v10 = {} -- {"fov"}
-[2945] :001:LOADN          v11 = 100
-[2947] :001:SETTABLEKS     v10.fov = v11
-[2948] :001:DUPTABLE       v11 = {} -- {"fov"}
-[2949] :001:LOADN          v12 = 100
-[2951] :001:SETTABLEKS     v11.fov = v12
-[2952] :001:DUPTABLE       v12 = {} -- {"fov"}
-[2953] :001:LOADN          v13 = 100
-[2955] :001:SETTABLEKS     v12.fov = v13
-[2956] :001:DUPTABLE       v13 = {} -- {"fov"}
-[2957] :001:LOADN          v14 = 100
-[2959] :001:SETTABLEKS     v13.fov = v14
-[2960] :001:DUPTABLE       v14 = {} -- {"fov"}
-[2961] :001:LOADN          v15 = 100
-[2963] :001:SETTABLEKS     v14.fov = v15
-[2964] :001:DUPTABLE       v15 = {} -- {"fov"}
-[2965] :001:LOADN          v16 = 100
-[2967] :001:SETTABLEKS     v15.fov = v16
-[2968] :001:DUPTABLE       v16 = {} -- {"fov"}
-[2969] :001:LOADN          v17 = 100
-[2971] :001:SETTABLEKS     v16.fov = v17
-[2973] :001:SETLIST        v0[705] = v1
-v1[706] = v2
-v1[707] = v3
-v2[708] = v4
-v3[709] = v5
-v4[710] = v6
-v5[711] = v7
-v6[712] = v8
-v7[713] = v9
-v8[714] = v10
-v9[715] = v11
-v10[716] = v12
-v11[717] = v13
-v12[718] = v14
-v13[719] = v15
-v14[720] = v16
-[2974] :001:DUPTABLE       v1 = {} -- {"fov"}
-[2975] :001:LOADN          v2 = 100
-[2977] :001:SETTABLEKS     v1.fov = v2
-[2978] :001:DUPTABLE       v2 = {} -- {"fov"}
-[2979] :001:LOADN          v3 = 100
-[2981] :001:SETTABLEKS     v2.fov = v3
-[2982] :001:DUPTABLE       v3 = {} -- {"fov"}
-[2983] :001:LOADN          v4 = 100
-[2985] :001:SETTABLEKS     v3.fov = v4
-[2986] :001:DUPTABLE       v4 = {} -- {"fov"}
-[2987] :001:LOADN          v5 = 100
-[2989] :001:SETTABLEKS     v4.fov = v5
-[2990] :001:DUPTABLE       v5 = {} -- {"fov"}
-[2991] :001:LOADN          v6 = 100
-[2993] :001:SETTABLEKS     v5.fov = v6
-[2994] :001:DUPTABLE       v6 = {} -- {"fov"}
-[2995] :001:LOADN          v7 = 100
-[2997] :001:SETTABLEKS     v6.fov = v7
-[2998] :001:DUPTABLE       v7 = {} -- {"fov"}
-[2999] :001:LOADN          v8 = 100
-[3001] :001:SETTABLEKS     v7.fov = v8
-[3002] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3003] :001:LOADN          v9 = 100
-[3005] :001:SETTABLEKS     v8.fov = v9
-[3006] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3007] :001:LOADN          v10 = 100
-[3009] :001:SETTABLEKS     v9.fov = v10
-[3010] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3011] :001:LOADN          v11 = 100
-[3013] :001:SETTABLEKS     v10.fov = v11
-[3014] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3015] :001:LOADN          v12 = 100
-[3017] :001:SETTABLEKS     v11.fov = v12
-[3018] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3019] :001:LOADN          v13 = 100
-[3021] :001:SETTABLEKS     v12.fov = v13
-[3022] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3023] :001:LOADN          v14 = 100
-[3025] :001:SETTABLEKS     v13.fov = v14
-[3026] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3027] :001:LOADN          v15 = 100
-[3029] :001:SETTABLEKS     v14.fov = v15
-[3030] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3031] :001:LOADN          v16 = 100
-[3033] :001:SETTABLEKS     v15.fov = v16
-[3034] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3035] :001:LOADN          v17 = 100
-[3037] :001:SETTABLEKS     v16.fov = v17
-[3039] :001:SETLIST        v0[721] = v1
-v1[722] = v2
-v1[723] = v3
-v2[724] = v4
-v3[725] = v5
-v4[726] = v6
-v5[727] = v7
-v6[728] = v8
-v7[729] = v9
-v8[730] = v10
-v9[731] = v11
-v10[732] = v12
-v11[733] = v13
-v12[734] = v14
-v13[735] = v15
-v14[736] = v16
-[3040] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3041] :001:LOADN          v2 = 100
-[3043] :001:SETTABLEKS     v1.fov = v2
-[3044] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3045] :001:LOADN          v3 = 100
-[3047] :001:SETTABLEKS     v2.fov = v3
-[3048] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3049] :001:LOADN          v4 = 100
-[3051] :001:SETTABLEKS     v3.fov = v4
-[3052] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3053] :001:LOADN          v5 = 100
-[3055] :001:SETTABLEKS     v4.fov = v5
-[3056] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3057] :001:LOADN          v6 = 100
-[3059] :001:SETTABLEKS     v5.fov = v6
-[3060] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3061] :001:LOADN          v7 = 100
-[3063] :001:SETTABLEKS     v6.fov = v7
-[3064] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3065] :001:LOADN          v8 = 100
-[3067] :001:SETTABLEKS     v7.fov = v8
-[3068] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3069] :001:LOADN          v9 = 100
-[3071] :001:SETTABLEKS     v8.fov = v9
-[3072] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3073] :001:LOADN          v10 = 100
-[3075] :001:SETTABLEKS     v9.fov = v10
-[3076] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3077] :001:LOADN          v11 = 100
-[3079] :001:SETTABLEKS     v10.fov = v11
-[3080] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3081] :001:LOADN          v12 = 100
-[3083] :001:SETTABLEKS     v11.fov = v12
-[3084] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3085] :001:LOADN          v13 = 100
-[3087] :001:SETTABLEKS     v12.fov = v13
-[3088] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3089] :001:LOADN          v14 = 100
-[3091] :001:SETTABLEKS     v13.fov = v14
-[3092] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3093] :001:LOADN          v15 = 100
-[3095] :001:SETTABLEKS     v14.fov = v15
-[3096] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3097] :001:LOADN          v16 = 100
-[3099] :001:SETTABLEKS     v15.fov = v16
-[3100] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3101] :001:LOADN          v17 = 100
-[3103] :001:SETTABLEKS     v16.fov = v17
-[3105] :001:SETLIST        v0[737] = v1
-v1[738] = v2
-v1[739] = v3
-v2[740] = v4
-v3[741] = v5
-v4[742] = v6
-v5[743] = v7
-v6[744] = v8
-v7[745] = v9
-v8[746] = v10
-v9[747] = v11
-v10[748] = v12
-v11[749] = v13
-v12[750] = v14
-v13[751] = v15
-v14[752] = v16
-[3106] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3107] :001:LOADN          v2 = 100
-[3109] :001:SETTABLEKS     v1.fov = v2
-[3110] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3111] :001:LOADN          v3 = 100
-[3113] :001:SETTABLEKS     v2.fov = v3
-[3114] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3115] :001:LOADN          v4 = 100
-[3117] :001:SETTABLEKS     v3.fov = v4
-[3118] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3119] :001:LOADN          v5 = 100
-[3121] :001:SETTABLEKS     v4.fov = v5
-[3122] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3123] :001:LOADN          v6 = 100
-[3125] :001:SETTABLEKS     v5.fov = v6
-[3126] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3127] :001:LOADN          v7 = 100
-[3129] :001:SETTABLEKS     v6.fov = v7
-[3130] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3131] :001:LOADN          v8 = 100
-[3133] :001:SETTABLEKS     v7.fov = v8
-[3134] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3135] :001:LOADN          v9 = 100
-[3137] :001:SETTABLEKS     v8.fov = v9
-[3138] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3139] :001:LOADN          v10 = 100
-[3141] :001:SETTABLEKS     v9.fov = v10
-[3142] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3143] :001:LOADN          v11 = 100
-[3145] :001:SETTABLEKS     v10.fov = v11
-[3146] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3147] :001:LOADN          v12 = 100
-[3149] :001:SETTABLEKS     v11.fov = v12
-[3150] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3151] :001:LOADN          v13 = 100
-[3153] :001:SETTABLEKS     v12.fov = v13
-[3154] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3155] :001:LOADN          v14 = 100
-[3157] :001:SETTABLEKS     v13.fov = v14
-[3158] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3159] :001:LOADN          v15 = 100
-[3161] :001:SETTABLEKS     v14.fov = v15
-[3162] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3163] :001:LOADN          v16 = 100
-[3165] :001:SETTABLEKS     v15.fov = v16
-[3166] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3167] :001:LOADN          v17 = 100
-[3169] :001:SETTABLEKS     v16.fov = v17
-[3171] :001:SETLIST        v0[753] = v1
-v1[754] = v2
-v1[755] = v3
-v2[756] = v4
-v3[757] = v5
-v4[758] = v6
-v5[759] = v7
-v6[760] = v8
-v7[761] = v9
-v8[762] = v10
-v9[763] = v11
-v10[764] = v12
-v11[765] = v13
-v12[766] = v14
-v13[767] = v15
-v14[768] = v16
-[3172] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3173] :001:LOADN          v2 = 100
-[3175] :001:SETTABLEKS     v1.fov = v2
-[3176] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3177] :001:LOADN          v3 = 100
-[3179] :001:SETTABLEKS     v2.fov = v3
-[3180] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3181] :001:LOADN          v4 = 100
-[3183] :001:SETTABLEKS     v3.fov = v4
-[3184] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3185] :001:LOADN          v5 = 100
-[3187] :001:SETTABLEKS     v4.fov = v5
-[3188] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3189] :001:LOADN          v6 = 100
-[3191] :001:SETTABLEKS     v5.fov = v6
-[3192] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3193] :001:LOADN          v7 = 100
-[3195] :001:SETTABLEKS     v6.fov = v7
-[3196] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3197] :001:LOADN          v8 = 100
-[3199] :001:SETTABLEKS     v7.fov = v8
-[3200] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3201] :001:LOADN          v9 = 100
-[3203] :001:SETTABLEKS     v8.fov = v9
-[3204] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3205] :001:LOADN          v10 = 100
-[3207] :001:SETTABLEKS     v9.fov = v10
-[3208] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3209] :001:LOADN          v11 = 100
-[3211] :001:SETTABLEKS     v10.fov = v11
-[3212] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3213] :001:LOADN          v12 = 100
-[3215] :001:SETTABLEKS     v11.fov = v12
-[3216] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3217] :001:LOADN          v13 = 100
-[3219] :001:SETTABLEKS     v12.fov = v13
-[3220] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3221] :001:LOADN          v14 = 100
-[3223] :001:SETTABLEKS     v13.fov = v14
-[3224] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3225] :001:LOADN          v15 = 100
-[3227] :001:SETTABLEKS     v14.fov = v15
-[3228] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3229] :001:LOADN          v16 = 100
-[3231] :001:SETTABLEKS     v15.fov = v16
-[3232] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3233] :001:LOADN          v17 = 100
-[3235] :001:SETTABLEKS     v16.fov = v17
-[3237] :001:SETLIST        v0[769] = v1
-v1[770] = v2
-v1[771] = v3
-v2[772] = v4
-v3[773] = v5
-v4[774] = v6
-v5[775] = v7
-v6[776] = v8
-v7[777] = v9
-v8[778] = v10
-v9[779] = v11
-v10[780] = v12
-v11[781] = v13
-v12[782] = v14
-v13[783] = v15
-v14[784] = v16
-[3238] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3239] :001:LOADN          v2 = 100
-[3241] :001:SETTABLEKS     v1.fov = v2
-[3242] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3243] :001:LOADN          v3 = 100
-[3245] :001:SETTABLEKS     v2.fov = v3
-[3246] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3247] :001:LOADN          v4 = 100
-[3249] :001:SETTABLEKS     v3.fov = v4
-[3250] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3251] :001:LOADN          v5 = 100
-[3253] :001:SETTABLEKS     v4.fov = v5
-[3254] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3255] :001:LOADN          v6 = 100
-[3257] :001:SETTABLEKS     v5.fov = v6
-[3258] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3259] :001:LOADN          v7 = 100
-[3261] :001:SETTABLEKS     v6.fov = v7
-[3262] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3263] :001:LOADN          v8 = 100
-[3265] :001:SETTABLEKS     v7.fov = v8
-[3266] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3267] :001:LOADN          v9 = 100
-[3269] :001:SETTABLEKS     v8.fov = v9
-[3270] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3271] :001:LOADN          v10 = 100
-[3273] :001:SETTABLEKS     v9.fov = v10
-[3274] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3275] :001:LOADN          v11 = 100
-[3277] :001:SETTABLEKS     v10.fov = v11
-[3278] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3279] :001:LOADN          v12 = 100
-[3281] :001:SETTABLEKS     v11.fov = v12
-[3282] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3283] :001:LOADN          v13 = 100
-[3285] :001:SETTABLEKS     v12.fov = v13
-[3286] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3287] :001:LOADN          v14 = 100
-[3289] :001:SETTABLEKS     v13.fov = v14
-[3290] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3291] :001:LOADN          v15 = 100
-[3293] :001:SETTABLEKS     v14.fov = v15
-[3294] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3295] :001:LOADN          v16 = 100
-[3297] :001:SETTABLEKS     v15.fov = v16
-[3298] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3299] :001:LOADN          v17 = 100
-[3301] :001:SETTABLEKS     v16.fov = v17
-[3303] :001:SETLIST        v0[785] = v1
-v1[786] = v2
-v1[787] = v3
-v2[788] = v4
-v3[789] = v5
-v4[790] = v6
-v5[791] = v7
-v6[792] = v8
-v7[793] = v9
-v8[794] = v10
-v9[795] = v11
-v10[796] = v12
-v11[797] = v13
-v12[798] = v14
-v13[799] = v15
-v14[800] = v16
-[3304] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3305] :001:LOADN          v2 = 100
-[3307] :001:SETTABLEKS     v1.fov = v2
-[3308] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3309] :001:LOADN          v3 = 100
-[3311] :001:SETTABLEKS     v2.fov = v3
-[3312] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3313] :001:LOADN          v4 = 100
-[3315] :001:SETTABLEKS     v3.fov = v4
-[3316] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3317] :001:LOADN          v5 = 100
-[3319] :001:SETTABLEKS     v4.fov = v5
-[3320] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3321] :001:LOADN          v6 = 100
-[3323] :001:SETTABLEKS     v5.fov = v6
-[3324] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3325] :001:LOADN          v7 = 100
-[3327] :001:SETTABLEKS     v6.fov = v7
-[3328] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3329] :001:LOADN          v8 = 100
-[3331] :001:SETTABLEKS     v7.fov = v8
-[3332] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3333] :001:LOADN          v9 = 100
-[3335] :001:SETTABLEKS     v8.fov = v9
-[3336] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3337] :001:LOADN          v10 = 100
-[3339] :001:SETTABLEKS     v9.fov = v10
-[3340] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3341] :001:LOADN          v11 = 100
-[3343] :001:SETTABLEKS     v10.fov = v11
-[3344] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3345] :001:LOADN          v12 = 100
-[3347] :001:SETTABLEKS     v11.fov = v12
-[3348] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3349] :001:LOADN          v13 = 100
-[3351] :001:SETTABLEKS     v12.fov = v13
-[3352] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3353] :001:LOADN          v14 = 100
-[3355] :001:SETTABLEKS     v13.fov = v14
-[3356] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3357] :001:LOADN          v15 = 100
-[3359] :001:SETTABLEKS     v14.fov = v15
-[3360] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3361] :001:LOADN          v16 = 100
-[3363] :001:SETTABLEKS     v15.fov = v16
-[3364] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3365] :001:LOADN          v17 = 100
-[3367] :001:SETTABLEKS     v16.fov = v17
-[3369] :001:SETLIST        v0[801] = v1
-v1[802] = v2
-v1[803] = v3
-v2[804] = v4
-v3[805] = v5
-v4[806] = v6
-v5[807] = v7
-v6[808] = v8
-v7[809] = v9
-v8[810] = v10
-v9[811] = v11
-v10[812] = v12
-v11[813] = v13
-v12[814] = v14
-v13[815] = v15
-v14[816] = v16
-[3370] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3371] :001:LOADN          v2 = 100
-[3373] :001:SETTABLEKS     v1.fov = v2
-[3374] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3375] :001:LOADN          v3 = 100
-[3377] :001:SETTABLEKS     v2.fov = v3
-[3378] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3379] :001:LOADN          v4 = 100
-[3381] :001:SETTABLEKS     v3.fov = v4
-[3382] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3383] :001:LOADN          v5 = 100
-[3385] :001:SETTABLEKS     v4.fov = v5
-[3386] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3387] :001:LOADN          v6 = 100
-[3389] :001:SETTABLEKS     v5.fov = v6
-[3390] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3391] :001:LOADN          v7 = 100
-[3393] :001:SETTABLEKS     v6.fov = v7
-[3394] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3395] :001:LOADN          v8 = 100
-[3397] :001:SETTABLEKS     v7.fov = v8
-[3398] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3399] :001:LOADN          v9 = 100
-[3401] :001:SETTABLEKS     v8.fov = v9
-[3402] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3403] :001:LOADN          v10 = 100
-[3405] :001:SETTABLEKS     v9.fov = v10
-[3406] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3407] :001:LOADN          v11 = 100
-[3409] :001:SETTABLEKS     v10.fov = v11
-[3410] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3411] :001:LOADN          v12 = 100
-[3413] :001:SETTABLEKS     v11.fov = v12
-[3414] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3415] :001:LOADN          v13 = 100
-[3417] :001:SETTABLEKS     v12.fov = v13
-[3418] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3419] :001:LOADN          v14 = 100
-[3421] :001:SETTABLEKS     v13.fov = v14
-[3422] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3423] :001:LOADN          v15 = 100
-[3425] :001:SETTABLEKS     v14.fov = v15
-[3426] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3427] :001:LOADN          v16 = 100
-[3429] :001:SETTABLEKS     v15.fov = v16
-[3430] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3431] :001:LOADN          v17 = 100
-[3433] :001:SETTABLEKS     v16.fov = v17
-[3435] :001:SETLIST        v0[817] = v1
-v1[818] = v2
-v1[819] = v3
-v2[820] = v4
-v3[821] = v5
-v4[822] = v6
-v5[823] = v7
-v6[824] = v8
-v7[825] = v9
-v8[826] = v10
-v9[827] = v11
-v10[828] = v12
-v11[829] = v13
-v12[830] = v14
-v13[831] = v15
-v14[832] = v16
-[3436] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3437] :001:LOADN          v2 = 100
-[3439] :001:SETTABLEKS     v1.fov = v2
-[3440] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3441] :001:LOADN          v3 = 100
-[3443] :001:SETTABLEKS     v2.fov = v3
-[3444] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3445] :001:LOADN          v4 = 100
-[3447] :001:SETTABLEKS     v3.fov = v4
-[3448] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3449] :001:LOADN          v5 = 100
-[3451] :001:SETTABLEKS     v4.fov = v5
-[3452] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3453] :001:LOADN          v6 = 100
-[3455] :001:SETTABLEKS     v5.fov = v6
-[3456] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3457] :001:LOADN          v7 = 100
-[3459] :001:SETTABLEKS     v6.fov = v7
-[3460] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3461] :001:LOADN          v8 = 100
-[3463] :001:SETTABLEKS     v7.fov = v8
-[3464] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3465] :001:LOADN          v9 = 100
-[3467] :001:SETTABLEKS     v8.fov = v9
-[3468] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3469] :001:LOADN          v10 = 100
-[3471] :001:SETTABLEKS     v9.fov = v10
-[3472] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3473] :001:LOADN          v11 = 100
-[3475] :001:SETTABLEKS     v10.fov = v11
-[3476] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3477] :001:LOADN          v12 = 100
-[3479] :001:SETTABLEKS     v11.fov = v12
-[3480] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3481] :001:LOADN          v13 = 100
-[3483] :001:SETTABLEKS     v12.fov = v13
-[3484] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3485] :001:LOADN          v14 = 100
-[3487] :001:SETTABLEKS     v13.fov = v14
-[3488] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3489] :001:LOADN          v15 = 100
-[3491] :001:SETTABLEKS     v14.fov = v15
-[3492] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3493] :001:LOADN          v16 = 100
-[3495] :001:SETTABLEKS     v15.fov = v16
-[3496] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3497] :001:LOADN          v17 = 100
-[3499] :001:SETTABLEKS     v16.fov = v17
-[3501] :001:SETLIST        v0[833] = v1
-v1[834] = v2
-v1[835] = v3
-v2[836] = v4
-v3[837] = v5
-v4[838] = v6
-v5[839] = v7
-v6[840] = v8
-v7[841] = v9
-v8[842] = v10
-v9[843] = v11
-v10[844] = v12
-v11[845] = v13
-v12[846] = v14
-v13[847] = v15
-v14[848] = v16
-[3502] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3503] :001:LOADN          v2 = 100
-[3505] :001:SETTABLEKS     v1.fov = v2
-[3506] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3507] :001:LOADN          v3 = 100
-[3509] :001:SETTABLEKS     v2.fov = v3
-[3510] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3511] :001:LOADN          v4 = 100
-[3513] :001:SETTABLEKS     v3.fov = v4
-[3514] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3515] :001:LOADN          v5 = 100
-[3517] :001:SETTABLEKS     v4.fov = v5
-[3518] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3519] :001:LOADN          v6 = 100
-[3521] :001:SETTABLEKS     v5.fov = v6
-[3522] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3523] :001:LOADN          v7 = 100
-[3525] :001:SETTABLEKS     v6.fov = v7
-[3526] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3527] :001:LOADN          v8 = 100
-[3529] :001:SETTABLEKS     v7.fov = v8
-[3530] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3531] :001:LOADN          v9 = 100
-[3533] :001:SETTABLEKS     v8.fov = v9
-[3534] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3535] :001:LOADN          v10 = 100
-[3537] :001:SETTABLEKS     v9.fov = v10
-[3538] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3539] :001:LOADN          v11 = 100
-[3541] :001:SETTABLEKS     v10.fov = v11
-[3542] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3543] :001:LOADN          v12 = 100
-[3545] :001:SETTABLEKS     v11.fov = v12
-[3546] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3547] :001:LOADN          v13 = 100
-[3549] :001:SETTABLEKS     v12.fov = v13
-[3550] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3551] :001:LOADN          v14 = 100
-[3553] :001:SETTABLEKS     v13.fov = v14
-[3554] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3555] :001:LOADN          v15 = 100
-[3557] :001:SETTABLEKS     v14.fov = v15
-[3558] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3559] :001:LOADN          v16 = 100
-[3561] :001:SETTABLEKS     v15.fov = v16
-[3562] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3563] :001:LOADN          v17 = 100
-[3565] :001:SETTABLEKS     v16.fov = v17
-[3567] :001:SETLIST        v0[849] = v1
-v1[850] = v2
-v1[851] = v3
-v2[852] = v4
-v3[853] = v5
-v4[854] = v6
-v5[855] = v7
-v6[856] = v8
-v7[857] = v9
-v8[858] = v10
-v9[859] = v11
-v10[860] = v12
-v11[861] = v13
-v12[862] = v14
-v13[863] = v15
-v14[864] = v16
-[3568] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3569] :001:LOADN          v2 = 100
-[3571] :001:SETTABLEKS     v1.fov = v2
-[3572] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3573] :001:LOADN          v3 = 100
-[3575] :001:SETTABLEKS     v2.fov = v3
-[3576] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3577] :001:LOADN          v4 = 100
-[3579] :001:SETTABLEKS     v3.fov = v4
-[3580] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3581] :001:LOADN          v5 = 100
-[3583] :001:SETTABLEKS     v4.fov = v5
-[3584] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3585] :001:LOADN          v6 = 100
-[3587] :001:SETTABLEKS     v5.fov = v6
-[3588] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3589] :001:LOADN          v7 = 100
-[3591] :001:SETTABLEKS     v6.fov = v7
-[3592] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3593] :001:LOADN          v8 = 100
-[3595] :001:SETTABLEKS     v7.fov = v8
-[3596] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3597] :001:LOADN          v9 = 100
-[3599] :001:SETTABLEKS     v8.fov = v9
-[3600] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3601] :001:LOADN          v10 = 100
-[3603] :001:SETTABLEKS     v9.fov = v10
-[3604] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3605] :001:LOADN          v11 = 100
-[3607] :001:SETTABLEKS     v10.fov = v11
-[3608] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3609] :001:LOADN          v12 = 100
-[3611] :001:SETTABLEKS     v11.fov = v12
-[3612] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3613] :001:LOADN          v13 = 100
-[3615] :001:SETTABLEKS     v12.fov = v13
-[3616] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3617] :001:LOADN          v14 = 100
-[3619] :001:SETTABLEKS     v13.fov = v14
-[3620] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3621] :001:LOADN          v15 = 100
-[3623] :001:SETTABLEKS     v14.fov = v15
-[3624] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3625] :001:LOADN          v16 = 100
-[3627] :001:SETTABLEKS     v15.fov = v16
-[3628] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3629] :001:LOADN          v17 = 100
-[3631] :001:SETTABLEKS     v16.fov = v17
-[3633] :001:SETLIST        v0[865] = v1
-v1[866] = v2
-v1[867] = v3
-v2[868] = v4
-v3[869] = v5
-v4[870] = v6
-v5[871] = v7
-v6[872] = v8
-v7[873] = v9
-v8[874] = v10
-v9[875] = v11
-v10[876] = v12
-v11[877] = v13
-v12[878] = v14
-v13[879] = v15
-v14[880] = v16
-[3634] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3635] :001:LOADN          v2 = 100
-[3637] :001:SETTABLEKS     v1.fov = v2
-[3638] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3639] :001:LOADN          v3 = 100
-[3641] :001:SETTABLEKS     v2.fov = v3
-[3642] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3643] :001:LOADN          v4 = 100
-[3645] :001:SETTABLEKS     v3.fov = v4
-[3646] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3647] :001:LOADN          v5 = 100
-[3649] :001:SETTABLEKS     v4.fov = v5
-[3650] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3651] :001:LOADK          v6 = 100.0574163
-[3653] :001:SETTABLEKS     v5.fov = v6
-[3654] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3655] :001:LOADK          v7 = 100.2213642
-[3657] :001:SETTABLEKS     v6.fov = v7
-[3658] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3659] :001:LOADK          v8 = 100.4793918
-[3661] :001:SETTABLEKS     v7.fov = v8
-[3662] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3663] :001:LOADK          v9 = 100.8190474
-[3665] :001:SETTABLEKS     v8.fov = v9
-[3666] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3667] :001:LOADK          v10 = 101.2278793
-[3669] :001:SETTABLEKS     v9.fov = v10
-[3670] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3671] :001:LOADK          v11 = 101.6934358
-[3673] :001:SETTABLEKS     v10.fov = v11
-[3674] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3675] :001:LOADK          v12 = 102.2032651
-[3677] :001:SETTABLEKS     v11.fov = v12
-[3678] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3679] :001:LOADK          v13 = 102.7449155
-[3681] :001:SETTABLEKS     v12.fov = v13
-[3682] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3683] :001:LOADK          v14 = 103.3059353
-[3685] :001:SETTABLEKS     v13.fov = v14
-[3686] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3687] :001:LOADK          v15 = 103.8738727
-[3689] :001:SETTABLEKS     v14.fov = v15
-[3690] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3691] :001:LOADK          v16 = 104.4362761
-[3693] :001:SETTABLEKS     v15.fov = v16
-[3694] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3695] :001:LOADK          v17 = 104.9806935
-[3697] :001:SETTABLEKS     v16.fov = v17
-[3699] :001:SETLIST        v0[881] = v1
-v1[882] = v2
-v1[883] = v3
-v2[884] = v4
-v3[885] = v5
-v4[886] = v6
-v5[887] = v7
-v6[888] = v8
-v7[889] = v9
-v8[890] = v10
-v9[891] = v11
-v10[892] = v12
-v11[893] = v13
-v12[894] = v14
-v13[895] = v15
-v14[896] = v16
-[3700] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3701] :001:LOADK          v2 = 105.4946734
-[3703] :001:SETTABLEKS     v1.fov = v2
-[3704] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3705] :001:LOADK          v3 = 105.965764
-[3707] :001:SETTABLEKS     v2.fov = v3
-[3708] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3709] :001:LOADK          v4 = 106.3815136
-[3711] :001:SETTABLEKS     v3.fov = v4
-[3712] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3713] :001:LOADK          v5 = 106.7294704
-[3715] :001:SETTABLEKS     v4.fov = v5
-[3716] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3717] :001:LOADK          v6 = 106.9971826
-[3719] :001:SETTABLEKS     v5.fov = v6
-[3720] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3721] :001:LOADK          v7 = 107.1721987
-[3723] :001:SETTABLEKS     v6.fov = v7
-[3724] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3725] :001:LOADK          v8 = 107.2420667
-[3727] :001:SETTABLEKS     v7.fov = v8
-[3728] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3729] :001:LOADK          v9 = 107.1943351
-[3731] :001:SETTABLEKS     v8.fov = v9
-[3732] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3733] :001:LOADK          v10 = 107.016552
-[3735] :001:SETTABLEKS     v9.fov = v10
-[3736] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3737] :001:LOADK          v11 = 106.6962657
-[3739] :001:SETTABLEKS     v10.fov = v11
-[3740] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3741] :001:LOADK          v12 = 106.2210246
-[3743] :001:SETTABLEKS     v11.fov = v12
-[3744] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3745] :001:LOADK          v13 = 105.5783767
-[3747] :001:SETTABLEKS     v12.fov = v13
-[3748] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3749] :001:LOADK          v14 = 104.7558706
-[3751] :001:SETTABLEKS     v13.fov = v14
-[3752] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3753] :001:LOADK          v15 = 103.7410542
-[3755] :001:SETTABLEKS     v14.fov = v15
-[3756] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3757] :001:LOADK          v16 = 102.5214761
-[3759] :001:SETTABLEKS     v15.fov = v16
-[3760] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3761] :001:LOADK          v17 = 101.0846844
-[3763] :001:SETTABLEKS     v16.fov = v17
-[3765] :001:SETLIST        v0[897] = v1
-v1[898] = v2
-v1[899] = v3
-v2[900] = v4
-v3[901] = v5
-v4[902] = v6
-v5[903] = v7
-v6[904] = v8
-v7[905] = v9
-v8[906] = v10
-v9[907] = v11
-v10[908] = v12
-v11[909] = v13
-v12[910] = v14
-v13[911] = v15
-v14[912] = v16
-[3766] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3767] :001:LOADK          v2 = 99.4182273
-[3769] :001:SETTABLEKS     v1.fov = v2
-[3770] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3771] :001:LOADK          v3 = 97.5096532
-[3773] :001:SETTABLEKS     v2.fov = v3
-[3774] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3775] :001:LOADK          v4 = 95.3465104
-[3777] :001:SETTABLEKS     v3.fov = v4
-[3778] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3779] :001:LOADK          v5 = 92.916347
-[3781] :001:SETTABLEKS     v4.fov = v5
-[3782] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3783] :001:LOADK          v6 = 90.2067114
-[3785] :001:SETTABLEKS     v5.fov = v6
-[3786] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3787] :001:LOADK          v7 = 87.2051517
-[3789] :001:SETTABLEKS     v6.fov = v7
-[3790] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3791] :001:LOADK          v8 = 83.8992164
-[3793] :001:SETTABLEKS     v7.fov = v8
-[3794] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3795] :001:LOADK          v9 = 80.2764536
-[3797] :001:SETTABLEKS     v8.fov = v9
-[3798] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3799] :001:LOADK          v10 = 76.3244117
-[3801] :001:SETTABLEKS     v9.fov = v10
-[3802] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3803] :001:LOADK          v11 = 72.0306388
-[3805] :001:SETTABLEKS     v10.fov = v11
-[3806] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3807] :001:LOADK          v12 = 67.3826833
-[3809] :001:SETTABLEKS     v11.fov = v12
-[3810] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3811] :001:LOADK          v13 = 62.3680934
-[3813] :001:SETTABLEKS     v12.fov = v13
-[3814] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3815] :001:LOADK          v14 = 56.9744173
-[3817] :001:SETTABLEKS     v13.fov = v14
-[3818] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3819] :001:LOADK          v15 = 51.1892035
-[3821] :001:SETTABLEKS     v14.fov = v15
-[3822] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3823] :001:LOADN          v16 = 45
-[3825] :001:SETTABLEKS     v15.fov = v16
-[3826] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3827] :001:LOADN          v17 = 100
-[3829] :001:SETTABLEKS     v16.fov = v17
-[3831] :001:SETLIST        v0[913] = v1
-v1[914] = v2
-v1[915] = v3
-v2[916] = v4
-v3[917] = v5
-v4[918] = v6
-v5[919] = v7
-v6[920] = v8
-v7[921] = v9
-v8[922] = v10
-v9[923] = v11
-v10[924] = v12
-v11[925] = v13
-v12[926] = v14
-v13[927] = v15
-v14[928] = v16
-[3832] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3833] :001:LOADN          v2 = 100
-[3835] :001:SETTABLEKS     v1.fov = v2
-[3836] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3837] :001:LOADN          v3 = 100
-[3839] :001:SETTABLEKS     v2.fov = v3
-[3840] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3841] :001:LOADN          v4 = 100
-[3843] :001:SETTABLEKS     v3.fov = v4
-[3844] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3845] :001:LOADN          v5 = 100
-[3847] :001:SETTABLEKS     v4.fov = v5
-[3848] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3849] :001:LOADN          v6 = 100
-[3851] :001:SETTABLEKS     v5.fov = v6
-[3852] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3853] :001:LOADN          v7 = 100
-[3855] :001:SETTABLEKS     v6.fov = v7
-[3856] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3857] :001:LOADN          v8 = 100
-[3859] :001:SETTABLEKS     v7.fov = v8
-[3860] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3861] :001:LOADN          v9 = 100
-[3863] :001:SETTABLEKS     v8.fov = v9
-[3864] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3865] :001:LOADN          v10 = 100
-[3867] :001:SETTABLEKS     v9.fov = v10
-[3868] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3869] :001:LOADN          v11 = 100
-[3871] :001:SETTABLEKS     v10.fov = v11
-[3872] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3873] :001:LOADN          v12 = 100
-[3875] :001:SETTABLEKS     v11.fov = v12
-[3876] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3877] :001:LOADN          v13 = 100
-[3879] :001:SETTABLEKS     v12.fov = v13
-[3880] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3881] :001:LOADN          v14 = 100
-[3883] :001:SETTABLEKS     v13.fov = v14
-[3884] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3885] :001:LOADN          v15 = 100
-[3887] :001:SETTABLEKS     v14.fov = v15
-[3888] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3889] :001:LOADN          v16 = 100
-[3891] :001:SETTABLEKS     v15.fov = v16
-[3892] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3893] :001:LOADN          v17 = 100
-[3895] :001:SETTABLEKS     v16.fov = v17
-[3897] :001:SETLIST        v0[929] = v1
-v1[930] = v2
-v1[931] = v3
-v2[932] = v4
-v3[933] = v5
-v4[934] = v6
-v5[935] = v7
-v6[936] = v8
-v7[937] = v9
-v8[938] = v10
-v9[939] = v11
-v10[940] = v12
-v11[941] = v13
-v12[942] = v14
-v13[943] = v15
-v14[944] = v16
-[3898] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3899] :001:LOADN          v2 = 100
-[3901] :001:SETTABLEKS     v1.fov = v2
-[3902] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3903] :001:LOADN          v3 = 100
-[3905] :001:SETTABLEKS     v2.fov = v3
-[3906] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3907] :001:LOADN          v4 = 100
-[3909] :001:SETTABLEKS     v3.fov = v4
-[3910] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3911] :001:LOADN          v5 = 100
-[3913] :001:SETTABLEKS     v4.fov = v5
-[3914] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3915] :001:LOADN          v6 = 100
-[3917] :001:SETTABLEKS     v5.fov = v6
-[3918] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3919] :001:LOADN          v7 = 100
-[3921] :001:SETTABLEKS     v6.fov = v7
-[3922] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3923] :001:LOADN          v8 = 100
-[3925] :001:SETTABLEKS     v7.fov = v8
-[3926] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3927] :001:LOADN          v9 = 100
-[3929] :001:SETTABLEKS     v8.fov = v9
-[3930] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3931] :001:LOADN          v10 = 100
-[3933] :001:SETTABLEKS     v9.fov = v10
-[3934] :001:DUPTABLE       v10 = {} -- {"fov"}
-[3935] :001:LOADN          v11 = 100
-[3937] :001:SETTABLEKS     v10.fov = v11
-[3938] :001:DUPTABLE       v11 = {} -- {"fov"}
-[3939] :001:LOADN          v12 = 100
-[3941] :001:SETTABLEKS     v11.fov = v12
-[3942] :001:DUPTABLE       v12 = {} -- {"fov"}
-[3943] :001:LOADN          v13 = 100
-[3945] :001:SETTABLEKS     v12.fov = v13
-[3946] :001:DUPTABLE       v13 = {} -- {"fov"}
-[3947] :001:LOADN          v14 = 100
-[3949] :001:SETTABLEKS     v13.fov = v14
-[3950] :001:DUPTABLE       v14 = {} -- {"fov"}
-[3951] :001:LOADN          v15 = 100
-[3953] :001:SETTABLEKS     v14.fov = v15
-[3954] :001:DUPTABLE       v15 = {} -- {"fov"}
-[3955] :001:LOADN          v16 = 100
-[3957] :001:SETTABLEKS     v15.fov = v16
-[3958] :001:DUPTABLE       v16 = {} -- {"fov"}
-[3959] :001:LOADN          v17 = 100
-[3961] :001:SETTABLEKS     v16.fov = v17
-[3963] :001:SETLIST        v0[945] = v1
-v1[946] = v2
-v1[947] = v3
-v2[948] = v4
-v3[949] = v5
-v4[950] = v6
-v5[951] = v7
-v6[952] = v8
-v7[953] = v9
-v8[954] = v10
-v9[955] = v11
-v10[956] = v12
-v11[957] = v13
-v12[958] = v14
-v13[959] = v15
-v14[960] = v16
-[3964] :001:DUPTABLE       v1 = {} -- {"fov"}
-[3965] :001:LOADN          v2 = 100
-[3967] :001:SETTABLEKS     v1.fov = v2
-[3968] :001:DUPTABLE       v2 = {} -- {"fov"}
-[3969] :001:LOADN          v3 = 100
-[3971] :001:SETTABLEKS     v2.fov = v3
-[3972] :001:DUPTABLE       v3 = {} -- {"fov"}
-[3973] :001:LOADN          v4 = 100
-[3975] :001:SETTABLEKS     v3.fov = v4
-[3976] :001:DUPTABLE       v4 = {} -- {"fov"}
-[3977] :001:LOADN          v5 = 100
-[3979] :001:SETTABLEKS     v4.fov = v5
-[3980] :001:DUPTABLE       v5 = {} -- {"fov"}
-[3981] :001:LOADN          v6 = 100
-[3983] :001:SETTABLEKS     v5.fov = v6
-[3984] :001:DUPTABLE       v6 = {} -- {"fov"}
-[3985] :001:LOADN          v7 = 100
-[3987] :001:SETTABLEKS     v6.fov = v7
-[3988] :001:DUPTABLE       v7 = {} -- {"fov"}
-[3989] :001:LOADN          v8 = 100
-[3991] :001:SETTABLEKS     v7.fov = v8
-[3992] :001:DUPTABLE       v8 = {} -- {"fov"}
-[3993] :001:LOADN          v9 = 100
-[3995] :001:SETTABLEKS     v8.fov = v9
-[3996] :001:DUPTABLE       v9 = {} -- {"fov"}
-[3997] :001:LOADN          v10 = 100
-[3999] :001:SETTABLEKS     v9.fov = v10
-[4000] :001:DUPTABLE       v10 = {} -- {"fov"}
-[4001] :001:LOADN          v11 = 100
-[4003] :001:SETTABLEKS     v10.fov = v11
-[4004] :001:DUPTABLE       v11 = {} -- {"fov"}
-[4005] :001:LOADN          v12 = 100
-[4007] :001:SETTABLEKS     v11.fov = v12
-[4008] :001:DUPTABLE       v12 = {} -- {"fov"}
-[4009] :001:LOADN          v13 = 100
-[4011] :001:SETTABLEKS     v12.fov = v13
-[4012] :001:DUPTABLE       v13 = {} -- {"fov"}
-[4013] :001:LOADN          v14 = 100
-[4015] :001:SETTABLEKS     v13.fov = v14
-[4016] :001:DUPTABLE       v14 = {} -- {"fov"}
-[4017] :001:LOADN          v15 = 100
-[4019] :001:SETTABLEKS     v14.fov = v15
-[4020] :001:DUPTABLE       v15 = {} -- {"fov"}
-[4021] :001:LOADN          v16 = 100
-[4023] :001:SETTABLEKS     v15.fov = v16
-[4024] :001:DUPTABLE       v16 = {} -- {"fov"}
-[4025] :001:LOADN          v17 = 100
-[4027] :001:SETTABLEKS     v16.fov = v17
-[4029] :001:SETLIST        v0[961] = v1
-v1[962] = v2
-v1[963] = v3
-v2[964] = v4
-v3[965] = v5
-v4[966] = v6
-v5[967] = v7
-v6[968] = v8
-v7[969] = v9
-v8[970] = v10
-v9[971] = v11
-v10[972] = v12
-v11[973] = v13
-v12[974] = v14
-v13[975] = v15
-v14[976] = v16
-[4030] :001:DUPTABLE       v1 = {} -- {"fov"}
-[4031] :001:LOADN          v2 = 100
-[4033] :001:SETTABLEKS     v1.fov = v2
-[4034] :001:DUPTABLE       v2 = {} -- {"fov"}
-[4035] :001:LOADN          v3 = 100
-[4037] :001:SETTABLEKS     v2.fov = v3
-[4038] :001:DUPTABLE       v3 = {} -- {"fov"}
-[4039] :001:LOADN          v4 = 100
-[4041] :001:SETTABLEKS     v3.fov = v4
-[4042] :001:DUPTABLE       v4 = {} -- {"fov"}
-[4043] :001:LOADN          v5 = 100
-[4045] :001:SETTABLEKS     v4.fov = v5
-[4046] :001:DUPTABLE       v5 = {} -- {"fov"}
-[4047] :001:LOADN          v6 = 100
-[4049] :001:SETTABLEKS     v5.fov = v6
-[4050] :001:DUPTABLE       v6 = {} -- {"fov"}
-[4051] :001:LOADN          v7 = 100
-[4053] :001:SETTABLEKS     v6.fov = v7
-[4054] :001:DUPTABLE       v7 = {} -- {"fov"}
-[4055] :001:LOADN          v8 = 100
-[4057] :001:SETTABLEKS     v7.fov = v8
-[4058] :001:DUPTABLE       v8 = {} -- {"fov"}
-[4059] :001:LOADN          v9 = 100
-[4061] :001:SETTABLEKS     v8.fov = v9
-[4062] :001:DUPTABLE       v9 = {} -- {"fov"}
-[4063] :001:LOADN          v10 = 100
-[4065] :001:SETTABLEKS     v9.fov = v10
-[4066] :001:DUPTABLE       v10 = {} -- {"fov"}
-[4067] :001:LOADN          v11 = 100
-[4069] :001:SETTABLEKS     v10.fov = v11
-[4070] :001:DUPTABLE       v11 = {} -- {"fov"}
-[4071] :001:LOADN          v12 = 100
-[4073] :001:SETTABLEKS     v11.fov = v12
-[4074] :001:DUPTABLE       v12 = {} -- {"fov"}
-[4075] :001:LOADN          v13 = 100
-[4077] :001:SETTABLEKS     v12.fov = v13
-[4078] :001:DUPTABLE       v13 = {} -- {"fov"}
-[4079] :001:LOADN          v14 = 100
-[4081] :001:SETTABLEKS     v13.fov = v14
-[4082] :001:DUPTABLE       v14 = {} -- {"fov"}
-[4083] :001:LOADN          v15 = 100
-[4085] :001:SETTABLEKS     v14.fov = v15
-[4086] :001:DUPTABLE       v15 = {} -- {"fov"}
-[4087] :001:LOADN          v16 = 100
-[4089] :001:SETTABLEKS     v15.fov = v16
-[4090] :001:DUPTABLE       v16 = {} -- {"fov"}
-[4091] :001:LOADN          v17 = 100
-[4093] :001:SETTABLEKS     v16.fov = v17
-[4095] :001:SETLIST        v0[977] = v1
-v1[978] = v2
-v1[979] = v3
-v2[980] = v4
-v3[981] = v5
-v4[982] = v6
-v5[983] = v7
-v6[984] = v8
-v7[985] = v9
-v8[986] = v10
-v9[987] = v11
-v10[988] = v12
-v11[989] = v13
-v12[990] = v14
-v13[991] = v15
-v14[992] = v16
-[4096] :001:DUPTABLE       v1 = {} -- {"fov"}
-[4097] :001:LOADN          v2 = 100
-[4099] :001:SETTABLEKS     v1.fov = v2
-[4100] :001:DUPTABLE       v2 = {} -- {"fov"}
-[4101] :001:LOADN          v3 = 100
-[4103] :001:SETTABLEKS     v2.fov = v3
-[4104] :001:DUPTABLE       v3 = {} -- {"fov"}
-[4105] :001:LOADN          v4 = 100
-[4107] :001:SETTABLEKS     v3.fov = v4
-[4108] :001:DUPTABLE       v4 = {} -- {"fov"}
-[4109] :001:LOADN          v5 = 100
-[4111] :001:SETTABLEKS     v4.fov = v5
-[4112] :001:DUPTABLE       v5 = {} -- {"fov"}
-[4113] :001:LOADN          v6 = 100
-[4115] :001:SETTABLEKS     v5.fov = v6
-[4116] :001:DUPTABLE       v6 = {} -- {"fov"}
-[4117] :001:LOADN          v7 = 100
-[4119] :001:SETTABLEKS     v6.fov = v7
-[4120] :001:DUPTABLE       v7 = {} -- {"fov"}
-[4121] :001:LOADN          v8 = 100
-[4123] :001:SETTABLEKS     v7.fov = v8
-[4124] :001:DUPTABLE       v8 = {} -- {"fov"}
-[4125] :001:LOADN          v9 = 100
-[4127] :001:SETTABLEKS     v8.fov = v9
-[4128] :001:DUPTABLE       v9 = {} -- {"fov"}
-[4129] :001:LOADN          v10 = 100
-[4131] :001:SETTABLEKS     v9.fov = v10
-[4132] :001:DUPTABLE       v10 = {} -- {"fov"}
-[4133] :001:LOADN          v11 = 100
-[4135] :001:SETTABLEKS     v10.fov = v11
-[4136] :001:DUPTABLE       v11 = {} -- {"fov"}
-[4137] :001:LOADN          v12 = 100
-[4139] :001:SETTABLEKS     v11.fov = v12
-[4140] :001:DUPTABLE       v12 = {} -- {"fov"}
-[4141] :001:LOADN          v13 = 100
-[4143] :001:SETTABLEKS     v12.fov = v13
-[4144] :001:DUPTABLE       v13 = {} -- {"fov"}
-[4145] :001:LOADN          v14 = 100
-[4147] :001:SETTABLEKS     v13.fov = v14
-[4148] :001:DUPTABLE       v14 = {} -- {"fov"}
-[4149] :001:LOADN          v15 = 100
-[4151] :001:SETTABLEKS     v14.fov = v15
-[4152] :001:DUPTABLE       v15 = {} -- {"fov"}
-[4153] :001:LOADN          v16 = 100
-[4155] :001:SETTABLEKS     v15.fov = v16
-[4156] :001:DUPTABLE       v16 = {} -- {"fov"}
-[4157] :001:LOADN          v17 = 100
-[4159] :001:SETTABLEKS     v16.fov = v17
-[4161] :001:SETLIST        v0[993] = v1
-v1[994] = v2
-v1[995] = v3
-v2[996] = v4
-v3[997] = v5
-v4[998] = v6
-v5[999] = v7
-v6[1000] = v8
-v7[1001] = v9
-v8[1002] = v10
-v9[1003] = v11
-v10[1004] = v12
-v11[1005] = v13
-v12[1006] = v14
-v13[1007] = v15
-v14[1008] = v16
-[4162] :001:DUPTABLE       v1 = {} -- {"fov"}
-[4163] :001:LOADN          v2 = 100
-[4165] :001:SETTABLEKS     v1.fov = v2
-[4166] :001:DUPTABLE       v2 = {} -- {"fov"}
-[4167] :001:LOADN          v3 = 100
-[4169] :001:SETTABLEKS     v2.fov = v3
-[4170] :001:DUPTABLE       v3 = {} -- {"fov"}
-[4171] :001:LOADN          v4 = 100
-[4173] :001:SETTABLEKS     v3.fov = v4
-[4174] :001:DUPTABLE       v4 = {} -- {"fov"}
-[4175] :001:LOADN          v5 = 100
-[4177] :001:SETTABLEKS     v4.fov = v5
-[4178] :001:DUPTABLE       v5 = {} -- {"fov"}
-[4179] :001:LOADN          v6 = 100
-[4181] :001:SETTABLEKS     v5.fov = v6
-[4182] :001:DUPTABLE       v6 = {} -- {"fov"}
-[4183] :001:LOADN          v7 = 100
-[4185] :001:SETTABLEKS     v6.fov = v7
-[4186] :001:DUPTABLE       v7 = {} -- {"fov"}
-[4187] :001:LOADN          v8 = 100
-[4189] :001:SETTABLEKS     v7.fov = v8
-[4190] :001:DUPTABLE       v8 = {} -- {"fov"}
-[4191] :001:LOADN          v9 = 100
-[4193] :001:SETTABLEKS     v8.fov = v9
-[4194] :001:DUPTABLE       v9 = {} -- {"fov"}
-[4195] :001:LOADN          v10 = 100
-[4197] :001:SETTABLEKS     v9.fov = v10
-[4198] :001:DUPTABLE       v10 = {} -- {"fov"}
-[4199] :001:LOADN          v11 = 100
-[4201] :001:SETTABLEKS     v10.fov = v11
-[4202] :001:DUPTABLE       v11 = {} -- {"fov"}
-[4203] :001:LOADN          v12 = 100
-[4205] :001:SETTABLEKS     v11.fov = v12
-[4206] :001:DUPTABLE       v12 = {} -- {"fov"}
-[4207] :001:LOADN          v13 = 100
-[4209] :001:SETTABLEKS     v12.fov = v13
-[4210] :001:DUPTABLE       v13 = {} -- {"fov"}
-[4211] :001:LOADN          v14 = 100
-[4213] :001:SETTABLEKS     v13.fov = v14
-[4214] :001:DUPTABLE       v14 = {} -- {"fov"}
-[4215] :001:LOADN          v15 = 100
-[4217] :001:SETTABLEKS     v14.fov = v15
-[4218] :001:DUPTABLE       v15 = {} -- {"fov"}
-[4219] :001:LOADN          v16 = 100
-[4221] :001:SETTABLEKS     v15.fov = v16
-[4222] :001:DUPTABLE       v16 = {} -- {"fov"}
-[4223] :001:LOADN          v17 = 100
-[4225] :001:SETTABLEKS     v16.fov = v17
-[4227] :001:SETLIST        v0[1009] = v1
-v1[1010] = v2
-v1[1011] = v3
-v2[1012] = v4
-v3[1013] = v5
-v4[1014] = v6
-v5[1015] = v7
-v6[1016] = v8
-v7[1017] = v9
-v8[1018] = v10
-v9[1019] = v11
-v10[1020] = v12
-v11[1021] = v13
-v12[1022] = v14
-v13[1023] = v15
-v14[1024] = v16
-[4228] :001:DUPTABLE       v1 = {} -- {"fov"}
-[4229] :001:LOADN          v2 = 100
-[4231] :001:SETTABLEKS     v1.fov = v2
-[4232] :001:DUPTABLE       v2 = {} -- {"fov"}
-[4233] :001:LOADN          v3 = 100
-[4235] :001:SETTABLEKS     v2.fov = v3
-[4236] :001:DUPTABLE       v3 = {} -- {"fov"}
-[4237] :001:LOADN          v4 = 100
-[4239] :001:SETTABLEKS     v3.fov = v4
-[4240] :001:DUPTABLE       v4 = {} -- {"fov"}
-[4241] :001:LOADN          v5 = 100
-[4243] :001:SETTABLEKS     v4.fov = v5
-[4244] :001:DUPTABLE       v5 = {} -- {"fov"}
-[4245] :001:LOADN          v6 = 100
-[4247] :001:SETTABLEKS     v5.fov = v6
-[4248] :001:DUPTABLE       v6 = {} -- {"fov"}
-[4249] :001:LOADN          v7 = 100
-[4251] :001:SETTABLEKS     v6.fov = v7
-[4252] :001:DUPTABLE       v7 = {} -- {"fov"}
-[4253] :001:LOADN          v8 = 100
-[4255] :001:SETTABLEKS     v7.fov = v8
-[4256] :001:DUPTABLE       v8 = {} -- {"fov"}
-[4257] :001:LOADN          v9 = 100
-[4259] :001:SETTABLEKS     v8.fov = v9
-[4260] :001:DUPTABLE       v9 = {} -- {"fov"}
-[4261] :001:LOADN          v10 = 100
-[4263] :001:SETTABLEKS     v9.fov = v10
-[4264] :001:DUPTABLE       v10 = {} -- {"fov"}
-[4265] :001:LOADN          v11 = 100
-[4267] :001:SETTABLEKS     v10.fov = v11
-[4268] :001:DUPTABLE       v11 = {} -- {"fov"}
-[4269] :001:LOADN          v12 = 100
-[4271] :001:SETTABLEKS     v11.fov = v12
-[4272] :001:DUPTABLE       v12 = {} -- {"fov"}
-[4273] :001:LOADN          v13 = 100
-[4275] :001:SETTABLEKS     v12.fov = v13
-[4276] :001:DUPTABLE       v13 = {} -- {"fov"}
-[4277] :001:LOADN          v14 = 100
-[4279] :001:SETTABLEKS     v13.fov = v14
-[4280] :001:DUPTABLE       v14 = {} -- {"fov"}
-[4281] :001:LOADN          v15 = 100
-[4283] :001:SETTABLEKS     v14.fov = v15
-[4284] :001:DUPTABLE       v15 = {} -- {"fov"}
-[4285] :001:LOADN          v16 = 70
-[4287] :001:SETTABLEKS     v15.fov = v16
-[4288] :001:DUPTABLE       v16 = {} -- {"fov"}
-[4289] :001:LOADN          v17 = 100
-[4291] :001:SETTABLEKS     v16.fov = v17
-[4293] :001:SETLIST        v0[1025] = v1
-v1[1026] = v2
-v1[1027] = v3
-v2[1028] = v4
-v3[1029] = v5
-v4[1030] = v6
-v5[1031] = v7
-v6[1032] = v8
-v7[1033] = v9
-v8[1034] = v10
-v9[1035] = v11
-v10[1036] = v12
-v11[1037] = v13
-v12[1038] = v14
-v13[1039] = v15
-v14[1040] = v16
-[4294] :001:DUPTABLE       v1 = {} -- {"fov"}
-[4295] :001:LOADK          v2 = 100.0574163
-[4297] :001:SETTABLEKS     v1.fov = v2
-[4298] :001:DUPTABLE       v2 = {} -- {"fov"}
-[4299] :001:LOADK          v3 = 100.2213642
-[4301] :001:SETTABLEKS     v2.fov = v3
-[4302] :001:DUPTABLE       v3 = {} -- {"fov"}
-[4303] :001:LOADK          v4 = 100.4793918
-[4305] :001:SETTABLEKS     v3.fov = v4
-[4306] :001:DUPTABLE       v4 = {} -- {"fov"}
-[4307] :001:LOADK          v5 = 100.8190474
-[4309] :001:SETTABLEKS     v4.fov = v5
-[4310] :001:DUPTABLE       v5 = {} -- {"fov"}
-[4311] :001:LOADK          v6 = 101.2278793
-[4313] :001:SETTABLEKS     v5.fov = v6
-[4314] :001:DUPTABLE       v6 = {} -- {"fov"}
-[4315] :001:LOADK          v7 = 101.6934358
-[4317] :001:SETTABLEKS     v6.fov = v7
-[4318] :001:DUPTABLE       v7 = {} -- {"fov"}
-[4319] :001:LOADK          v8 = 102.2032651
-[4321] :001:SETTABLEKS     v7.fov = v8
-[4322] :001:DUPTABLE       v8 = {} -- {"fov"}
-[4323] :001:LOADK          v9 = 102.7449155
-[4325] :001:SETTABLEKS     v8.fov = v9
-[4326] :001:DUPTABLE       v9 = {} -- {"fov"}
-[4327] :001:LOADK          v10 = 103.3059353
-[4329] :001:SETTABLEKS     v9.fov = v10
-[4330] :001:DUPTABLE       v10 = {} -- {"fov"}
-[4331] :001:LOADK          v11 = 103.8738727
-[4333] :001:SETTABLEKS     v10.fov = v11
-[4334] :001:DUPTABLE       v11 = {} -- {"fov"}
-[4335] :001:LOADK          v12 = 104.4362761
-[4337] :001:SETTABLEKS     v11.fov = v12
-[4338] :001:DUPTABLE       v12 = {} -- {"fov"}
-[4339] :001:LOADK          v13 = 104.9806935
-[4341] :001:SETTABLEKS     v12.fov = v13
-[4342] :001:DUPTABLE       v13 = {} -- {"fov"}
-[4343] :001:LOADK          v14 = 105.4946734
-[4345] :001:SETTABLEKS     v13.fov = v14
-[4346] :001:DUPTABLE       v14 = {} -- {"fov"}
-[4347] :001:LOADK          v15 = 105.965764
-[4349] :001:SETTABLEKS     v14.fov = v15
-[4350] :001:DUPTABLE       v15 = {} -- {"fov"}
-[4351] :001:LOADK          v16 = 106.3815136
-[4353] :001:SETTABLEKS     v15.fov = v16
-[4354] :001:DUPTABLE       v16 = {} -- {"fov"}
-[4355] :001:LOADK          v17 = 106.7294704
-[4357] :001:SETTABLEKS     v16.fov = v17
-[4359] :001:SETLIST        v0[1041] = v1
-v1[1042] = v2
-v1[1043] = v3
-v2[1044] = v4
-v3[1045] = v5
-v4[1046] = v6
-v5[1047] = v7
-v6[1048] = v8
-v7[1049] = v9
-v8[1050] = v10
-v9[1051] = v11
-v10[1052] = v12
-v11[1053] = v13
-v12[1054] = v14
-v13[1055] = v15
-v14[1056] = v16
-[4360] :001:DUPTABLE       v1 = {} -- {"fov"}
-[4361] :001:LOADK          v2 = 106.9971826
-[4363] :001:SETTABLEKS     v1.fov = v2
-[4364] :001:DUPTABLE       v2 = {} -- {"fov"}
-[4365] :001:LOADK          v3 = 107.1721987
-[4367] :001:SETTABLEKS     v2.fov = v3
-[4368] :001:DUPTABLE       v3 = {} -- {"fov"}
-[4369] :001:LOADK          v4 = 107.2420667
-[4371] :001:SETTABLEKS     v3.fov = v4
-[4372] :001:DUPTABLE       v4 = {} -- {"fov"}
-[4373] :001:LOADK          v5 = 107.1943351
-[4375] :001:SETTABLEKS     v4.fov = v5
-[4376] :001:DUPTABLE       v5 = {} -- {"fov"}
-[4377] :001:LOADK          v6 = 107.016552
-[4379] :001:SETTABLEKS     v5.fov = v6
-[4380] :001:DUPTABLE       v6 = {} -- {"fov"}
-[4381] :001:LOADK          v7 = 106.6962657
-[4383] :001:SETTABLEKS     v6.fov = v7
-[4384] :001:DUPTABLE       v7 = {} -- {"fov"}
-[4385] :001:LOADK          v8 = 106.2210246
-[4387] :001:SETTABLEKS     v7.fov = v8
-[4388] :001:DUPTABLE       v8 = {} -- {"fov"}
-[4389] :001:LOADK          v9 = 105.5783767
-[4391] :001:SETTABLEKS     v8.fov = v9
-[4392] :001:DUPTABLE       v9 = {} -- {"fov"}
-[4393] :001:LOADK          v10 = 104.7558706
-[4395] :001:SETTABLEKS     v9.fov = v10
-[4396] :001:DUPTABLE       v10 = {} -- {"fov"}
-[4397] :001:LOADK          v11 = 103.7410542
-[4399] :001:SETTABLEKS     v10.fov = v11
-[4400] :001:DUPTABLE       v11 = {} -- {"fov"}
-[4401] :001:LOADK          v12 = 102.5214761
-[4403] :001:SETTABLEKS     v11.fov = v12
-[4404] :001:DUPTABLE       v12 = {} -- {"fov"}
-[4405] :001:LOADK          v13 = 101.0846844
-[4407] :001:SETTABLEKS     v12.fov = v13
-[4408] :001:DUPTABLE       v13 = {} -- {"fov"}
-[4409] :001:LOADK          v14 = 99.4182273
-[4411] :001:SETTABLEKS     v13.fov = v14
-[4412] :001:DUPTABLE       v14 = {} -- {"fov"}
-[4413] :001:LOADK          v15 = 97.5096532
-[4415] :001:SETTABLEKS     v14.fov = v15
-[4416] :001:DUPTABLE       v15 = {} -- {"fov"}
-[4417] :001:LOADK          v16 = 95.3465104
-[4419] :001:SETTABLEKS     v15.fov = v16
-[4420] :001:DUPTABLE       v16 = {} -- {"fov"}
-[4421] :001:LOADK          v17 = 92.916347
-[4423] :001:SETTABLEKS     v16.fov = v17
-[4425] :001:SETLIST        v0[1057] = v1
-v1[1058] = v2
-v1[1059] = v3
-v2[1060] = v4
-v3[1061] = v5
-v4[1062] = v6
-v5[1063] = v7
-v6[1064] = v8
-v7[1065] = v9
-v8[1066] = v10
-v9[1067] = v11
-v10[1068] = v12
-v11[1069] = v13
-v12[1070] = v14
-v13[1071] = v15
-v14[1072] = v16
-[4426] :001:DUPTABLE       v1 = {} -- {"fov"}
-[4427] :001:LOADK          v2 = 90.2067114
-[4429] :001:SETTABLEKS     v1.fov = v2
-[4430] :001:DUPTABLE       v2 = {} -- {"fov"}
-[4431] :001:LOADK          v3 = 87.2051517
-[4433] :001:SETTABLEKS     v2.fov = v3
-[4434] :001:DUPTABLE       v3 = {} -- {"fov"}
-[4435] :001:LOADK          v4 = 83.8992164
-[4437] :001:SETTABLEKS     v3.fov = v4
-[4438] :001:DUPTABLE       v4 = {} -- {"fov"}
-[4439] :001:LOADK          v5 = 80.2764536
-[4441] :001:SETTABLEKS     v4.fov = v5
-[4442] :001:DUPTABLE       v5 = {} -- {"fov"}
-[4443] :001:LOADK          v6 = 76.3244117
-[4445] :001:SETTABLEKS     v5.fov = v6
-[4446] :001:DUPTABLE       v6 = {} -- {"fov"}
-[4447] :001:LOADK          v7 = 72.0306388
-[4449] :001:SETTABLEKS     v6.fov = v7
-[4450] :001:DUPTABLE       v7 = {} -- {"fov"}
-[4451] :001:LOADK          v8 = 67.3826833
-[4453] :001:SETTABLEKS     v7.fov = v8
-[4454] :001:DUPTABLE       v8 = {} -- {"fov"}
-[4455] :001:LOADK          v9 = 62.3680934
-[4457] :001:SETTABLEKS     v8.fov = v9
-[4458] :001:DUPTABLE       v9 = {} -- {"fov"}
-[4459] :001:LOADK          v10 = 56.9744173
-[4461] :001:SETTABLEKS     v9.fov = v10
-[4462] :001:DUPTABLE       v10 = {} -- {"fov"}
-[4463] :001:LOADK          v11 = 51.1892035
-[4465] :001:SETTABLEKS     v10.fov = v11
-[4466] :001:DUPTABLE       v11 = {} -- {"fov"}
-[4467] :001:LOADN          v12 = 45
-[4469] :001:SETTABLEKS     v11.fov = v12
-[4470] :001:DUPTABLE       v12 = {} -- {"fov"}
-[4471] :001:LOADN          v17 = 45
-[4473] :001:SETTABLEKS     v12.fov = v17
-[4475] :001:SETLIST        v0[1073] = v1
-v1[1074] = v2
-v1[1075] = v3
-v2[1076] = v4
-v3[1077] = v5
-v4[1078] = v6
-v5[1079] = v7
-v6[1080] = v8
-v7[1081] = v9
-v8[1082] = v10
-v9[1083] = v11
-v10[1084] = v12
-[4476] :001:RETURN         return v0
+-- Decompiler will be improved soon!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2025-02-12 11:59:07
+-- Luau version 6, Types version 3
+-- Time taken: 0.021299 seconds
+
+return {{
+	fov = 45.526315789473685;
+}, {
+	fov = 46.05263157894737;
+}, {
+	fov = 46.578947368421055;
+}, {
+	fov = 47.10526315789474;
+}, {
+	fov = 47.63157894736842;
+}, {
+	fov = 48.1578947368421;
+}, {
+	fov = 48.68421052631579;
+}, {
+	fov = 49.21052631578947;
+}, {
+	fov = 49.73684210526316;
+}, {
+	fov = 50.26315789473684;
+}, {
+	fov = 50.78947368421053;
+}, {
+	fov = 51.31578947368421;
+}, {
+	fov = 51.8421052631579;
+}, {
+	fov = 52.368421052631575;
+}, {
+	fov = 52.89473684210526;
+}, {
+	fov = 53.421052631578945;
+}, {
+	fov = 53.94736842105263;
+}, {
+	fov = 54.473684210526315;
+}, {
+	fov = 55;
+}, {
+	fov = 50;
+}, {
+	fov = 40;
+}, {
+	fov = 35;
+}, {
+	fov = 39.80839440066127;
+}, {
+	fov = 51.41688537597656;
+}, {
+	fov = 63.025376351291854;
+}, {
+	fov = 67.83377075195312;
+}, {
+	fov = 68.21141872491026;
+}, {
+	fov = 69.31862655851745;
+}, {
+	fov = 71.0799398686618;
+}, {
+	fov = 73.37532806396484;
+}, {
+	fov = 76.04836423222503;
+}, {
+	fov = 78.91688537597656;
+}, {
+	fov = 81.7854065197281;
+}, {
+	fov = 84.45844268798828;
+}, {
+	fov = 86.75383088329133;
+}, {
+	fov = 88.51514419343567;
+}, {
+	fov = 89.62235202704287;
+}, {
+	fov = 90;
+}, {
+	fov = 89.97434661695948;
+}, {
+	fov = 89.89764970626247;
+}, {
+	fov = 89.77069628200024;
+}, {
+	fov = 89.59478905810116;
+}, {
+	fov = 89.3717330807229;
+}, {
+	fov = 89.10381720603638;
+}, {
+	fov = 88.79379061346395;
+}, {
+	fov = 88.44483459537844;
+}, {
+	fov = 88.06052991273832;
+}, {
+	fov = 87.64482005163481;
+}, {
+	fov = 87.20197075778817;
+}, {
+	fov = 86.7365262642241;
+}, {
+	fov = 86.2532626612936;
+}, {
+	fov = 85.75713888752288;
+}, {
+	fov = 85.25324584419356;
+}, {
+	fov = 84.74675415580644;
+}, {
+	fov = 84.24286111247712;
+}, {
+	fov = 83.7467373387064;
+}, {
+	fov = 83.2634737357759;
+}, {
+	fov = 82.79802924221183;
+}, {
+	fov = 82.35517994836519;
+}, {
+	fov = 81.93947008726168;
+}, {
+	fov = 81.55516540462156;
+}, {
+	fov = 81.20620938653605;
+}, {
+	fov = 80.89618279396362;
+}, {
+	fov = 80.6282669192771;
+}, {
+	fov = 80.40521094189884;
+}, {
+	fov = 80.22930371799976;
+}, {
+	fov = 80.10235029373753;
+}, {
+	fov = 80.02565338304052;
+}, {
+	fov = 80;
+}, {
+	fov = 79.56140350877193;
+}, {
+	fov = 79.12280701754386;
+}, {
+	fov = 78.6842105263158;
+}, {
+	fov = 78.24561403508773;
+}, {
+	fov = 77.80701754385964;
+}, {
+	fov = 77.36842105263158;
+}, {
+	fov = 76.9298245614035;
+}, {
+	fov = 76.49122807017544;
+}, {
+	fov = 76.05263157894737;
+}, {
+	fov = 75.6140350877193;
+}, {
+	fov = 75.17543859649123;
+}, {
+	fov = 74.73684210526316;
+}, {
+	fov = 74.29824561403508;
+}, {
+	fov = 73.85964912280701;
+}, {
+	fov = 73.42105263157895;
+}, {
+	fov = 72.98245614035088;
+}, {
+	fov = 72.54385964912281;
+}, {
+	fov = 72.10526315789474;
+}, {
+	fov = 71.66666666666667;
+}, {
+	fov = 71.2280701754386;
+}, {
+	fov = 70.78947368421052;
+}, {
+	fov = 70.35087719298245;
+}, {
+	fov = 69.91228070175438;
+}, {
+	fov = 69.47368421052632;
+}, {
+	fov = 69.03508771929825;
+}, {
+	fov = 68.59649122807018;
+}, {
+	fov = 68.15789473684211;
+}, {
+	fov = 67.71929824561404;
+}, {
+	fov = 67.28070175438596;
+}, {
+	fov = 66.84210526315789;
+}, {
+	fov = 66.40350877192982;
+}, {
+	fov = 65.96491228070175;
+}, {
+	fov = 65.52631578947368;
+}, {
+	fov = 65.08771929824562;
+}, {
+	fov = 64.64912280701755;
+}, {
+	fov = 64.21052631578948;
+}, {
+	fov = 63.771929824561404;
+}, {
+	fov = 63.333333333333336;
+}, {
+	fov = 62.89473684210526;
+}, {
+	fov = 62.45614035087719;
+}, {
+	fov = 62.01754385964912;
+}, {
+	fov = 61.578947368421055;
+}, {
+	fov = 61.140350877192986;
+}, {
+	fov = 60.70175438596492;
+}, {
+	fov = 60.26315789473684;
+}, {
+	fov = 59.824561403508774;
+}, {
+	fov = 59.3859649122807;
+}, {
+	fov = 58.94736842105263;
+}, {
+	fov = 58.50877192982456;
+}, {
+	fov = 58.07017543859649;
+}, {
+	fov = 57.631578947368425;
+}, {
+	fov = 57.192982456140356;
+}, {
+	fov = 56.75438596491228;
+}, {
+	fov = 56.31578947368421;
+}, {
+	fov = 55.87719298245614;
+}, {
+	fov = 55.43859649122807;
+}, {
+	fov = 55;
+}, {
+	fov = 54.89795918367347;
+}, {
+	fov = 54.795918367346935;
+}, {
+	fov = 54.69387755102041;
+}, {
+	fov = 54.59183673469388;
+}, {
+	fov = 54.48979591836735;
+}, {
+	fov = 54.38775510204081;
+}, {
+	fov = 54.285714285714285;
+}, {
+	fov = 54.183673469387756;
+}, {
+	fov = 54.08163265306123;
+}, {
+	fov = 53.97959183673469;
+}, {
+	fov = 53.87755102040816;
+}, {
+	fov = 53.775510204081634;
+}, {
+	fov = 53.673469387755105;
+}, {
+	fov = 53.57142857142857;
+}, {
+	fov = 53.46938775510204;
+}, {
+	fov = 53.36734693877551;
+}, {
+	fov = 53.265306122448976;
+}, {
+	fov = 53.16326530612245;
+}, {
+	fov = 53.06122448979592;
+}, {
+	fov = 52.95918367346939;
+}, {
+	fov = 52.857142857142854;
+}, {
+	fov = 52.755102040816325;
+}, {
+	fov = 52.6530612244898;
+}, {
+	fov = 52.55102040816327;
+}, {
+	fov = 52.44897959183673;
+}, {
+	fov = 52.3469387755102;
+}, {
+	fov = 52.244897959183675;
+}, {
+	fov = 52.142857142857146;
+}, {
+	fov = 52.04081632653061;
+}, {
+	fov = 51.93877551020408;
+}, {
+	fov = 51.83673469387755;
+}, {
+	fov = 51.734693877551024;
+}, {
+	fov = 51.63265306122449;
+}, {
+	fov = 51.53061224489796;
+}, {
+	fov = 51.42857142857143;
+}, {
+	fov = 51.326530612244895;
+}, {
+	fov = 51.224489795918366;
+}, {
+	fov = 51.12244897959184;
+}, {
+	fov = 51.02040816326531;
+}, {
+	fov = 50.91836734693877;
+}, {
+	fov = 50.816326530612244;
+}, {
+	fov = 50.714285714285715;
+}, {
+	fov = 50.61224489795919;
+}, {
+	fov = 50.51020408163265;
+}, {
+	fov = 50.40816326530612;
+}, {
+	fov = 50.30612244897959;
+}, {
+	fov = 50.20408163265306;
+}, {
+	fov = 50.10204081632653;
+}, {
+	fov = 50;
+}, {
+	fov = 49.89795918367347;
+}, {
+	fov = 49.79591836734694;
+}, {
+	fov = 49.69387755102041;
+}, {
+	fov = 49.59183673469388;
+}, {
+	fov = 49.48979591836735;
+}, {
+	fov = 49.38775510204081;
+}, {
+	fov = 49.285714285714285;
+}, {
+	fov = 49.183673469387756;
+}, {
+	fov = 49.08163265306123;
+}, {
+	fov = 48.97959183673469;
+}, {
+	fov = 48.87755102040816;
+}, {
+	fov = 48.775510204081634;
+}, {
+	fov = 48.673469387755105;
+}, {
+	fov = 48.57142857142857;
+}, {
+	fov = 48.46938775510204;
+}, {
+	fov = 48.36734693877551;
+}, {
+	fov = 48.265306122448976;
+}, {
+	fov = 48.16326530612245;
+}, {
+	fov = 48.06122448979592;
+}, {
+	fov = 47.95918367346939;
+}, {
+	fov = 47.857142857142854;
+}, {
+	fov = 47.755102040816325;
+}, {
+	fov = 47.6530612244898;
+}, {
+	fov = 47.55102040816327;
+}, {
+	fov = 47.44897959183673;
+}, {
+	fov = 47.3469387755102;
+}, {
+	fov = 47.244897959183675;
+}, {
+	fov = 47.142857142857146;
+}, {
+	fov = 47.04081632653061;
+}, {
+	fov = 46.93877551020408;
+}, {
+	fov = 46.83673469387755;
+}, {
+	fov = 46.734693877551024;
+}, {
+	fov = 46.63265306122449;
+}, {
+	fov = 46.53061224489796;
+}, {
+	fov = 46.42857142857143;
+}, {
+	fov = 46.326530612244895;
+}, {
+	fov = 46.224489795918366;
+}, {
+	fov = 46.12244897959184;
+}, {
+	fov = 46.02040816326531;
+}, {
+	fov = 45.91836734693878;
+}, {
+	fov = 45.816326530612244;
+}, {
+	fov = 45.714285714285715;
+}, {
+	fov = 45.61224489795919;
+}, {
+	fov = 45.51020408163265;
+}, {
+	fov = 45.40816326530612;
+}, {
+	fov = 45.30612244897959;
+}, {
+	fov = 45.20408163265306;
+}, {
+	fov = 45.10204081632653;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}, {
+	fov = 45.29072414455238;
+}, {
+	fov = 45.58046457062615;
+}, {
+	fov = 45.868240888334654;
+}, {
+	fov = 46.1530793537122;
+}, {
+	fov = 46.43401616355545;
+}, {
+	fov = 46.71010071662835;
+}, {
+	fov = 46.98039883019578;
+}, {
+	fov = 47.24399590100231;
+}, {
+	fov = 47.5;
+}, {
+	fov = 47.74754489035403;
+}, {
+	fov = 47.98579295851393;
+}, {
+	fov = 48.213938048432695;
+}, {
+	fov = 48.43120818934367;
+}, {
+	fov = 48.63686820786524;
+}, {
+	fov = 48.83022221559489;
+}, {
+	fov = 49.010615963775216;
+}, {
+	fov = 49.17743905706468;
+}, {
+	fov = 49.33012701892219;
+}, {
+	fov = 49.46816320161706;
+}, {
+	fov = 49.59108053440137;
+}, {
+	fov = 49.69846310392954;
+}, {
+	fov = 49.78994756157744;
+}, {
+	fov = 49.86522435289912;
+}, {
+	fov = 49.92403876506104;
+}, {
+	fov = 49.966191788709715;
+}, {
+	fov = 49.99154079135634;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 50;
+}, {
+	fov = 55;
+}, {
+	fov = 55.155029296875;
+}, {
+	fov = 55.3076171875;
+}, {
+	fov = 55.457763671875;
+}, {
+	fov = 55.60546875;
+}, {
+	fov = 55.750732421875;
+}, {
+	fov = 55.8935546875;
+}, {
+	fov = 56.033935546875;
+}, {
+	fov = 56.171875;
+}, {
+	fov = 56.307373046875;
+}, {
+	fov = 56.4404296875;
+}, {
+	fov = 56.571044921875;
+}, {
+	fov = 56.69921875;
+}, {
+	fov = 56.824951171875;
+}, {
+	fov = 56.9482421875;
+}, {
+	fov = 57.069091796875;
+}, {
+	fov = 57.1875;
+}, {
+	fov = 57.303466796875;
+}, {
+	fov = 57.4169921875;
+}, {
+	fov = 57.528076171875;
+}, {
+	fov = 57.63671875;
+}, {
+	fov = 57.742919921875;
+}, {
+	fov = 57.8466796875;
+}, {
+	fov = 57.947998046875;
+}, {
+	fov = 58.046875;
+}, {
+	fov = 58.143310546875;
+}, {
+	fov = 58.2373046875;
+}, {
+	fov = 58.328857421875;
+}, {
+	fov = 58.41796875;
+}, {
+	fov = 58.504638671875;
+}, {
+	fov = 58.5888671875;
+}, {
+	fov = 58.670654296875;
+}, {
+	fov = 58.75;
+}, {
+	fov = 58.826904296875;
+}, {
+	fov = 58.9013671875;
+}, {
+	fov = 58.973388671875;
+}, {
+	fov = 59.04296875;
+}, {
+	fov = 59.110107421875;
+}, {
+	fov = 59.1748046875;
+}, {
+	fov = 59.237060546875;
+}, {
+	fov = 59.296875;
+}, {
+	fov = 59.354248046875;
+}, {
+	fov = 59.4091796875;
+}, {
+	fov = 59.461669921875;
+}, {
+	fov = 59.51171875;
+}, {
+	fov = 59.559326171875;
+}, {
+	fov = 59.6044921875;
+}, {
+	fov = 59.647216796875;
+}, {
+	fov = 59.6875;
+}, {
+	fov = 59.725341796875;
+}, {
+	fov = 59.7607421875;
+}, {
+	fov = 59.793701171875;
+}, {
+	fov = 59.82421875;
+}, {
+	fov = 59.852294921875;
+}, {
+	fov = 59.8779296875;
+}, {
+	fov = 59.901123046875;
+}, {
+	fov = 59.921875;
+}, {
+	fov = 59.940185546875;
+}, {
+	fov = 59.9560546875;
+}, {
+	fov = 59.969482421875;
+}, {
+	fov = 59.98046875;
+}, {
+	fov = 59.989013671875;
+}, {
+	fov = 59.9951171875;
+}, {
+	fov = 59.998779296875;
+}, {
+	fov = 60;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 65;
+}, {
+	fov = 64.96853630035633;
+}, {
+	fov = 64.87424419786485;
+}, {
+	fov = 64.71742037036472;
+}, {
+	fov = 64.49855824363647;
+}, {
+	fov = 64.21834643890199;
+}, {
+	fov = 63.87766660616735;
+}, {
+	fov = 63.477590650225736;
+}, {
+	fov = 63.01937735804838;
+}, {
+	fov = 62.504468438175074;
+}, {
+	fov = 61.93448398456569;
+}, {
+	fov = 61.3112173791852;
+}, {
+	fov = 60.6366296493606;
+}, {
+	fov = 59.912843297663315;
+}, {
+	fov = 59.14213562373095;
+}, {
+	fov = 58.32693155904008;
+}, {
+	fov = 57.469796037174675;
+}, {
+	fov = 56.57342592359612;
+}, {
+	fov = 55.64064153030673;
+}, {
+	fov = 54.674377742104795;
+}, {
+	fov = 53.67767478235116;
+}, {
+	fov = 52.6536686473018;
+}, {
+	fov = 51.605581239103344;
+}, {
+	fov = 50.536710228496986;
+}, {
+	fov = 49.45041867912629;
+}, {
+	fov = 48.35012446609473;
+}, {
+	fov = 47.23928952206616;
+}, {
+	fov = 46.121408944743834;
+}, {
+	fov = 45;
+}, {
+	fov = 65;
+}, {
+	fov = 74.65312480926514;
+}, {
+	fov = 82.04818725585938;
+}, {
+	fov = 87.6067590713501;
+}, {
+	fov = 91.6943359375;
+}, {
+	fov = 94.624342918396;
+}, {
+	fov = 96.66213989257812;
+}, {
+	fov = 98.02902698516846;
+}, {
+	fov = 98.90625;
+}, {
+	fov = 99.4390058517456;
+}, {
+	fov = 99.74044799804688;
+}, {
+	fov = 99.89569187164307;
+}, {
+	fov = 99.9658203125;
+}, {
+	fov = 99.99188899993896;
+}, {
+	fov = 99.99893188476562;
+}, {
+	fov = 99.99996662139893;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100.05741632812206;
+}, {
+	fov = 100.22136415661514;
+}, {
+	fov = 100.47939175166967;
+}, {
+	fov = 100.81904737947602;
+}, {
+	fov = 101.22787930622461;
+}, {
+	fov = 101.69343579810582;
+}, {
+	fov = 102.20326512131007;
+}, {
+	fov = 102.74491554202774;
+}, {
+	fov = 103.30593532644924;
+}, {
+	fov = 103.87387274076497;
+}, {
+	fov = 104.43627605116531;
+}, {
+	fov = 104.98069352384067;
+}, {
+	fov = 105.49467342498144;
+}, {
+	fov = 105.96576402077804;
+}, {
+	fov = 106.38151357742086;
+}, {
+	fov = 106.72947036110028;
+}, {
+	fov = 106.99718263800672;
+}, {
+	fov = 107.17219867433056;
+}, {
+	fov = 107.24206673626222;
+}, {
+	fov = 107.19433508999208;
+}, {
+	fov = 107.01655200171054;
+}, {
+	fov = 106.696265737608;
+}, {
+	fov = 106.22102456387488;
+}, {
+	fov = 105.57837674670155;
+}, {
+	fov = 104.75587055227841;
+}, {
+	fov = 103.74105424679588;
+}, {
+	fov = 102.52147609644433;
+}, {
+	fov = 101.08468436741418;
+}, {
+	fov = 99.41822732589583;
+}, {
+	fov = 97.50965323807966;
+}, {
+	fov = 95.3465103701561;
+}, {
+	fov = 92.9163469883155;
+}, {
+	fov = 90.20671135874828;
+}, {
+	fov = 87.20515174764488;
+}, {
+	fov = 83.89921642119562;
+}, {
+	fov = 80.27645364559095;
+}, {
+	fov = 76.32441168702127;
+}, {
+	fov = 72.03063881167695;
+}, {
+	fov = 67.38268328574844;
+}, {
+	fov = 62.368093375426064;
+}, {
+	fov = 56.97441734690026;
+}, {
+	fov = 51.18920346636146;
+}, {
+	fov = 45;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 100;
+}, {
+	fov = 70;
+}, {
+	fov = 100;
+}, {
+	fov = 100.05741632812206;
+}, {
+	fov = 100.22136415661514;
+}, {
+	fov = 100.47939175166967;
+}, {
+	fov = 100.81904737947602;
+}, {
+	fov = 101.22787930622461;
+}, {
+	fov = 101.69343579810582;
+}, {
+	fov = 102.20326512131007;
+}, {
+	fov = 102.74491554202774;
+}, {
+	fov = 103.30593532644924;
+}, {
+	fov = 103.87387274076497;
+}, {
+	fov = 104.43627605116531;
+}, {
+	fov = 104.98069352384067;
+}, {
+	fov = 105.49467342498144;
+}, {
+	fov = 105.96576402077804;
+}, {
+	fov = 106.38151357742086;
+}, {
+	fov = 106.72947036110028;
+}, {
+	fov = 106.99718263800672;
+}, {
+	fov = 107.17219867433056;
+}, {
+	fov = 107.24206673626222;
+}, {
+	fov = 107.19433508999208;
+}, {
+	fov = 107.01655200171054;
+}, {
+	fov = 106.696265737608;
+}, {
+	fov = 106.22102456387488;
+}, {
+	fov = 105.57837674670155;
+}, {
+	fov = 104.75587055227841;
+}, {
+	fov = 103.74105424679588;
+}, {
+	fov = 102.52147609644433;
+}, {
+	fov = 101.08468436741418;
+}, {
+	fov = 99.41822732589583;
+}, {
+	fov = 97.50965323807966;
+}, {
+	fov = 95.3465103701561;
+}, {
+	fov = 92.9163469883155;
+}, {
+	fov = 90.20671135874828;
+}, {
+	fov = 87.20515174764488;
+}, {
+	fov = 83.89921642119562;
+}, {
+	fov = 80.27645364559095;
+}, {
+	fov = 76.32441168702127;
+}, {
+	fov = 72.03063881167695;
+}, {
+	fov = 67.38268328574844;
+}, {
+	fov = 62.368093375426064;
+}, {
+	fov = 56.97441734690026;
+}, {
+	fov = 51.18920346636146;
+}, {
+	fov = 45;
+}, {
+	fov = 45;
+}}
